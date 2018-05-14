@@ -2,24 +2,24 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x2F920E29, "STUAnimNode_ToTargetDirectionIKItem")]
+    [STUAttribute(0xA7ED92FB, "STUAnimNode_ToTargetDirectionIKItem")]
     public class STUAnimNode_ToTargetDirectionIKItem : STUInstance {
-        [STUFieldAttribute(0x0DFBF3DA, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_0DFBF3DA;
+        [STUFieldAttribute(0xD058C690, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_D058C690;
 
-        [STUFieldAttribute(0x04B2C103, "m_end", ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_end;
+        [STUFieldAttribute(0xCB53B1B6, "m_end", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_end;
 
-        [STUFieldAttribute(0x88E08995, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_DCF8E34E m_88E08995;
+        [STUFieldAttribute(0x2CBF1AFF, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_4A3CC593 m_2CBF1AFF;
 
-        [STUFieldAttribute(0x85FAE8CB, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_85FAE8CB;
+        [STUFieldAttribute(0xC0F3B00A, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_C0F3B00A;
 
-        [STUFieldAttribute(0x8D6F832C)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_8D6F832C;
+        [STUFieldAttribute(0xE995B1A9)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_E995B1A9;
 
-        [STUFieldAttribute(0xA9C41A1C)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_A9C41A1C;
+        [STUFieldAttribute(0x54E32FB9)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_54E32FB9;
     }
 }

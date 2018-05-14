@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x7B6EA463, "STUStatescriptGraphWithOverrides")]
+    [STUAttribute(0xB773E1D0, "STUStatescriptGraphWithOverrides")]
     public class STUStatescriptGraphWithOverrides : STUInstance {
-        [STUFieldAttribute(0xC71EA6BC, "m_graph")]
+        [STUFieldAttribute(0x45B2BAB8, "m_graph")]
         public teStructuredDataAssetRef<ulong> m_graph;
 
-        [STUFieldAttribute(0x1EB5A024, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUStatescriptSchemaEntry[] m_1EB5A024;
+        [STUFieldAttribute(0x953D7942, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptSchemaEntry[] m_953D7942;
 
-        [STUFieldAttribute(0x75408640)]
-        public byte m_75408640;
+        [STUFieldAttribute(0x01169D71)]
+        public byte m_01169D71;
     }
 }

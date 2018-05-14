@@ -3,30 +3,27 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xE42D9464, "STUParametricMovementComponentInstanceData")]
+    [STUAttribute(0x9720A807, "STUParametricMovementComponentInstanceData")]
     public class STUParametricMovementComponentInstanceData : STUComponentInstanceData {
-        [STUFieldAttribute(0x20D151F5, "m_destination")]
+        [STUFieldAttribute(0x5D05B699, "m_destination")]
         public teUUID m_destination;
 
-        [STUFieldAttribute(0xCDCAE1B6, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_51E9B772 m_CDCAE1B6;
+        [STUFieldAttribute(0xA8411775)]
+        public float m_A8411775;
 
-        [STUFieldAttribute(0x15D5849E)]
-        public float m_15D5849E;
+        [STUFieldAttribute(0xA01539E1)]
+        public float m_A01539E1;
 
-        [STUFieldAttribute(0x6D6F179F)]
-        public float m_6D6F179F;
+        [STUFieldAttribute(0x6CDB965E)]
+        public float m_6CDB965E;
 
-        [STUFieldAttribute(0xF2E8E816)]
-        public float m_F2E8E816;
+        [STUFieldAttribute(0x2E9E9789)]
+        public float m_2E9E9789;
 
-        [STUFieldAttribute(0xF3D0818C)]
-        public float m_F3D0818C;
+        [STUFieldAttribute(0xC1939A32)]
+        public byte m_C1939A32;
 
-        [STUFieldAttribute(0xD67894A0)]
-        public byte m_D67894A0;
-
-        [STUFieldAttribute(0xFBEA8A90)]
-        public byte m_FBEA8A90;
+        [STUFieldAttribute(0x05E9B60E)]
+        public byte m_05E9B60E;
     }
 }

@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xCEAA4897, "STUGraphPlug")]
+    [STUAttribute(0x84201DCA, "STUGraphPlug")]
     public class STUGraphPlug : STUInstance {
-        [STUFieldAttribute(0x979E8BDE, "m_links", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x9D751E7C, "m_links", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUGraphLink[] m_links;
 
-        [STUFieldAttribute(0x3868F518, "m_parentNode", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x365378C7, "m_parentNode", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUGraphNode m_parentNode;
     }
 }

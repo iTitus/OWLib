@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0B792564, "STUTexture")]
+    [STUAttribute(0xA80189CC, "STUTexture")]
     public class STUTexture : STUInstance {
-        [STUFieldAttribute(0xD326911E)]
-        public teStructuredDataAssetRef<STU_0CB105FA> m_D326911E;
+        [STUFieldAttribute(0x82B882AD)]
+        public teStructuredDataAssetRef<STUThumbnailData> m_82B882AD;
 
-        [STUFieldAttribute(0x98E808AE)]
-        public teStructuredDataAssetRef<STU_58B3D0D0> m_98E808AE;
+        [STUFieldAttribute(0xEFB1EFAF)]
+        public teStructuredDataAssetRef<STUEmptyAsset> m_EFB1EFAF;
 
-        [STUFieldAttribute(0x03376566, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_05BDD390 m_03376566;
+        [STUFieldAttribute(0x16E20A73, "m_textureType", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_3444FBD1 m_textureType;
     }
 }

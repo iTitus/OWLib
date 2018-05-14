@@ -3,12 +3,12 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x13DA8DD3, "CaptureAreaResident")]
+    [STUAttribute(0x49E074CD, "CaptureAreaResident")]
     public class CaptureAreaResident : STUInstance {
-        [STUFieldAttribute(0xB141AAE4, "m_entityID")]
+        [STUFieldAttribute(0x6CF6BB26, "m_entityID")]
         public teEntityID m_entityID;
 
-        [STUFieldAttribute(0x791FE088)]
-        public byte m_791FE088;
+        [STUFieldAttribute(0x845563ED)]
+        public byte m_845563ED;
     }
 }

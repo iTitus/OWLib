@@ -3,36 +3,36 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xC2DC60F6, "STUStatescriptBase")]
+    [STUAttribute(0xA97578E7, "STUStatescriptBase")]
     public class STUStatescriptBase : STUGraphNode {
-        [STUFieldAttribute(0x5328E4F8)]
-        public teString m_5328E4F8;
+        [STUFieldAttribute(0x5747DB59)]
+        public teString m_5747DB59;
 
-        [STUFieldAttribute(0xBF5B22B7, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUStatescriptRemoteSyncVar[] m_BF5B22B7;
+        [STUFieldAttribute(0xF8F89F89, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUStatescriptRemoteSyncVar[] m_F8F89F89;
 
-        [STUFieldAttribute(0x8BF03679, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUStatescriptRemoteSyncVar[] m_8BF03679;
+        [STUFieldAttribute(0xA56DC772, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUStatescriptRemoteSyncVar[] m_A56DC772;
 
-        [STUFieldAttribute(0x871A8203)]
-        public int m_871A8203;
+        [STUFieldAttribute(0x53BFB779)]
+        public int m_53BFB779;
 
-        [STUFieldAttribute(0x602E1F8F)]
-        public int m_602E1F8F;
+        [STUFieldAttribute(0x4B062861)]
+        public int m_4B062861;
 
-        [STUFieldAttribute(0xAED90719)]
-        public Enum_CEBBB217 m_AED90719;
+        [STUFieldAttribute(0xEFD56E99)]
+        public Enum_D6A7B8A6 m_EFD56E99;
 
-        [STUFieldAttribute(0x2BBEEAB8)]
-        public byte m_2BBEEAB8;
+        [STUFieldAttribute(0x310AC088)]
+        public byte m_310AC088;
 
-        [STUFieldAttribute(0xADEB6E05)]
-        public byte m_ADEB6E05;
+        [STUFieldAttribute(0x8E523506)]
+        public byte m_8E523506;
 
-        [STUFieldAttribute(0xE1B0C07F, "m_clientOnly")]
+        [STUFieldAttribute(0x4FF25313, "m_clientOnly")]
         public byte m_clientOnly;
 
-        [STUFieldAttribute(0x9A861B79, "m_serverOnly")]
+        [STUFieldAttribute(0x569FCAED, "m_serverOnly")]
         public byte m_serverOnly;
     }
 }

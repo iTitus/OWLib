@@ -3,12 +3,12 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x1C95493A, "STUStatescriptRemoteSyncVar")]
+    [STUAttribute(0x42E24ACE, "STUStatescriptRemoteSyncVar")]
     public class STUStatescriptRemoteSyncVar : STUInstance {
-        [STUFieldAttribute(0x0D09D2D9)]
-        public teStructuredDataAssetRef<STUIdentifier> m_0D09D2D9;
+        [STUFieldAttribute(0x4F6799B5)]
+        public teStructuredDataAssetRef<STUIdentifier> m_4F6799B5;
 
-        [STUFieldAttribute(0x56341592)]
-        public Enum_143375DF m_56341592;
+        [STUFieldAttribute(0x9E2A316C)]
+        public Enum_23C4CC88 m_9E2A316C;
     }
 }

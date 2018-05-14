@@ -3,87 +3,84 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xC7BAA017, "STUStat")]
+    [STUAttribute(0xE091159D, "STUStat")]
     public class STUStat : STUInstance {
-        [STUFieldAttribute(0xB48F1D22, "m_name")]
+        [STUFieldAttribute(0xC08C4427, "m_name")]
         public teStructuredDataAssetRef<ulong> m_name;
 
-        [STUFieldAttribute(0x9F574E87)]
-        public teStructuredDataAssetRef<ulong> m_9F574E87;
+        [STUFieldAttribute(0xB4AFBBA6, "m_formatString")]
+        public teStructuredDataAssetRef<ulong> m_formatString;
 
-        [STUFieldAttribute(0x2F5D06B7)]
-        public teStructuredDataAssetRef<ulong>[] m_2F5D06B7;
+        [STUFieldAttribute(0xA546E9FE)]
+        public teStructuredDataAssetRef<STU_4683D781>[] m_A546E9FE;
 
-        [STUFieldAttribute(0x056D3E39, "m_heroes")]
-        public teStructuredDataAssetRef<ulong>[] m_heroes;
+        [STUFieldAttribute(0x1D1FDD39, "m_heroes")]
+        public teStructuredDataAssetRef<STUHero>[] m_heroes;
 
-        [STUFieldAttribute(0x6E01378E)]
-        public teStructuredDataAssetRef<ulong>[] m_6E01378E;
+        [STUFieldAttribute(0xD9813284, "m_maps")]
+        public teStructuredDataAssetRef<STUMap>[] m_maps;
 
-        [STUFieldAttribute(0xD440A0F7, "m_teams")]
-        public Enum_8F2CDF51[] m_teams;
+        [STUFieldAttribute(0xDA359D3C, "m_teams")]
+        public TeamIndex[] m_teams;
 
-        [STUFieldAttribute(0x4C9917C1)]
-        public teStructuredDataAssetRef<STUStat> m_4C9917C1;
+        [STUFieldAttribute(0x5D71EE31, "m_numeratorStat")]
+        public teStructuredDataAssetRef<STUStat> m_numeratorStat;
 
-        [STUFieldAttribute(0x155E2A47)]
-        public teStructuredDataAssetRef<STUStat> m_155E2A47;
+        [STUFieldAttribute(0xDDD19A1F, "m_denominatorStat")]
+        public teStructuredDataAssetRef<STUStat> m_denominatorStat;
 
-        [STUFieldAttribute(0x57817968, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_783B8A59 m_57817968;
+        [STUFieldAttribute(0xCFF73168, "m_statClass", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_01B57CB8 m_statClass;
 
-        [STUFieldAttribute(0xBEA87015)]
-        public Enum_CC0F4675 m_BEA87015;
+        [STUFieldAttribute(0x76236DBA, "m_displayType")]
+        public Enum_98DA606A m_displayType;
 
-        [STUFieldAttribute(0xF91D6DAD)]
-        public Enum_6CBB673B m_F91D6DAD;
+        [STUFieldAttribute(0x294D2DBB, "m_statCategory")]
+        public Enum_79C109B1 m_statCategory;
 
-        [STUFieldAttribute(0x2FC4460C)]
-        public Enum_CD0A8047 m_2FC4460C;
+        [STUFieldAttribute(0x0FE078EA)]
+        public Enum_1791D3C1 m_0FE078EA;
 
-        [STUFieldAttribute(0x0619C597, "m_type")]
+        [STUFieldAttribute(0x12716D08, "m_type")]
         public STUStatType m_type;
 
-        [STUFieldAttribute(0x08CACF3A)]
-        public Enum_149525F6 m_08CACF3A;
+        [STUFieldAttribute(0xD336D9AD)]
+        public Enum_245A25AF m_D336D9AD;
 
-        [STUFieldAttribute(0x16CCEFC8)]
-        public Enum_C9A3B99F m_16CCEFC8;
+        [STUFieldAttribute(0xCC916787)]
+        public Enum_C23A3813 m_CC916787;
 
-        [STUFieldAttribute(0x09276DD8)]
-        public Enum_F5D8585C m_09276DD8;
+        [STUFieldAttribute(0x1BB1E643)]
+        public Enum_151AB9D7 m_1BB1E643;
 
-        [STUFieldAttribute(0xC6C4C538)]
-        public Enum_B220D6E4 m_C6C4C538;
+        [STUFieldAttribute(0xA752A2BC)]
+        public Enum_4E71875B m_A752A2BC;
 
-        [STUFieldAttribute(0x0BB7C364)]
-        public Enum_E7FEC166 m_0BB7C364;
+        [STUFieldAttribute(0x70AB87EA, "m_primaryEvent")]
+        public Enum_D7506F80 m_primaryEvent;
 
-        [STUFieldAttribute(0x33DDBA15)]
-        public Enum_E7FEC166 m_33DDBA15;
+        [STUFieldAttribute(0x6725A40E, "m_secondaryEvent")]
+        public Enum_D7506F80 m_secondaryEvent;
 
-        [STUFieldAttribute(0xD0FEEC0E)]
-        public Enum_5B361C17 m_D0FEEC0E;
+        [STUFieldAttribute(0x2AF02426)]
+        public Enum_DD9CD824 m_2AF02426;
 
-        [STUFieldAttribute(0x4811336B)]
-        public Enum_8C9887E8 m_4811336B;
+        [STUFieldAttribute(0x149D84C1)]
+        public Enum_644A22C9 m_149D84C1;
 
-        [STUFieldAttribute(0xDFD4F586)]
-        public Enum_E279EC92 m_DFD4F586;
+        [STUFieldAttribute(0x07DFC2EF)]
+        public Enum_09749D7B m_07DFC2EF;
 
-        [STUFieldAttribute(0x15493405)]
-        public byte m_15493405;
+        [STUFieldAttribute(0xF16265F5, "m_internalOnly")]
+        public byte m_internalOnly;
 
-        [STUFieldAttribute(0xC0211FD4)]
-        public byte m_C0211FD4;
+        [STUFieldAttribute(0x4CA363ED)]
+        public byte m_4CA363ED;
 
-        [STUFieldAttribute(0x9B42F159)]
-        public byte m_9B42F159;
+        [STUFieldAttribute(0x3949E6E6)]
+        public byte m_3949E6E6;
 
-        [STUFieldAttribute(0x439EAAA8)]
-        public byte m_439EAAA8;
-
-        [STUFieldAttribute(0xEED826CD)]
-        public byte m_EED826CD;
+        [STUFieldAttribute(0x74B9C9DA, "m_derivedStat")]
+        public byte m_derivedStat;
     }
 }

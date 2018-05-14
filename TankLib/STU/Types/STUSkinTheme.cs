@@ -3,33 +3,33 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x42270D59, "STUSkinTheme")]
-    public class STUSkinTheme : STU_B7EEA3BE {
-        [STUFieldAttribute(0xA5C9CA02)]
-        public teString m_A5C9CA02;
+    [STUAttribute(0x4FB2CE32, "STUSkinTheme")]
+    public class STUSkinTheme : STUSkinBase {
+        [STUFieldAttribute(0x4F9828A3, "m_internalName")]
+        public teString m_internalName;
 
-        [STUFieldAttribute(0xECCC4A5D)]
-        public teStructuredDataAssetRef<ulong> m_ECCC4A5D;
+        [STUFieldAttribute(0xBBB1F016)]
+        public teStructuredDataAssetRef<ulong> m_BBB1F016;
 
-        [STUFieldAttribute(0x88F5CF3E, "m_heroWeapons")]
-        public teStructuredDataAssetRef<ulong>[] m_heroWeapons;
+        [STUFieldAttribute(0xCD61BC4D, "m_heroWeapons")]
+        public teStructuredDataAssetRef<STUHeroWeapon>[] m_heroWeapons;
 
-        [STUFieldAttribute(0x71818BC5)]
-        public teStructuredDataAssetRef<ulong>[] m_71818BC5;
+        [STUFieldAttribute(0x59C16CE1)]
+        public teStructuredDataAssetRef<STUEffect>[] m_59C16CE1;
 
-        [STUFieldAttribute(0xB8DC6D46)]
-        public teStructuredDataAssetRef<STUTeamColor> m_B8DC6D46;
+        [STUFieldAttribute(0xB4436F31, "m_teamColor")]
+        public teStructuredDataAssetRef<STUTeamColor> m_teamColor;
 
-        [STUFieldAttribute(0x70D5F086, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_882807BA[] m_70D5F086;
+        [STUFieldAttribute(0x965BCC4F, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_03E73C8E[] m_965BCC4F;
 
-        [STUFieldAttribute(0x02F889AE)]
-        public teStructuredDataAssetRef<STUSkinTheme> m_02F889AE;
+        [STUFieldAttribute(0x04162449)]
+        public teStructuredDataAssetRef<STUSkinTheme> m_04162449;
 
-        [STUFieldAttribute(0xC3E03C7F, "m_color")]
+        [STUFieldAttribute(0x2AA1F78D, "m_color")]
         public teColorRGBA m_color;
 
-        [STUFieldAttribute(0xE9DA85BB)]
-        public byte m_E9DA85BB;
+        [STUFieldAttribute(0x4D81F919)]
+        public byte m_4D81F919;
     }
 }

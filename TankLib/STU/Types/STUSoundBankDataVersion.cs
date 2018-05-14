@@ -2,51 +2,51 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0EBAF735, "STUSoundBankDataVersion")]
+    [STUAttribute(0xB1C3AA7F, "STUSoundBankDataVersion")]
     public class STUSoundBankDataVersion : STUInstance {
-        [STUFieldAttribute(0xFA1FDF0D)]
-        public teString m_FA1FDF0D;
+        [STUFieldAttribute(0x81386F9F)]
+        public teString m_81386F9F;
 
-        [STUFieldAttribute(0x75754566, "m_soundBank")]
+        [STUFieldAttribute(0x6105DA5C, "m_soundBank")]
         public teStructuredDataAssetRef<STUSoundBank> m_soundBank;
 
-        [STUFieldAttribute(0x48A42D80, "m_soundWEMFiles")]
-        public teStructuredDataAssetRef<ulong>[] m_soundWEMFiles;
+        [STUFieldAttribute(0x0F36E281, "m_soundWEMFiles")]
+        public teStructuredDataAssetRef<STUSoundWEMFile>[] m_soundWEMFiles;
 
-        [STUFieldAttribute(0x316EBD9D, "m_soundWEMStreams")]
-        public teStructuredDataAssetRef<ulong>[] m_soundWEMStreams;
+        [STUFieldAttribute(0x7EC6FE2A, "m_soundWEMStreams")]
+        public teStructuredDataAssetRef<STUSoundWEMFile>[] m_soundWEMStreams;
 
-        [STUFieldAttribute(0x72F2A9FA, "m_wwiseWEMFileIDs")]
+        [STUFieldAttribute(0x567AF4DE, "m_wwiseWEMFileIDs")]
         public uint[] m_wwiseWEMFileIDs;
 
-        [STUFieldAttribute(0x5A7EC887, "m_wwiseWEMStreamIDs")]
+        [STUFieldAttribute(0x46EEF28E, "m_wwiseWEMStreamIDs")]
         public uint[] m_wwiseWEMStreamIDs;
 
-        [STUFieldAttribute(0xF99A0938)]
-        public teString m_F99A0938;
+        [STUFieldAttribute(0x1D0A3932)]
+        public teString m_1D0A3932;
 
-        [STUFieldAttribute(0x4587972B)]
-        public teStructuredDataAssetRef<ulong>[] m_4587972B;
+        [STUFieldAttribute(0xBDF1BA05)]
+        public teStructuredDataAssetRef<STU_44C43EAC>[] m_BDF1BA05;
 
-        [STUFieldAttribute(0x09D4067B)]
-        public teStructuredDataAssetRef<ulong>[] m_09D4067B;
+        [STUFieldAttribute(0x88759815)]
+        public teStructuredDataAssetRef<STU_5665FB75>[] m_88759815;
 
-        [STUFieldAttribute(0xF08EDDCA)]
-        public teStructuredDataAssetRef<ulong>[] m_F08EDDCA;
+        [STUFieldAttribute(0xD6ABC2C6)]
+        public teStructuredDataAssetRef<STU_0BD00006>[] m_D6ABC2C6;
 
-        [STUFieldAttribute(0xF7805734)]
-        public uint m_F7805734;
+        [STUFieldAttribute(0x40AC0372)]
+        public uint m_40AC0372;
 
-        [STUFieldAttribute(0xACB34EFC)]
-        public float m_ACB34EFC;
+        [STUFieldAttribute(0x7B2BA5DB)]
+        public float m_7B2BA5DB;
 
-        [STUFieldAttribute(0x5CEC8D67, "m_wwiseEventIDPlay")]
+        [STUFieldAttribute(0xF88A210D, "m_wwiseEventIDPlay")]
         public uint m_wwiseEventIDPlay;
 
-        [STUFieldAttribute(0xEE7B11F5, "m_wwiseEventIDStop")]
+        [STUFieldAttribute(0x1F55E901, "m_wwiseEventIDStop")]
         public uint m_wwiseEventIDStop;
 
-        [STUFieldAttribute(0x573D3605)]
-        public byte m_573D3605;
+        [STUFieldAttribute(0xEE2F5ACA)]
+        public byte m_EE2F5ACA;
     }
 }

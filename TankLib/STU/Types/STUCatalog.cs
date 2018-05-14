@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x85618B21, "STUCatalog")]
+    [STUAttribute(0x314BB6F9, "STUCatalog")]
     public class STUCatalog : STUInstance {
-        [STUFieldAttribute(0x3D83C363, "m_assets")]
+        [STUFieldAttribute(0x33422F70, "m_assets")]
         public ulong[] m_assets;
     }
 }

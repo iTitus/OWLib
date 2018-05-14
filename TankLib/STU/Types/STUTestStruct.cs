@@ -4,21 +4,21 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x72956B0E, "STUTestStruct")]
+    [STUAttribute(0x788DE73D, "STUTestStruct")]
     public class STUTestStruct : STUInstance {
-        [STUFieldAttribute(0x92D7C726, "m_vecArray")]
+        [STUFieldAttribute(0x3087F61A, "m_vecArray")]
         public teVec3A[] m_vecArray;
 
-        [STUFieldAttribute(0x78A08312, "m_string")]
+        [STUFieldAttribute(0xD42DE057, "m_string")]
         public teString m_string;
 
-        [STUFieldAttribute(0x8AFBA769)]
-        public float m_8AFBA769;
+        [STUFieldAttribute(0x2A7BB692)]
+        public float m_2A7BB692;
 
-        [STUFieldAttribute(0x0D90D271, "m_enum")]
-        public Enum_0EF092C3 m_enum;
+        [STUFieldAttribute(0x90119470, "m_enum")]
+        public Enum_69865D04 m_enum;
 
-        [STUFieldAttribute(0x6F51A649)]
-        public byte m_6F51A649;
+        [STUFieldAttribute(0xA37B2009)]
+        public byte m_A37B2009;
     }
 }

@@ -3,18 +3,18 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xE7BEFDCE, "STUAnimBlendDriverParam")]
+    [STUAttribute(0xC09707BD, "STUAnimBlendDriverParam")]
     public class STUAnimBlendDriverParam : STUInstance {
-        [STUFieldAttribute(0xFC9313F1, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_6754CB2C m_FC9313F1;
+        [STUFieldAttribute(0xA4E56F85, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_C05D84A5 m_A4E56F85;
 
-        [STUFieldAttribute(0x00EE3F3C, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_15EF3A7E m_00EE3F3C;
+        [STUFieldAttribute(0x625946AA, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_CFB183E4 m_625946AA;
 
-        [STUFieldAttribute(0xC62D91EB, "m_source", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_5861C542 m_source;
+        [STUFieldAttribute(0x15192D8D, "m_source", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_27C3556F m_source;
 
-        [STUFieldAttribute(0x7CDE6A4B, "m_mode")]
-        public Enum_E123E435 m_mode;
+        [STUFieldAttribute(0x09657D8A, "m_mode")]
+        public Enum_D8F91904 m_mode;
     }
 }

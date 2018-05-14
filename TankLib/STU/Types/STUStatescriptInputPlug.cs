@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x268E773B, "STUStatescriptInputPlug")]
+    [STUAttribute(0x11D7F052, "STUStatescriptInputPlug")]
     public class STUStatescriptInputPlug : STUGraphPlug {
     }
 }

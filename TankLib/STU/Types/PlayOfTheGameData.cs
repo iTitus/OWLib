@@ -3,24 +3,24 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x5B8A4389, "PlayOfTheGameData")]
+    [STUAttribute(0x66F7F227, "PlayOfTheGameData")]
     public class PlayOfTheGameData : STUInstance {
-        [STUFieldAttribute(0x371085C1)]
-        public teStructuredDataAssetRef<STU_C25281C3> m_371085C1;
+        [STUFieldAttribute(0x2EB5792F)]
+        public teStructuredDataAssetRef<STU_C0368123> m_2EB5792F;
 
-        [STUFieldAttribute(0x11B47C68, "m_id", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x7108ECE0, "m_id", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_id;
 
-        [STUFieldAttribute(0x07DD813E, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x5180E750, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_value;
 
-        [STUFieldAttribute(0xE3798C00, "m_targets", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xF50C525A, "m_targets", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_targets;
 
-        [STUFieldAttribute(0xCA7E6EDC, "m_description", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x0E27C815, "m_description", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_description;
 
-        [STUFieldAttribute(0x41B10FF2)]
-        public Enum_D530FD08 m_41B10FF2;
+        [STUFieldAttribute(0x475005D5)]
+        public Enum_17FFE96F m_475005D5;
     }
 }

@@ -3,15 +3,15 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x23F2C185, "STUVoiceCategory")]
+    [STUAttribute(0xDCFD6BF4, "STUVoiceCategory")]
     public class STUVoiceCategory : STUInstance {
-        [STUFieldAttribute(0x15EA4237)]
-        public uint m_15EA4237;
+        [STUFieldAttribute(0xEEC0EC6B)]
+        public uint m_EEC0EC6B;
 
-        [STUFieldAttribute(0xB4531CD2)]
-        public Enum_8880A556 m_B4531CD2;
+        [STUFieldAttribute(0xB9DE2CFC)]
+        public Enum_342B7F97 m_B9DE2CFC;
 
-        [STUFieldAttribute(0xF8584EDD)]
-        public byte m_F8584EDD;
+        [STUFieldAttribute(0x9826F802)]
+        public byte m_9826F802;
     }
 }

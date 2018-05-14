@@ -2,27 +2,27 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x5A5653E7, "STUMapFontData")]
+    [STUAttribute(0x0DB6E961, "STUMapFontData")]
     public class STUMapFontData : STUInstance {
-        [STUFieldAttribute(0xB741C5FF)]
-        public uint[] m_B741C5FF;
+        [STUFieldAttribute(0x843391E4)]
+        public uint[] m_843391E4;
 
-        [STUFieldAttribute(0xEF348BCF, "m_glyphs", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x948C109C, "m_glyphs", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUMapFontGlyph[] m_glyphs;
 
-        [STUFieldAttribute(0x17DC8735, "m_kerningPairs", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x32AF9120, "m_kerningPairs", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUMapFontKerningPair[] m_kerningPairs;
 
-        [STUFieldAttribute(0xEC261842)]
-        public short m_EC261842;
+        [STUFieldAttribute(0x4515C40D)]
+        public short m_4515C40D;
 
-        [STUFieldAttribute(0xB91CFF97, "m_base")]
+        [STUFieldAttribute(0x5E1BC440, "m_base")]
         public short m_base;
 
-        [STUFieldAttribute(0x42623898)]
-        public short m_42623898;
+        [STUFieldAttribute(0xBCC958F0)]
+        public short m_BCC958F0;
 
-        [STUFieldAttribute(0xEAC2F49E)]
-        public short m_EAC2F49E;
+        [STUFieldAttribute(0x31C15505)]
+        public short m_31C15505;
     }
 }

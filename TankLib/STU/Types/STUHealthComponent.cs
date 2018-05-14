@@ -2,39 +2,33 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xA658CA1C, "STUHealthComponent")]
+    [STUAttribute(0xAEBE9BAA, "STUHealthComponent")]
     public class STUHealthComponent : STUMirroredEntityComponent {
-        [STUFieldAttribute(0x73AEA60D, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_9EA55F3D[] m_73AEA60D;
+        [STUFieldAttribute(0xD41F925B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_2DD559AF[] m_D41F925B;
 
-        [STUFieldAttribute(0x28994152)]
-        public teStructuredDataAssetRef<ulong> m_28994152;
+        [STUFieldAttribute(0x037E2B0F, "m_deathEffect")]
+        public teStructuredDataAssetRef<ulong> m_deathEffect;
 
-        [STUFieldAttribute(0x63FBB2D3)]
-        public teStructuredDataAssetRef<ulong> m_63FBB2D3;
+        [STUFieldAttribute(0xDC5D79F8)]
+        public teStructuredDataAssetRef<ulong> m_DC5D79F8;
 
-        [STUFieldAttribute(0x0AEA1B48)]
-        public teStructuredDataAssetRef<ulong> m_0AEA1B48;
+        [STUFieldAttribute(0x5DBEB10F)]
+        public teStructuredDataAssetRef<ulong> m_5DBEB10F;
 
-        [STUFieldAttribute(0x9AF692CD)]
-        public teStructuredDataAssetRef<ulong> m_9AF692CD;
+        [STUFieldAttribute(0x2AB4215F)]
+        public teStructuredDataAssetRef<ulong> m_2AB4215F;
 
-        [STUFieldAttribute(0xE64867CE)]
-        public int m_E64867CE;
+        [STUFieldAttribute(0xD08D7680)]
+        public int m_D08D7680;
 
-        [STUFieldAttribute(0x5AF3C1F6)]
-        public float m_5AF3C1F6;
+        [STUFieldAttribute(0x19DA232C)]
+        public float m_19DA232C;
 
-        [STUFieldAttribute(0x5A007127)]
-        public byte m_5A007127;
+        [STUFieldAttribute(0x5E286E69)]
+        public byte m_5E286E69;
 
-        [STUFieldAttribute(0xCDB100D1)]
-        public byte m_CDB100D1;
-
-        [STUFieldAttribute(0xF6CE4EAC)]
-        public byte m_F6CE4EAC;
-
-        [STUFieldAttribute(0xA80BAB3F)]
-        public byte m_A80BAB3F;
+        [STUFieldAttribute(0xE32897CD)]
+        public byte m_E32897CD;
     }
 }

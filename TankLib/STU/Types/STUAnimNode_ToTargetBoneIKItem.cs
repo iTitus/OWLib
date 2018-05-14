@@ -2,57 +2,57 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x83C634CB, "STUAnimNode_ToTargetBoneIKItem")]
+    [STUAttribute(0x62807273, "STUAnimNode_ToTargetBoneIKItem")]
     public class STUAnimNode_ToTargetBoneIKItem : STUInstance {
-        [STUFieldAttribute(0x53421009, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_54302FEA m_53421009;
+        [STUFieldAttribute(0xCE3102B5, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_4DC4B9BC m_CE3102B5;
 
-        [STUFieldAttribute(0x131257CD, "m_root", ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_root;
+        [STUFieldAttribute(0x885BC37A, "m_root", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_root;
 
-        [STUFieldAttribute(0x6A7AE821, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_6A7AE821;
+        [STUFieldAttribute(0x8A0176C9, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_8A0176C9;
 
-        [STUFieldAttribute(0x04B2C103, "m_end", ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_end;
+        [STUFieldAttribute(0xCB53B1B6, "m_end", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_end;
 
-        [STUFieldAttribute(0x837D495C, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_9907336E m_837D495C;
+        [STUFieldAttribute(0x7FDB6886, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_771D3387 m_7FDB6886;
 
-        [STUFieldAttribute(0x8A12D912, "m_target", ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_target;
+        [STUFieldAttribute(0x0CFC7D02, "m_target", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_target;
 
-        [STUFieldAttribute(0xDDC54449, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_DDC54449;
+        [STUFieldAttribute(0xAE43E05F, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_AE43E05F;
 
-        [STUFieldAttribute(0x4E11AE02, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_DCF8E34E m_4E11AE02;
+        [STUFieldAttribute(0xA79B76C8, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_4A3CC593 m_A79B76C8;
 
-        [STUFieldAttribute(0x6F999B6C, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_6F999B6C;
+        [STUFieldAttribute(0xBB738FCC, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_BB738FCC;
 
-        [STUFieldAttribute(0xD7244775, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_D7244775;
+        [STUFieldAttribute(0x645F9317, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_645F9317;
 
-        [STUFieldAttribute(0x8D9AA8D5, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_F7E4CDAC m_8D9AA8D5;
+        [STUFieldAttribute(0xC4F6B35D, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_3D3BF505 m_C4F6B35D;
 
-        [STUFieldAttribute(0xADC6E8F7)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_ADC6E8F7;
+        [STUFieldAttribute(0x1801581B)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_1801581B;
 
-        [STUFieldAttribute(0xFF4A06D9)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_FF4A06D9;
+        [STUFieldAttribute(0x7A095166)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_7A095166;
 
-        [STUFieldAttribute(0xA9C41A1C)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_A9C41A1C;
+        [STUFieldAttribute(0x54E32FB9)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_54E32FB9;
 
-        [STUFieldAttribute(0x50524C35)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_50524C35;
+        [STUFieldAttribute(0x72D96E65)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_72D96E65;
 
-        [STUFieldAttribute(0x01986408)]
-        public teStructuredDataAssetRef<STUHardPoint> m_01986408;
+        [STUFieldAttribute(0xCCD66D33, "m_endHardpoint")]
+        public teStructuredDataAssetRef<STUHardPoint> m_endHardpoint;
 
-        [STUFieldAttribute(0xB68CCF54)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_B68CCF54;
+        [STUFieldAttribute(0x00D1C4B9)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_00D1C4B9;
     }
 }

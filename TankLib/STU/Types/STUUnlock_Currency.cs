@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x614BC677, "STUUnlock_Currency")]
+    [STUAttribute(0x0BCAF9C9, "STUUnlock_Currency")]
     public class STUUnlock_Currency : STUUnlock {
-        [STUFieldAttribute(0x4CE56BC0, "m_currency")]
+        [STUFieldAttribute(0x660C3E47, "m_currency")]
         public int m_currency;
     }
 }

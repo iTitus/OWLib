@@ -3,57 +3,57 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0F20E294, "STUStatescriptStateUIInWorld")]
-    public class STUStatescriptStateUIInWorld : STU_116D2B98 {
-        [STUFieldAttribute(0x33522782, "m_regions", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_E7DC5ED6[] m_regions;
+    [STUAttribute(0x0459C53D, "STUStatescriptStateUIInWorld")]
+    public class STUStatescriptStateUIInWorld : STUStatescriptStateUXBase {
+        [STUFieldAttribute(0xF82835BA, "m_regions", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_34493776[] m_regions;
 
-        [STUFieldAttribute(0xF8274C10, "m_filter", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x35570DE3, "m_filter", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVarFilter m_filter;
 
-        [STUFieldAttribute(0x760ADAC7, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_760ADAC7;
+        [STUFieldAttribute(0xD1D8C2E6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_D1D8C2E6;
 
-        [STUFieldAttribute(0x701ADB8F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_701ADB8F;
+        [STUFieldAttribute(0x802179BB, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_802179BB;
 
-        [STUFieldAttribute(0x9B0D7A60, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_9B0D7A60;
+        [STUFieldAttribute(0x272269FE, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_272269FE;
 
-        [STUFieldAttribute(0x23A1BCFE, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_23A1BCFE;
+        [STUFieldAttribute(0xC142C61F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_C142C61F;
 
-        [STUFieldAttribute(0x366CBA65, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_366CBA65;
+        [STUFieldAttribute(0xEF1C0E48, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_EF1C0E48;
 
-        [STUFieldAttribute(0x05BE62DD, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_05BE62DD;
+        [STUFieldAttribute(0x74F86711, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_74F86711;
 
-        [STUFieldAttribute(0xA4A36054, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_A4A36054;
+        [STUFieldAttribute(0x95A1A656, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_95A1A656;
 
-        [STUFieldAttribute(0xA9ED49AD, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_A9ED49AD;
+        [STUFieldAttribute(0xE2A696C0, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_E2A696C0;
 
-        [STUFieldAttribute(0xB0298F4D, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_B0298F4D;
+        [STUFieldAttribute(0x1CB0801B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_1CB0801B;
 
-        [STUFieldAttribute(0x4D259364, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_4D259364;
+        [STUFieldAttribute(0xD469BB7F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_D469BB7F;
 
-        [STUFieldAttribute(0xCDD41B2C, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_CDD41B2C;
+        [STUFieldAttribute(0x7ED72B91, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_7ED72B91;
 
-        [STUFieldAttribute(0xEE0A1462, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_EE0A1462;
+        [STUFieldAttribute(0x5DDC3711, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_5DDC3711;
 
-        [STUFieldAttribute(0x1E48E838, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_1E48E838;
+        [STUFieldAttribute(0xCCA87998, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_CCA87998;
 
-        [STUFieldAttribute(0xC99A268C)]
-        public Enum_0DBEB14F m_C99A268C;
+        [STUFieldAttribute(0x978D2DA1)]
+        public Enum_A989B3A1 m_978D2DA1;
 
-        [STUFieldAttribute(0xDBA02A5A)]
-        public Enum_77056B33 m_DBA02A5A;
+        [STUFieldAttribute(0x68CEF10F)]
+        public Enum_8B290AC4 m_68CEF10F;
     }
 }

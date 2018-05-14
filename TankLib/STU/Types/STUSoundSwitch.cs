@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x89006ADB, "STUSoundSwitch")]
+    [STUAttribute(0x18BAD2FE, "STUSoundSwitch")]
     public class STUSoundSwitch : STUInstance {
-        [STUFieldAttribute(0x032194C8)]
-        public teStructuredDataAssetRef<STU_11B8F80B> m_032194C8;
+        [STUFieldAttribute(0x56D053CE, "m_switchGroup")]
+        public teStructuredDataAssetRef<STUSoundSwitchGroup> m_switchGroup;
 
-        [STUFieldAttribute(0xBB01A3CC)]
-        public teString m_BB01A3CC;
+        [STUFieldAttribute(0x2014BD26)]
+        public teString m_2014BD26;
 
-        [STUFieldAttribute(0xE87C7AF9)]
-        public uint m_E87C7AF9;
+        [STUFieldAttribute(0x1634DC98)]
+        public uint m_1634DC98;
     }
 }

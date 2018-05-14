@@ -4,6 +4,9 @@
 namespace TankLib.STU.Types {
     [STUAttribute(0x75C3D515)]
     public class STU_75C3D515 : STU_85F98ECC {
+        [STUFieldAttribute(0xA5249DE6, "m_text")]
+        public teString m_text;
+
         [STUFieldAttribute(0x530E371B)]
         public int m_530E371B;
 

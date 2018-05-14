@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF5B49504, "STUCustomGameBrowserMapCatalogInfo")]
+    [STUAttribute(0x55798016, "STUCustomGameBrowserMapCatalogInfo")]
     public class STUCustomGameBrowserMapCatalogInfo : STUInstance {
-        [STUFieldAttribute(0x2C05CD95, "m_catalog")]
+        [STUFieldAttribute(0x41637E0E, "m_catalog")]
         public teStructuredDataAssetRef<STUMapCatalog> m_catalog;
 
-        [STUFieldAttribute(0xB48F1D22, "m_name")]
+        [STUFieldAttribute(0xC08C4427, "m_name")]
         public teStructuredDataAssetRef<ulong> m_name;
     }
 }

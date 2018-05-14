@@ -3,15 +3,15 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x2B14FF12, "STUStatescriptSyncVar")]
+    [STUAttribute(0x95C32CA4, "STUStatescriptSyncVar")]
     public class STUStatescriptSyncVar : STUInstance {
-        [STUFieldAttribute(0x0D09D2D9)]
-        public teStructuredDataAssetRef<STUIdentifier> m_0D09D2D9;
+        [STUFieldAttribute(0x4F6799B5)]
+        public teStructuredDataAssetRef<STUIdentifier> m_4F6799B5;
 
-        [STUFieldAttribute(0x56341592)]
-        public Enum_143375DF m_56341592;
+        [STUFieldAttribute(0x9E2A316C)]
+        public Enum_23C4CC88 m_9E2A316C;
 
-        [STUFieldAttribute(0xAC9480C7)]
-        public byte m_AC9480C7;
+        [STUFieldAttribute(0x98C7778B)]
+        public byte m_98C7778B;
     }
 }

@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xDE44D504, "STUAnimNode_TransitionToChildBase")]
+    [STUAttribute(0x3998170A, "STUAnimNode_TransitionToChildBase")]
     public class STUAnimNode_TransitionToChildBase : STUAnimNode_Base {
-        [STUFieldAttribute(0x868A1EC8, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_51A9D9C7 m_868A1EC8;
+        [STUFieldAttribute(0x7A80514F, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_5C12D7D9 m_7A80514F;
 
-        [STUFieldAttribute(0x9AACE4E1, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_A0675F24 m_9AACE4E1;
+        [STUFieldAttribute(0x9A292B76, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_119333B8 m_9A292B76;
 
-        [STUFieldAttribute(0x4E86E083, "m_transitions", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_298296AE[] m_transitions;
+        [STUFieldAttribute(0xF384EA75, "m_transitions", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_9E114049[] m_transitions;
 
-        [STUFieldAttribute(0x121C1319)]
-        public byte m_121C1319;
+        [STUFieldAttribute(0xF764A78F)]
+        public byte m_F764A78F;
 
-        [STUFieldAttribute(0x2FB39DE8)]
-        public byte m_2FB39DE8;
+        [STUFieldAttribute(0x6E44F095)]
+        public byte m_6E44F095;
     }
 }

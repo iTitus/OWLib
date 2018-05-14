@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x875F19AE, "STULineupPose")]
+    [STUAttribute(0x34C4FFE6, "STULineupPose")]
     public class STULineupPose : STUInstance {
-        [STUFieldAttribute(0xBEF008DE, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_F13353CA m_BEF008DE;
+        [STUFieldAttribute(0x1D590167, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STULineupPoseVariant m_1D590167;
 
-        [STUFieldAttribute(0x0189332F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_F13353CA m_0189332F;
+        [STUFieldAttribute(0xF733868C, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STULineupPoseVariant m_F733868C;
 
-        [STUFieldAttribute(0xDE70F501, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_F13353CA m_DE70F501;
+        [STUFieldAttribute(0x1EB3CDE5, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STULineupPoseVariant m_1EB3CDE5;
 
-        [STUFieldAttribute(0xE599EB7C)]
-        public teStructuredDataAssetRef<ulong> m_E599EB7C;
+        [STUFieldAttribute(0xA137BC1E)]
+        public teStructuredDataAssetRef<ulong> m_A137BC1E;
 
-        [STUFieldAttribute(0x40AF7E2D)]
-        public float m_40AF7E2D;
+        [STUFieldAttribute(0xA0B19AE0)]
+        public float m_A0B19AE0;
     }
 }

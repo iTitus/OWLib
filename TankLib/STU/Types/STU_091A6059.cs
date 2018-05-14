@@ -28,17 +28,17 @@ namespace TankLib.STU.Types {
         [STUFieldAttribute(0xF1A601CE)]
         public teString m_F1A601CE;
 
-        [STUFieldAttribute(0x32BC347F)]
-        public ulong m_32BC347F;
+        [STUFieldAttribute(0x32BC347F, "m_unlockGUID")]
+        public ulong m_unlockGUID;
 
-        [STUFieldAttribute(0xE75BEDA5)]
-        public ulong m_E75BEDA5;
+        [STUFieldAttribute(0xE75BEDA5, "m_heroGUID")]
+        public ulong m_heroGUID;
 
-        [STUFieldAttribute(0x52DFB67C)]
-        public ulong m_52DFB67C;
+        [STUFieldAttribute(0x52DFB67C, "m_assetGUID")]
+        public ulong m_assetGUID;
 
-        [STUFieldAttribute(0x7292116E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_A0BDC3D3 m_7292116E;
+        [STUFieldAttribute(0x7292116E, "m_equipUnlock", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_A0BDC3D3 m_equipUnlock;
 
         [STUFieldAttribute(0x4032D107, ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STU_A0BDC3D3 m_4032D107;
@@ -52,8 +52,8 @@ namespace TankLib.STU.Types {
         [STUFieldAttribute(0x526087F6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STU_A0BDC3D3 m_526087F6;
 
-        [STUFieldAttribute(0x2A0F81E0, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_A0BDC3D3 m_2A0F81E0;
+        [STUFieldAttribute(0x2A0F81E0, "m_previewUnlock", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_A0BDC3D3 m_previewUnlock;
 
         [STUFieldAttribute(0x8689AEDD)]
         public int m_8689AEDD;

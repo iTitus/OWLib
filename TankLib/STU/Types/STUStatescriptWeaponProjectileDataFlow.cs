@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x61235676, "STUStatescriptWeaponProjectileDataFlow")]
+    [STUAttribute(0xC6DC0AA1, "STUStatescriptWeaponProjectileDataFlow")]
     public class STUStatescriptWeaponProjectileDataFlow : STUInstance {
-        [STUFieldAttribute(0xBA891264, "m_dataFlow", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x547D9847, "m_dataFlow", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_dataFlow;
 
-        [STUFieldAttribute(0xF92402E9, "m_answer", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x904E18DB, "m_answer", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_answer;
     }
 }

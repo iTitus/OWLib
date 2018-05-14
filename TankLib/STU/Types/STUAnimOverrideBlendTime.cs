@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF13F1466, "STUAnimOverrideBlendTime")]
+    [STUAttribute(0x56CB768B, "STUAnimOverrideBlendTime")]
     public class STUAnimOverrideBlendTime : STUInstance {
-        [STUFieldAttribute(0x7D47BD64, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_7D47BD64;
+        [STUFieldAttribute(0x428B9FC4, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_428B9FC4;
     }
 }

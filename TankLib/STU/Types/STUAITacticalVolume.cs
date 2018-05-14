@@ -3,57 +3,57 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x7FE73B95, "STUAITacticalVolume")]
+    [STUAttribute(0xD1AD19C5, "STUAITacticalVolume")]
     public class STUAITacticalVolume : STUInstance {
-        [STUFieldAttribute(0x42286A80)]
-        public uint[] m_42286A80;
+        [STUFieldAttribute(0xEB9DB66E, "m_bits")]
+        public uint[] m_bits;
 
-        [STUFieldAttribute(0x63EE0EDB)]
-        public uint[] m_63EE0EDB;
+        [STUFieldAttribute(0x9DDF3BB4)]
+        public uint[] m_9DDF3BB4;
 
-        [STUFieldAttribute(0xCF7CD15A, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAITacticalVolumeNeighbor[] m_CF7CD15A;
+        [STUFieldAttribute(0x104EC1C0, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAITacticalVolumeNeighbor[] m_104EC1C0;
 
-        [STUFieldAttribute(0x7D1FC63E)]
-        public teVec3 m_7D1FC63E;
+        [STUFieldAttribute(0xAF63148B)]
+        public teVec3 m_AF63148B;
 
-        [STUFieldAttribute(0x5BD33E19)]
-        public float m_5BD33E19;
+        [STUFieldAttribute(0xB3962172)]
+        public float m_B3962172;
 
-        [STUFieldAttribute(0x29D89011)]
-        public float m_29D89011;
+        [STUFieldAttribute(0x05AB8EB5)]
+        public float m_05AB8EB5;
 
-        [STUFieldAttribute(0xC182B8A7)]
-        public float m_C182B8A7;
+        [STUFieldAttribute(0x599EF8F0)]
+        public float m_599EF8F0;
 
-        [STUFieldAttribute(0xA48C2064)]
-        public float m_A48C2064;
+        [STUFieldAttribute(0x5F9FC26C)]
+        public float m_5F9FC26C;
 
-        [STUFieldAttribute(0xB00894E4)]
-        public float m_B00894E4;
+        [STUFieldAttribute(0x4DF506C6)]
+        public float m_4DF506C6;
 
-        [STUFieldAttribute(0xFEF6FAAD)]
-        public int m_FEF6FAAD;
+        [STUFieldAttribute(0xC9FF1F88)]
+        public int m_C9FF1F88;
 
-        [STUFieldAttribute(0x11B47C68, "m_id")]
+        [STUFieldAttribute(0x7108ECE0, "m_id")]
         public int m_id;
 
-        [STUFieldAttribute(0xCE96F3F7)]
-        public short m_CE96F3F7;
+        [STUFieldAttribute(0xA2033BC0)]
+        public short m_A2033BC0;
 
-        [STUFieldAttribute(0xECE7575B)]
-        public short m_ECE7575B;
+        [STUFieldAttribute(0xD5040B56)]
+        public short m_D5040B56;
 
-        [STUFieldAttribute(0xD0EEE29A)]
-        public short m_D0EEE29A;
+        [STUFieldAttribute(0x4C0D5AEC)]
+        public short m_4C0D5AEC;
 
-        [STUFieldAttribute(0x090DE09F)]
-        public short m_090DE09F;
+        [STUFieldAttribute(0xEE81A82A)]
+        public short m_EE81A82A;
 
-        [STUFieldAttribute(0x5F565ED3)]
-        public short m_5F565ED3;
+        [STUFieldAttribute(0x563DCF4F)]
+        public short m_563DCF4F;
 
-        [STUFieldAttribute(0x4689A5FB)]
-        public short m_4689A5FB;
+        [STUFieldAttribute(0x448860A1)]
+        public short m_448860A1;
     }
 }

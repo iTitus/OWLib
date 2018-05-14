@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x594C2D80, "STUStatescriptStateStack")]
+    [STUAttribute(0xF7D6498C, "STUStatescriptStateStack")]
     public class STUStatescriptStateStack : STUStatescriptState {
-        [STUFieldAttribute(0x592D15F7, "m_out_Var", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xEC9F34A6, "m_out_Var", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVarDynamic m_out_Var;
 
-        [STUFieldAttribute(0xBB16810A, "m_priority", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x6DFC6A5F, "m_priority", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_priority;
 
-        [STUFieldAttribute(0x07DD813E, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x5180E750, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_value;
 
-        [STUFieldAttribute(0xD3116304, "m_topSubgraphPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_904BFCEC m_topSubgraphPlug;
+        [STUFieldAttribute(0xF993CC9F, "m_topSubgraphPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_24AB1F0B m_topSubgraphPlug;
 
-        [STUFieldAttribute(0xC72FEA39, "m_underSubgraphPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_904BFCEC m_underSubgraphPlug;
+        [STUFieldAttribute(0x8CBA8450, "m_underSubgraphPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_24AB1F0B m_underSubgraphPlug;
     }
 }

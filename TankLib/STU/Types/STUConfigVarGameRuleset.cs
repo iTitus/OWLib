@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x1C934279, "STUConfigVarGameRuleset")]
-    public class STUConfigVarGameRuleset : STU_E4324757 {
-        [STUFieldAttribute(0xEDDF9466, "m_gameRuleset")]
+    [STUAttribute(0xBDDEA53B, "STUConfigVarGameRuleset")]
+    public class STUConfigVarGameRuleset : STU_82972D9D {
+        [STUFieldAttribute(0x13DE21C5, "m_gameRuleset")]
         public teStructuredDataAssetRef<STUGameRuleset> m_gameRuleset;
     }
 }

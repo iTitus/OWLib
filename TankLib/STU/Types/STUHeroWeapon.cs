@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF2646A89, "STUHeroWeapon")]
-    public class STUHeroWeapon : STU_B7EEA3BE {
-        [STUFieldAttribute(0xA5C9CA02)]
-        public teString m_A5C9CA02;
+    [STUAttribute(0x3FCD3E39, "STUHeroWeapon")]
+    public class STUHeroWeapon : STUSkinBase {
+        [STUFieldAttribute(0x4F9828A3, "m_internalName")]
+        public teString m_internalName;
     }
 }

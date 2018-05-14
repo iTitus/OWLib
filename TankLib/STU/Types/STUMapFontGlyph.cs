@@ -2,27 +2,27 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xB1FDD8AF, "STUMapFontGlyph")]
+    [STUAttribute(0x4518F38E, "STUMapFontGlyph")]
     public class STUMapFontGlyph : STUInstance {
-        [STUFieldAttribute(0x6FF59B86)]
-        public short m_6FF59B86;
+        [STUFieldAttribute(0xDCB339F4)]
+        public short m_DCB339F4;
 
-        [STUFieldAttribute(0x25517A47)]
-        public short m_25517A47;
+        [STUFieldAttribute(0xABB40962)]
+        public short m_ABB40962;
 
-        [STUFieldAttribute(0x5DC5168B, "m_width")]
+        [STUFieldAttribute(0xC0EDFA4B, "m_width")]
         public short m_width;
 
-        [STUFieldAttribute(0xA16426C6, "m_height")]
+        [STUFieldAttribute(0xBFDEB7F1, "m_height")]
         public short m_height;
 
-        [STUFieldAttribute(0x4FAFF680)]
-        public short m_4FAFF680;
+        [STUFieldAttribute(0xF06C6608)]
+        public short m_F06C6608;
 
-        [STUFieldAttribute(0xFE767CBF)]
-        public short m_FE767CBF;
+        [STUFieldAttribute(0x561B6DBC)]
+        public short m_561B6DBC;
 
-        [STUFieldAttribute(0xC1775158)]
-        public short m_C1775158;
+        [STUFieldAttribute(0xBDCE57BA)]
+        public short m_BDCE57BA;
     }
 }

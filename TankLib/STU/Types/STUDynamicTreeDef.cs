@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xDA2D62F7, "STUDynamicTreeDef")]
+    [STUAttribute(0x42BBFFA9, "STUDynamicTreeDef")]
     public class STUDynamicTreeDef : STUInstance {
-        [STUFieldAttribute(0xEF601C02, "m_aNodes")]
+        [STUFieldAttribute(0xE3E6DD43, "m_aNodes")]
         public byte[] m_aNodes;
 
-        [STUFieldAttribute(0xF91B8EDD, "m_nodeCount")]
+        [STUFieldAttribute(0x41891A57, "m_nodeCount")]
         public int m_nodeCount;
 
-        [STUFieldAttribute(0x131257CD, "m_root")]
+        [STUFieldAttribute(0x885BC37A, "m_root")]
         public int m_root;
 
-        [STUFieldAttribute(0x6CDE6226, "m_proxyCount")]
+        [STUFieldAttribute(0xB7E82F8D, "m_proxyCount")]
         public int m_proxyCount;
     }
 }

@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x731A00B5, "STUGamePadMoveRegion")]
+    [STUAttribute(0xE246E690, "STUGamePadMoveRegion")]
     public class STUGamePadMoveRegion : STUInstance {
-        [STUFieldAttribute(0xDAD772F8)]
-        public float m_DAD772F8;
+        [STUFieldAttribute(0xEDF952B4)]
+        public float m_EDF952B4;
 
-        [STUFieldAttribute(0x717EAFE7)]
-        public float m_717EAFE7;
+        [STUFieldAttribute(0x110B8981)]
+        public float m_110B8981;
 
-        [STUFieldAttribute(0x34987005)]
-        public float m_34987005;
+        [STUFieldAttribute(0xA3CA506F)]
+        public float m_A3CA506F;
     }
 }

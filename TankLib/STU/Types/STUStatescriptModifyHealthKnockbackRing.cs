@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x36750DD0, "STUStatescriptModifyHealthKnockbackRing")]
+    [STUAttribute(0x903C0BA5, "STUStatescriptModifyHealthKnockbackRing")]
     public class STUStatescriptModifyHealthKnockbackRing : STUInstance {
-        [STUFieldAttribute(0xED61D926, "m_radius", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x71EF3CA4, "m_radius", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_radius;
 
-        [STUFieldAttribute(0x9102DA3F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_9102DA3F;
+        [STUFieldAttribute(0x2A70576F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_2A70576F;
 
-        [STUFieldAttribute(0x579D7CFF, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_579D7CFF;
+        [STUFieldAttribute(0xE34D2E50, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_E34D2E50;
 
-        [STUFieldAttribute(0x10399AE7, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_10399AE7;
+        [STUFieldAttribute(0xEA982145, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_EA982145;
     }
 }

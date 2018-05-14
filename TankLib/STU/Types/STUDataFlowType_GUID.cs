@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xA62858A1, "STUDataFlowType_GUID")]
+    [STUAttribute(0x9722AF42, "STUDataFlowType_GUID")]
     public class STUDataFlowType_GUID : STUDataFlowType {
-        [STUFieldAttribute(0x45A7A69C, "m_default")]
+        [STUFieldAttribute(0xB9114C96, "m_default")]
         public ulong m_default;
     }
 }

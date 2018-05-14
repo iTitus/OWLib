@@ -2,33 +2,33 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x56779D28, "STUStatescriptStateGamePadVibration")]
+    [STUAttribute(0x44E7F474, "STUStatescriptStateGamePadVibration")]
     public class STUStatescriptStateGamePadVibration : STUStatescriptState {
-        [STUFieldAttribute(0x479BD164, "m_vibration", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xE160E571, "m_vibration", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_vibration;
 
-        [STUFieldAttribute(0xBB16810A, "m_priority", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x6DFC6A5F, "m_priority", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_priority;
 
-        [STUFieldAttribute(0x37EE887D, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_37EE887D;
+        [STUFieldAttribute(0x6D640A54, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_6D640A54;
 
-        [STUFieldAttribute(0x1BEC93CE, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_1BEC93CE;
+        [STUFieldAttribute(0xE9617571, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_E9617571;
 
-        [STUFieldAttribute(0xE75DF5AC, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_E75DF5AC;
+        [STUFieldAttribute(0xE8F2DC78, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_E8F2DC78;
 
-        [STUFieldAttribute(0x71FDA9DB, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_71FDA9DB;
+        [STUFieldAttribute(0x09F7CA6B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_09F7CA6B;
 
-        [STUFieldAttribute(0x0DBAFD7F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_0DBAFD7F;
+        [STUFieldAttribute(0x1BFF3867, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_1BFF3867;
 
-        [STUFieldAttribute(0x5DA62D02, "m_onAbortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x41BA609A, "m_onAbortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onAbortPlug;
 
-        [STUFieldAttribute(0xA0B58111, "m_onFinishedPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xFE841C79, "m_onFinishedPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onFinishedPlug;
     }
 }

@@ -2,33 +2,33 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF6CCDAFC, "STUSkin")]
-    public class STUSkin : STU_B7EEA3BE {
-        [STUFieldAttribute(0x0EDCE350)]
-        public teStructuredDataAssetRef<ulong> m_0EDCE350;
+    [STUAttribute(0xC25082A2, "STUSkin")]
+    public class STUSkin : STUSkinBase {
+        [STUFieldAttribute(0x0CD16BAA)]
+        public teStructuredDataAssetRef<ulong> m_0CD16BAA;
 
-        [STUFieldAttribute(0xA5C9CA02)]
-        public teString m_A5C9CA02;
+        [STUFieldAttribute(0x4F9828A3, "m_internalName")]
+        public teString m_internalName;
 
-        [STUFieldAttribute(0xF61E3F46)]
-        public teString m_F61E3F46;
+        [STUFieldAttribute(0x9EBE9F47, "m_skinCode")]
+        public teString m_skinCode;
 
-        [STUFieldAttribute(0x84625AA3, "m_skinThemes")]
-        public teStructuredDataAssetRef<ulong>[] m_skinThemes;
+        [STUFieldAttribute(0x558BBCDC, "m_skinThemes")]
+        public teStructuredDataAssetRef<STUSkinTheme>[] m_skinThemes;
 
-        [STUFieldAttribute(0x053595FD)]
-        public teStructuredDataAssetRef<ulong> m_053595FD;
+        [STUFieldAttribute(0x876B3D19, "m_skinThumbnail")]
+        public teStructuredDataAssetRef<ulong> m_skinThumbnail;
 
-        [STUFieldAttribute(0xDBEF61FE)]
-        public teStructuredDataAssetRef<ulong>[] m_DBEF61FE;
+        [STUFieldAttribute(0xA6459408, "m_skinEffects")]
+        public teStructuredDataAssetRef<STUEffect>[] m_skinEffects;
 
-        [STUFieldAttribute(0x38BFB46C)]
-        public teStructuredDataAssetRef<STU_1DA7C021> m_38BFB46C;
+        [STUFieldAttribute(0x06207B8F, "m_resourceKey")]
+        public teStructuredDataAssetRef<STUResourceKey> m_resourceKey;
 
-        [STUFieldAttribute(0x49A51309)]
-        public teString m_49A51309;
+        [STUFieldAttribute(0x5C415784)]
+        public teString m_5C415784;
 
-        [STUFieldAttribute(0x62746D34)]
-        public byte m_62746D34;
+        [STUFieldAttribute(0xD62F1F9F)]
+        public byte m_D62F1F9F;
     }
 }

@@ -3,9 +3,9 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x5FAABA03, "STUDataFlowType_Vec2")]
+    [STUAttribute(0x1B462083, "STUDataFlowType_Vec2")]
     public class STUDataFlowType_Vec2 : STUDataFlowType {
-        [STUFieldAttribute(0x45A7A69C, "m_default")]
+        [STUFieldAttribute(0xB9114C96, "m_default")]
         public teVec2 m_default;
     }
 }

@@ -2,21 +2,24 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x52B46D44, "STUStatescriptActionCriteria")]
+    [STUAttribute(0x4E83BC01, "STUStatescriptActionCriteria")]
     public class STUStatescriptActionCriteria : STUStatescriptAction {
-        [STUFieldAttribute(0x4D2DB658, "m_identifier", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xB2CA6977, "m_identifier", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_identifier;
 
-        [STUFieldAttribute(0xE3798C00, "m_targets", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xF50C525A, "m_targets", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_targets;
 
-        [STUFieldAttribute(0x8C8C5285, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_8C8C5285;
+        [STUFieldAttribute(0x3C7DBBCA, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_3C7DBBCA;
 
-        [STUFieldAttribute(0x297E0B63, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_297E0B63;
+        [STUFieldAttribute(0xE0192E0B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_E0192E0B;
 
-        [STUFieldAttribute(0xA732F9A2, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_A732F9A2;
+        [STUFieldAttribute(0x1F28D2E1, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_1F28D2E1;
+
+        [STUFieldAttribute(0x6D9135D6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_6D9135D6;
     }
 }

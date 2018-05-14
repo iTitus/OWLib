@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x54FD3952, "STUConfigVarEntityID")]
+    [STUAttribute(0xBAC93091, "STUConfigVarEntityID")]
     public class STUConfigVarEntityID : STUConfigVar {
     }
 }

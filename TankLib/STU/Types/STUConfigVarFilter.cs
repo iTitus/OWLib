@@ -2,39 +2,39 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x8BB02FF3, "STUConfigVarFilter")]
+    [STUAttribute(0x7EAD98E5, "STUConfigVarFilter")]
     public class STUConfigVarFilter : STUConfigVar {
-        [STUFieldAttribute(0x84065FD1)]
-        public ulong m_84065FD1;
+        [STUFieldAttribute(0xD33FCC8F)]
+        public ulong m_D33FCC8F;
 
-        [STUFieldAttribute(0x1E14CCA8)]
-        public ulong m_1E14CCA8;
+        [STUFieldAttribute(0x1F8D859E)]
+        public ulong m_1F8D859E;
 
-        [STUFieldAttribute(0x4EA686DB)]
-        public ulong m_4EA686DB;
+        [STUFieldAttribute(0xDBCFE34A)]
+        public ulong m_DBCFE34A;
 
-        [STUFieldAttribute(0x27CF71D5)]
-        public ulong m_27CF71D5;
+        [STUFieldAttribute(0x11661069)]
+        public ulong m_11661069;
 
-        [STUFieldAttribute(0x66747E7D)]
-        public ulong m_66747E7D;
+        [STUFieldAttribute(0x0B03A6D2)]
+        public ulong m_0B03A6D2;
 
-        [STUFieldAttribute(0x89831602)]
-        public ulong m_89831602;
+        [STUFieldAttribute(0x3F374297)]
+        public ulong m_3F374297;
 
-        [STUFieldAttribute(0xBAA74493, "m_condition", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xE3072BFB, "m_condition", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_condition;
 
-        [STUFieldAttribute(0x9C7BD8B8, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_9C7BD8B8;
+        [STUFieldAttribute(0xBC189043, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_BC189043;
 
-        [STUFieldAttribute(0xB486603E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_B486603E;
+        [STUFieldAttribute(0xA8DCABCD, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_A8DCABCD;
 
-        [STUFieldAttribute(0x8B2A4DF3, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_8B2A4DF3;
+        [STUFieldAttribute(0x84DD0E91, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_84DD0E91;
 
-        [STUFieldAttribute(0xC1903771, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_C1903771;
+        [STUFieldAttribute(0x93F49971, "m_raycastType", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_raycastType;
     }
 }

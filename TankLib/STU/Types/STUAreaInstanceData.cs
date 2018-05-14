@@ -3,9 +3,9 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x8E69CC3A, "STUAreaInstanceData")]
+    [STUAttribute(0x2207633B, "STUAreaInstanceData")]
     public class STUAreaInstanceData : STUComponentInstanceData {
-        [STUFieldAttribute(0x2746D7E4)]
-        public teUUID m_2746D7E4;
+        [STUFieldAttribute(0x493B0749)]
+        public teUUID m_493B0749;
     }
 }

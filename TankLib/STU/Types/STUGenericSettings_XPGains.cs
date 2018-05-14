@@ -2,27 +2,27 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x40906896, "STUGenericSettings_XPGains")]
+    [STUAttribute(0x62EC111E, "STUGenericSettings_XPGains")]
     public class STUGenericSettings_XPGains : STUGenericSettings_Base {
-        [STUFieldAttribute(0x780CEDBD, "m_XPGains", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xCE7AAD81, "m_XPGains", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUXPGain[] m_XPGains;
 
-        [STUFieldAttribute(0xE609C2C4)]
-        public double m_E609C2C4;
+        [STUFieldAttribute(0xD4D06CF6)]
+        public double m_D4D06CF6;
 
-        [STUFieldAttribute(0xF8D5359A)]
-        public double m_F8D5359A;
+        [STUFieldAttribute(0x272C48AE)]
+        public double m_272C48AE;
 
-        [STUFieldAttribute(0xF63C0C7B)]
-        public double m_F63C0C7B;
+        [STUFieldAttribute(0x5AE8675B)]
+        public double m_5AE8675B;
 
-        [STUFieldAttribute(0x84F13CFF)]
-        public double m_84F13CFF;
+        [STUFieldAttribute(0xB7CDD44A)]
+        public double m_B7CDD44A;
 
-        [STUFieldAttribute(0x398CB1D9)]
-        public double m_398CB1D9;
+        [STUFieldAttribute(0x3ADC3D13)]
+        public double m_3ADC3D13;
 
-        [STUFieldAttribute(0x94EA7D40)]
-        public uint m_94EA7D40;
+        [STUFieldAttribute(0xD1A38F73)]
+        public uint m_D1A38F73;
     }
 }

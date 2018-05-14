@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x597E2EDC, "STUConfigVarLoadout")]
-    public class STUConfigVarLoadout : STU_E4324757 {
-        [STUFieldAttribute(0xC68C8155, "m_loadout")]
+    [STUAttribute(0xCD02DDAB, "STUConfigVarLoadout")]
+    public class STUConfigVarLoadout : STU_82972D9D {
+        [STUFieldAttribute(0x242A820B, "m_loadout")]
         public teStructuredDataAssetRef<STULoadout> m_loadout;
     }
 }

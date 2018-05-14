@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x6540C278, "STUStatescriptStateWait")]
+    [STUAttribute(0x65F158DA, "STUStatescriptStateWait")]
     public class STUStatescriptStateWait : STUStatescriptState {
-        [STUFieldAttribute(0xEF6581D3, "m_timeout", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xDB0E39DB, "m_timeout", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_timeout;
 
-        [STUFieldAttribute(0x5DA62D02, "m_onAbortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x41BA609A, "m_onAbortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onAbortPlug;
 
-        [STUFieldAttribute(0xA0B58111, "m_onFinishedPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xFE841C79, "m_onFinishedPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onFinishedPlug;
 
-        [STUFieldAttribute(0x0DBAFD7F)]
-        public byte m_0DBAFD7F;
+        [STUFieldAttribute(0x1BFF3867)]
+        public byte m_1BFF3867;
 
-        [STUFieldAttribute(0xBF1A93B0)]
-        public byte m_BF1A93B0;
+        [STUFieldAttribute(0xC5A427FA)]
+        public byte m_C5A427FA;
     }
 }

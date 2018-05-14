@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xC4BE37A6, "STUAITacticalVolumeNeighbor")]
+    [STUAttribute(0x459C9820, "STUAITacticalVolumeNeighbor")]
     public class STUAITacticalVolumeNeighbor : STUInstance {
-        [STUFieldAttribute(0xAE2D8911)]
-        public int m_AE2D8911;
+        [STUFieldAttribute(0xCC84D865)]
+        public int m_CC84D865;
     }
 }

@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types.Enums {
-    [STUEnumAttribute(0x8A184A5C, "STURagdollMode")]
+    [STUEnumAttribute(0x9D5D3829, "STURagdollMode")]
     public enum STURagdollMode : uint {
     }
 }

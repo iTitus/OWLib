@@ -3,15 +3,15 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0699809D, "STUXPGain")]
+    [STUAttribute(0x561F1627, "STUXPGain")]
     public class STUXPGain : STUInstance {
-        [STUFieldAttribute(0xF1CB3BA0, "m_text")]
+        [STUFieldAttribute(0xA5249DE6, "m_text")]
         public teStructuredDataAssetRef<ulong> m_text;
 
-        [STUFieldAttribute(0xAF872E86, "m_amount")]
+        [STUFieldAttribute(0xC43222BC, "m_amount")]
         public double m_amount;
 
-        [STUFieldAttribute(0x0619C597, "m_type")]
+        [STUFieldAttribute(0x12716D08, "m_type")]
         public STUXPGainType m_type;
     }
 }

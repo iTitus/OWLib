@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x22BD6AAD, "STUBreakable")]
+    [STUAttribute(0x22E702BC, "STUBreakable")]
     public class STUBreakable : STUInstance {
-        [STUFieldAttribute(0xA4E3DBA5, "m_zones", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_1C4922D4[] m_zones;
+        [STUFieldAttribute(0xC93D0E0C, "m_zones", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_90C409E0[] m_zones;
     }
 }

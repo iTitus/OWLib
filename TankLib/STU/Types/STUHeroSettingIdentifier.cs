@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x90A50AC1, "STUHeroSettingIdentifier")]
+    [STUAttribute(0x0B10ED5A, "STUHeroSettingIdentifier")]
     public class STUHeroSettingIdentifier : STUHeroSettingBase {
-        [STUFieldAttribute(0x45A7A69C, "m_default")]
+        [STUFieldAttribute(0xB9114C96, "m_default")]
         public teStructuredDataAssetRef<STUIdentifier> m_default;
 
-        [STUFieldAttribute(0x16B4863C, "m_entries", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_8811A9AC[] m_entries;
+        [STUFieldAttribute(0x77B7FF8C, "m_entries", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_8245A944[] m_entries;
     }
 }

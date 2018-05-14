@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x20CA83FA, "STUAITacticalMetaData")]
+    [STUAttribute(0x679C8174, "STUAITacticalMetaData")]
     public class STUAITacticalMetaData : STUInstance {
-        [STUFieldAttribute(0x1EBBD451, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_6BEFADDB[] m_1EBBD451;
+        [STUFieldAttribute(0x1E31577B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_2DDCA413[] m_1E31577B;
     }
 }

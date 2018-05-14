@@ -2,24 +2,24 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x87C00EC0, "STUGameRulesetTeam")]
+    [STUAttribute(0x3F889698, "STUGameRulesetTeam")]
     public class STUGameRulesetTeam : STUInstance {
-        [STUFieldAttribute(0x6F71E9AA, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUGameModeVarValuePair[] m_6F71E9AA;
+        [STUFieldAttribute(0xE25D588C, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUGameModeVarValuePair[] m_E25D588C;
 
-        [STUFieldAttribute(0xEA2B516F, "m_bodyVars", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x31AB588C, "m_bodyVars", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUGameModeBodyVars[] m_bodyVars;
 
-        [STUFieldAttribute(0xCF58324E, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUGameModeVarValuePair[] m_CF58324E;
+        [STUFieldAttribute(0x02CB4394, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUGameModeVarValuePair[] m_02CB4394;
 
-        [STUFieldAttribute(0x33B0B2B6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_2BA92134 m_33B0B2B6;
+        [STUFieldAttribute(0x5A4F9C3E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_00B69468 m_5A4F9C3E;
 
-        [STUFieldAttribute(0x59C86C8D, "m_availableHeroes", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_5427ADC1 m_availableHeroes;
+        [STUFieldAttribute(0xCF0BA304, "m_availableHeroes", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_9FFE3630 m_availableHeroes;
 
-        [STUFieldAttribute(0x341EF5FA)]
-        public int m_341EF5FA;
+        [STUFieldAttribute(0xC05688D9)]
+        public int m_C05688D9;
     }
 }

@@ -3,33 +3,33 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xD797394C, "STUGameModeTeam")]
+    [STUAttribute(0x7A9482BB, "STUGameModeTeam")]
     public class STUGameModeTeam : STUInstance {
-        [STUFieldAttribute(0xA2781AA4)]
-        public teStructuredDataAssetRef<STU_6BE90C5C> m_A2781AA4;
+        [STUFieldAttribute(0xF0B4D685)]
+        public teStructuredDataAssetRef<STU_D83702BD> m_F0B4D685;
 
-        [STUFieldAttribute(0x6F71E9AA, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUGameModeVarValuePair[] m_6F71E9AA;
+        [STUFieldAttribute(0xE25D588C, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUGameModeVarValuePair[] m_E25D588C;
 
-        [STUFieldAttribute(0x76E8C82A)]
-        public teStructuredDataAssetRef<STU_6BE90C5C> m_76E8C82A;
+        [STUFieldAttribute(0xF0B40573)]
+        public teStructuredDataAssetRef<STU_D83702BD> m_F0B40573;
 
-        [STUFieldAttribute(0xEA2B516F, "m_bodyVars", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x31AB588C, "m_bodyVars", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUGameModeBodyVars[] m_bodyVars;
 
-        [STUFieldAttribute(0x59C86C8D, "m_availableHeroes", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_5427ADC1 m_availableHeroes;
+        [STUFieldAttribute(0xCF0BA304, "m_availableHeroes", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_9FFE3630 m_availableHeroes;
 
-        [STUFieldAttribute(0x33B0B2B6)]
-        public Enum_8F2CDF51 m_33B0B2B6;
+        [STUFieldAttribute(0x5A4F9C3E)]
+        public TeamIndex m_5A4F9C3E;
 
-        [STUFieldAttribute(0x7FA93ED4)]
-        public int m_7FA93ED4;
+        [STUFieldAttribute(0x5271F52D)]
+        public int m_5271F52D;
 
-        [STUFieldAttribute(0x8B3CD15B)]
-        public int m_8B3CD15B;
+        [STUFieldAttribute(0x6E7CCA74)]
+        public int m_6E7CCA74;
 
-        [STUFieldAttribute(0x170AA4B8)]
-        public int m_170AA4B8;
+        [STUFieldAttribute(0xEEF80491)]
+        public int m_EEF80491;
     }
 }

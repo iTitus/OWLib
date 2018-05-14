@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x01676947, "STUConfigVarAnimAlias")]
-    public class STUConfigVarAnimAlias : STU_2682C260 {
-        [STUFieldAttribute(0xB4FF0E2F, "m_animAlias")]
+    [STUAttribute(0xEE7800E7, "STUConfigVarAnimAlias")]
+    public class STUConfigVarAnimAlias : STUConfigVarAnimationBase {
+        [STUFieldAttribute(0xBBAB1943, "m_animAlias")]
         public teStructuredDataAssetRef<ulong> m_animAlias;
     }
 }

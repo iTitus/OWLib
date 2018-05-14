@@ -19,17 +19,17 @@ namespace TankLib.STU.Types {
         [STUFieldAttribute(0xFD53ECB8, "m_rarity")]
         public teStructuredDataAssetRef<STUUXLink> m_rarity;
 
-        [STUFieldAttribute(0xE75BEDA5)]
-        public ulong m_E75BEDA5;
+        [STUFieldAttribute(0xE75BEDA5, "m_heroGUID")]
+        public ulong m_heroGUID;
 
-        [STUFieldAttribute(0x32BC347F)]
-        public ulong m_32BC347F;
+        [STUFieldAttribute(0x32BC347F, "m_unlockGUID")]
+        public ulong m_unlockGUID;
 
-        [STUFieldAttribute(0x79DCD591, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_A0BDC3D3 m_79DCD591;
+        [STUFieldAttribute(0x79DCD591, "m_hoverUnlock", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_A0BDC3D3 m_hoverUnlock;
 
-        [STUFieldAttribute(0x2A0F81E0, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_A0BDC3D3 m_2A0F81E0;
+        [STUFieldAttribute(0x2A0F81E0, "m_previewUnlock", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_A0BDC3D3 m_previewUnlock;
 
         [STUFieldAttribute(0xCC84D865)]
         public int m_CC84D865;

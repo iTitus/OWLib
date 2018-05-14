@@ -4,93 +4,93 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x7725B6D6, "STUGenericSettings_Nameplates")]
+    [STUAttribute(0xC16FA5C0, "STUGenericSettings_Nameplates")]
     public class STUGenericSettings_Nameplates : STUGenericSettings_Base {
-        [STUFieldAttribute(0x582FD847)]
-        public teStructuredDataAssetRef<ulong> m_582FD847;
+        [STUFieldAttribute(0xB6BBCACB)]
+        public teStructuredDataAssetRef<ulong> m_B6BBCACB;
 
-        [STUFieldAttribute(0xBEAF73B8)]
-        public teStructuredDataAssetRef<ulong> m_BEAF73B8;
+        [STUFieldAttribute(0xEBFDCC5D)]
+        public teStructuredDataAssetRef<ulong> m_EBFDCC5D;
 
-        [STUFieldAttribute(0xC95E70CF, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_FAA3F9A2 m_C95E70CF;
+        [STUFieldAttribute(0xB02F7E60, "m_fontFamily", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_FAA3F9A2 m_fontFamily;
 
-        [STUFieldAttribute(0xB8938E78, "m_backgroundColor")]
+        [STUFieldAttribute(0xFB358CDB, "m_backgroundColor")]
         public teColorRGBA m_backgroundColor;
 
-        [STUFieldAttribute(0x8B7F6B0C)]
-        public teColorRGB m_8B7F6B0C;
+        [STUFieldAttribute(0x7B32776E)]
+        public teColorRGB m_7B32776E;
 
-        [STUFieldAttribute(0xA699CE1C)]
-        public teColorRGB m_A699CE1C;
+        [STUFieldAttribute(0x62030719)]
+        public teColorRGB m_62030719;
 
-        [STUFieldAttribute(0x950E2A8F)]
-        public float m_950E2A8F;
+        [STUFieldAttribute(0x3F9BD46D)]
+        public float m_3F9BD46D;
 
-        [STUFieldAttribute(0x9D442A12)]
-        public float m_9D442A12;
+        [STUFieldAttribute(0x3C683422)]
+        public float m_3C683422;
 
-        [STUFieldAttribute(0xBD5D0EA8)]
-        public float m_BD5D0EA8;
+        [STUFieldAttribute(0xA4B72D47)]
+        public float m_A4B72D47;
 
-        [STUFieldAttribute(0x6C703AAF)]
-        public float m_6C703AAF;
+        [STUFieldAttribute(0x42D782A6)]
+        public float m_42D782A6;
 
-        [STUFieldAttribute(0x620F883F)]
-        public float m_620F883F;
+        [STUFieldAttribute(0x49192F73)]
+        public float m_49192F73;
 
-        [STUFieldAttribute(0xA373BBA0)]
-        public float m_A373BBA0;
+        [STUFieldAttribute(0x7514102A)]
+        public float m_7514102A;
 
-        [STUFieldAttribute(0x53B51068)]
-        public float m_53B51068;
+        [STUFieldAttribute(0x904D692B)]
+        public float m_904D692B;
 
-        [STUFieldAttribute(0xF201584C)]
-        public float m_F201584C;
+        [STUFieldAttribute(0xAC405672)]
+        public float m_AC405672;
 
-        [STUFieldAttribute(0x0E9C9C80)]
-        public Enum_988457C2 m_0E9C9C80;
+        [STUFieldAttribute(0x20CFCA37, "m_fontStyle")]
+        public Enum_EE8D87E7 m_fontStyle;
 
-        [STUFieldAttribute(0xC6C76DAF)]
-        public int m_C6C76DAF;
+        [STUFieldAttribute(0x12040A7A, "m_fontWeight")]
+        public int m_fontWeight;
 
-        [STUFieldAttribute(0x126BF429)]
-        public int m_126BF429;
+        [STUFieldAttribute(0xB0EADF78, "m_fontStretch")]
+        public int m_fontStretch;
 
-        [STUFieldAttribute(0x8C167EFF)]
-        public float m_8C167EFF;
+        [STUFieldAttribute(0x4018BD42)]
+        public float m_4018BD42;
 
-        [STUFieldAttribute(0x85587E17)]
-        public float m_85587E17;
+        [STUFieldAttribute(0x666BD325)]
+        public float m_666BD325;
 
-        [STUFieldAttribute(0x1DE67E91)]
-        public float m_1DE67E91;
+        [STUFieldAttribute(0xC15F535C)]
+        public float m_C15F535C;
 
-        [STUFieldAttribute(0xD1195FED)]
-        public float m_D1195FED;
+        [STUFieldAttribute(0xE4D3260E)]
+        public float m_E4D3260E;
 
-        [STUFieldAttribute(0xEF5CE860)]
-        public float m_EF5CE860;
+        [STUFieldAttribute(0x489409D1)]
+        public float m_489409D1;
 
-        [STUFieldAttribute(0xF09A2168)]
-        public float m_F09A2168;
+        [STUFieldAttribute(0x35FC91A6)]
+        public float m_35FC91A6;
 
-        [STUFieldAttribute(0xCE86B746)]
-        public float m_CE86B746;
+        [STUFieldAttribute(0x20774554)]
+        public float m_20774554;
 
-        [STUFieldAttribute(0x449E32A3)]
-        public uint m_449E32A3;
+        [STUFieldAttribute(0xCB10AF9B)]
+        public uint m_CB10AF9B;
 
-        [STUFieldAttribute(0xC0ACAD1E)]
-        public uint m_C0ACAD1E;
+        [STUFieldAttribute(0x14907775)]
+        public uint m_14907775;
 
-        [STUFieldAttribute(0xA9391B0F)]
-        public uint m_A9391B0F;
+        [STUFieldAttribute(0x3ABC3437)]
+        public uint m_3ABC3437;
 
-        [STUFieldAttribute(0x1D79B55F)]
-        public byte m_1D79B55F;
+        [STUFieldAttribute(0x78E06512)]
+        public byte m_78E06512;
 
-        [STUFieldAttribute(0x288D781A)]
-        public byte m_288D781A;
+        [STUFieldAttribute(0x16D50755)]
+        public byte m_16D50755;
     }
 }

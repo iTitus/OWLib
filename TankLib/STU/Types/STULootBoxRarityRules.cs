@@ -3,15 +3,15 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xEA8F8295, "STULootBoxRarityRules")]
+    [STUAttribute(0x343C80F9, "STULootBoxRarityRules")]
     public class STULootBoxRarityRules : STUInstance {
-        [STUFieldAttribute(0xBB99FCD3, "m_rarity")]
+        [STUFieldAttribute(0xFD53ECB8, "m_rarity")]
         public STUUnlockRarity m_rarity;
 
-        [STUFieldAttribute(0xA07D6F99)]
-        public uint m_A07D6F99;
+        [STUFieldAttribute(0xD7135A2B)]
+        public uint m_D7135A2B;
 
-        [STUFieldAttribute(0xCBE06580)]
-        public uint m_CBE06580;
+        [STUFieldAttribute(0xEB1E6572)]
+        public uint m_EB1E6572;
     }
 }

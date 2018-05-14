@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xCB198A7C, "STUAIDifficultyProfile")]
+    [STUAttribute(0x67CE6761, "STUAIDifficultyProfile")]
     public class STUAIDifficultyProfile : STUInstance {
-        [STUFieldAttribute(0x13E9E420)]
-        public teStructuredDataAssetRef<STUIdentifier> m_13E9E420;
+        [STUFieldAttribute(0x0461ED4F)]
+        public teStructuredDataAssetRef<STUIdentifier> m_0461ED4F;
 
-        [STUFieldAttribute(0xAFEEA472)]
-        public teStructuredDataAssetRef<ulong> m_AFEEA472;
+        [STUFieldAttribute(0xEE871178)]
+        public teStructuredDataAssetRef<ulong> m_EE871178;
     }
 }

@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xBC91AC98, "STULocalPersistedVoiceChatSettings")]
+    [STUAttribute(0x57A70B77, "STULocalPersistedVoiceChatSettings")]
     public class STULocalPersistedVoiceChatSettings : STUInstance {
-        [STUFieldAttribute(0xFD597304)]
-        public byte m_FD597304;
+        [STUFieldAttribute(0x485A77F5)]
+        public byte m_485A77F5;
 
-        [STUFieldAttribute(0x59F175A3)]
-        public byte m_59F175A3;
+        [STUFieldAttribute(0xE6BF0C5A)]
+        public byte m_E6BF0C5A;
 
-        [STUFieldAttribute(0x0776F30B)]
-        public byte m_0776F30B;
+        [STUFieldAttribute(0x3C3360CB)]
+        public byte m_3C3360CB;
 
-        [STUFieldAttribute(0x15556D84)]
-        public byte m_15556D84;
+        [STUFieldAttribute(0xDBC3E776)]
+        public byte m_DBC3E776;
 
-        [STUFieldAttribute(0x6EEF7774)]
-        public byte m_6EEF7774;
+        [STUFieldAttribute(0x27C6CB39)]
+        public byte m_27C6CB39;
     }
 }

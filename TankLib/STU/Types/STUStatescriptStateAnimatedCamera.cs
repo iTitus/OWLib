@@ -2,51 +2,48 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x6621502E, "STUStatescriptStateAnimatedCamera")]
+    [STUAttribute(0x1A81CFB7, "STUStatescriptStateAnimatedCamera")]
     public class STUStatescriptStateAnimatedCamera : STUStatescriptState {
-        [STUFieldAttribute(0xC41767A5, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_C41767A5;
+        [STUFieldAttribute(0x20623CAB, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_20623CAB;
 
-        [STUFieldAttribute(0x4D530E8A, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_4D530E8A;
+        [STUFieldAttribute(0xC99C08F2, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_C99C08F2;
 
-        [STUFieldAttribute(0xF8072B62, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_F8072B62;
+        [STUFieldAttribute(0xCEF2BBFF, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_CEF2BBFF;
 
-        [STUFieldAttribute(0x36634ED8, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_36634ED8;
+        [STUFieldAttribute(0xD9900030, "m_modelEntity", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_modelEntity;
 
-        [STUFieldAttribute(0x678E6DC9, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_678E6DC9;
+        [STUFieldAttribute(0x0CBB8745, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_0CBB8745;
 
-        [STUFieldAttribute(0x41CF4BA7, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_41CF4BA7;
+        [STUFieldAttribute(0x2597F21C, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_2597F21C;
 
-        [STUFieldAttribute(0xA5DA12F3, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_A5DA12F3;
+        [STUFieldAttribute(0x0162C6B3, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_0162C6B3;
 
-        [STUFieldAttribute(0xE9335452, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_E9335452;
+        [STUFieldAttribute(0x53CFC0B0, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_53CFC0B0;
 
-        [STUFieldAttribute(0x6E880E01, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_6E880E01;
+        [STUFieldAttribute(0xA4356BAD, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_A4356BAD;
 
-        [STUFieldAttribute(0x7320117C, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_7320117C;
+        [STUFieldAttribute(0x6EEF6304, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_6EEF6304;
 
-        [STUFieldAttribute(0xB7A7D6B8, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_B7A7D6B8;
+        [STUFieldAttribute(0xE45E3456, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_E45E3456;
 
-        [STUFieldAttribute(0x2DCE8B53, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_2DCE8B53;
+        [STUFieldAttribute(0xEA9A939D, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUAnimCurve m_EA9A939D;
 
-        [STUFieldAttribute(0x6854990D, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUAnimCurve m_6854990D;
+        [STUFieldAttribute(0x342C9279, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUAnimCurve m_342C9279;
 
-        [STUFieldAttribute(0x665704C8, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUAnimCurve m_665704C8;
-
-        [STUFieldAttribute(0xB318A744, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUAnimCurve m_B318A744;
+        [STUFieldAttribute(0xB20B2D1E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUAnimCurve m_B20B2D1E;
     }
 }

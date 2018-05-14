@@ -3,18 +3,18 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xD2929F20, "STUDataFlow")]
+    [STUAttribute(0x77D4D730, "STUDataFlow")]
     public class STUDataFlow : STUInstance {
-        [STUFieldAttribute(0x0619C597, "m_type", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x12716D08, "m_type", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUDataFlowType m_type;
 
-        [STUFieldAttribute(0x1B90FF5F)]
-        public Enum_53E780F3 m_1B90FF5F;
+        [STUFieldAttribute(0x10756330)]
+        public Enum_83335A45 m_10756330;
 
-        [STUFieldAttribute(0x3509C20E)]
-        public byte m_3509C20E;
+        [STUFieldAttribute(0x4E66C5E2)]
+        public byte m_4E66C5E2;
 
-        [STUFieldAttribute(0x21A30BD8)]
-        public byte m_21A30BD8;
+        [STUFieldAttribute(0xB6956C0D)]
+        public byte m_B6956C0D;
     }
 }

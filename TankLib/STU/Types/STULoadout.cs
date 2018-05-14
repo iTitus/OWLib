@@ -3,36 +3,36 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x07A0E32F, "STULoadout")]
+    [STUAttribute(0x54024AFC, "STULoadout")]
     public class STULoadout : STUInstance {
-        [STUFieldAttribute(0xB48F1D22, "m_name")]
+        [STUFieldAttribute(0xC08C4427, "m_name")]
         public teStructuredDataAssetRef<ulong> m_name;
 
-        [STUFieldAttribute(0xCA7E6EDC, "m_description")]
+        [STUFieldAttribute(0x0E27C815, "m_description")]
         public teStructuredDataAssetRef<ulong> m_description;
 
-        [STUFieldAttribute(0xFC33191B, "m_logicalButton")]
+        [STUFieldAttribute(0x3C9341F5, "m_logicalButton")]
         public teStructuredDataAssetRef<ulong> m_logicalButton;
 
-        [STUFieldAttribute(0x9290B942)]
-        public teStructuredDataAssetRef<ulong> m_9290B942;
+        [STUFieldAttribute(0x3A1530AB)]
+        public teStructuredDataAssetRef<ulong> m_3A1530AB;
 
-        [STUFieldAttribute(0x3CD6DC1E, "m_texture")]
+        [STUFieldAttribute(0xD829413B, "m_texture")]
         public teStructuredDataAssetRef<ulong> m_texture;
 
-        [STUFieldAttribute(0xC8D38D7B, "m_infoMovie")]
+        [STUFieldAttribute(0x47C1F342, "m_infoMovie")]
         public teStructuredDataAssetRef<ulong> m_infoMovie;
 
-        [STUFieldAttribute(0x7E3ED979)]
-        public teStructuredDataAssetRef<ulong>[] m_7E3ED979;
+        [STUFieldAttribute(0xADE1233F)]
+        public teStructuredDataAssetRef<STUTargetTag>[] m_ADE1233F;
 
-        [STUFieldAttribute(0xB1124918)]
-        public teStructuredDataAssetRef<ulong>[] m_B1124918;
+        [STUFieldAttribute(0x183F2E21, "m_descriptionButtons")]
+        public teStructuredDataAssetRef<ulong>[] m_descriptionButtons;
 
-        [STUFieldAttribute(0x2C54AEAF, "m_category")]
+        [STUFieldAttribute(0x0916AFB9, "m_category")]
         public LoadoutCategory m_category;
 
-        [STUFieldAttribute(0x0E679979)]
-        public int m_0E679979;
+        [STUFieldAttribute(0x997229F4, "m_loadoutGroup")]
+        public int m_loadoutGroup;
     }
 }

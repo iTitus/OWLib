@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x78D39627, "STUConfigVarColorBase")]
+    [STUAttribute(0x5678A808, "STUConfigVarColorBase")]
     public class STUConfigVarColorBase : STUConfigVar {
     }
 }

@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x82E631CB, "STURayCastReceiverOverride")]
+    [STUAttribute(0x188218B4, "STURayCastReceiverOverride")]
     public class STURayCastReceiverOverride : STUInstance {
-        [STUFieldAttribute(0x354CDA7A)]
-        public teStructuredDataAssetRef<ulong>[] m_354CDA7A;
+        [STUFieldAttribute(0xD8FA2EC6)]
+        public teStructuredDataAssetRef<STURaycastType>[] m_D8FA2EC6;
 
-        [STUFieldAttribute(0x8EB25F67, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STURayCastReceiverResult m_8EB25F67;
+        [STUFieldAttribute(0xFE00DF29, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STURayCastReceiverResult m_FE00DF29;
 
-        [STUFieldAttribute(0xC258455A, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STURayCastReceiverResult m_C258455A;
+        [STUFieldAttribute(0x60ABB3AF, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STURayCastReceiverResult m_60ABB3AF;
     }
 }

@@ -2,45 +2,39 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xC8704AD4, "STUAnimBlendTreeSet_HardcodedAnimCategoryRefs")]
+    [STUAttribute(0x34669456, "STUAnimBlendTreeSet_HardcodedAnimCategoryRefs")]
     public class STUAnimBlendTreeSet_HardcodedAnimCategoryRefs : STUInstance {
-        [STUFieldAttribute(0x013F5402)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_013F5402;
+        [STUFieldAttribute(0xE569F683)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_E569F683;
 
-        [STUFieldAttribute(0x9AC26F9B)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_9AC26F9B;
+        [STUFieldAttribute(0xF4DFBA8F)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_F4DFBA8F;
 
-        [STUFieldAttribute(0xBB736F3F)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_BB736F3F;
+        [STUFieldAttribute(0x3D2BB79F)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_3D2BB79F;
 
-        [STUFieldAttribute(0x9D4FE3BA)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_9D4FE3BA;
+        [STUFieldAttribute(0x8621386A)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_8621386A;
 
-        [STUFieldAttribute(0x64CB9871)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_64CB9871;
+        [STUFieldAttribute(0xDC2C5110)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_DC2C5110;
 
-        [STUFieldAttribute(0xA023ADB5)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_A023ADB5;
+        [STUFieldAttribute(0xC29DF9DB)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_C29DF9DB;
 
-        [STUFieldAttribute(0xD5DE1D8B)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_D5DE1D8B;
+        [STUFieldAttribute(0x6C613E91)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_6C613E91;
 
-        [STUFieldAttribute(0xA5DBA2DB)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_A5DBA2DB;
+        [STUFieldAttribute(0x88051108)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_88051108;
 
-        [STUFieldAttribute(0x198EE6D4)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_198EE6D4;
+        [STUFieldAttribute(0x0D2CB484)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_0D2CB484;
 
-        [STUFieldAttribute(0x4BE400BA)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_4BE400BA;
+        [STUFieldAttribute(0xC7ED6C93)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_C7ED6C93;
 
-        [STUFieldAttribute(0xCD6D2FA7)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_CD6D2FA7;
-
-        [STUFieldAttribute(0x75C041AD)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_75C041AD;
-
-        [STUFieldAttribute(0xA93A7786)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_A93A7786;
+        [STUFieldAttribute(0x9E18D40B)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_9E18D40B;
     }
 }

@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x62562540, "STUStatescriptForCodeValue")]
+    [STUAttribute(0x2D9EE524, "STUStatescriptForCodeValue")]
     public class STUStatescriptForCodeValue : STUInstance {
-        [STUFieldAttribute(0x4D2DB658, "m_identifier")]
+        [STUFieldAttribute(0xB2CA6977, "m_identifier")]
         public teStructuredDataAssetRef<STUIdentifier> m_identifier;
 
-        [STUFieldAttribute(0x07DD813E, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x5180E750, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_value;
     }
 }

@@ -3,27 +3,27 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x7A7F2732, "STUStatescriptStateUXPresenter")]
+    [STUAttribute(0x651FB223, "STUStatescriptStateUXPresenter")]
     public class STUStatescriptStateUXPresenter : STUStatescriptState {
-        [STUFieldAttribute(0x87C575BB, "m_viewModel", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x2ADB6D26, "m_viewModel", ReaderType = typeof(InlineInstanceFieldReader))]
         public STU_D3350D13 m_viewModel;
 
-        [STUFieldAttribute(0x470B318E, "m_events", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_34C0F0A2[] m_events;
+        [STUFieldAttribute(0x191405B4, "m_events", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_809D27D5[] m_events;
 
-        [STUFieldAttribute(0xDF6FB9C5, "m_commands", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_ABE9D44B[] m_commands;
+        [STUFieldAttribute(0x9564A554, "m_commands", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_989A2E11[] m_commands;
 
-        [STUFieldAttribute(0x45216F79, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_4586592B m_45216F79;
+        [STUFieldAttribute(0xA48A7CE0, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_92E7778A m_A48A7CE0;
 
-        [STUFieldAttribute(0x45017CEA, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarDynamic m_45017CEA;
+        [STUFieldAttribute(0x7C8CC503, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarDynamic m_7C8CC503;
 
-        [STUFieldAttribute(0xE5265589, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarFilter m_E5265589;
+        [STUFieldAttribute(0x133AB4F4, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarFilter m_133AB4F4;
 
-        [STUFieldAttribute(0x4BA4C058)]
-        public Enum_CEBBB217 m_4BA4C058;
+        [STUFieldAttribute(0x4C58EAB7)]
+        public Enum_D6A7B8A6 m_4C58EAB7;
     }
 }

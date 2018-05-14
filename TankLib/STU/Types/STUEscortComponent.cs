@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x70A6A466, "STUEscortComponent")]
+    [STUAttribute(0x0E2552E2, "STUEscortComponent")]
     public class STUEscortComponent : STUEntityComponent {
-        [STUFieldAttribute(0x2D304ED6, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUEscortRadius m_2D304ED6;
+        [STUFieldAttribute(0x0E5D6C4F, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUEscortRadius m_0E5D6C4F;
 
-        [STUFieldAttribute(0xD7B88E60, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUEscortRadius m_D7B88E60;
+        [STUFieldAttribute(0x424B44FA, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUEscortRadius m_424B44FA;
 
-        [STUFieldAttribute(0x04924120)]
-        public uint m_04924120;
+        [STUFieldAttribute(0xAB75FA5D)]
+        public uint m_AB75FA5D;
 
-        [STUFieldAttribute(0x000A3C1D)]
-        public float m_000A3C1D;
+        [STUFieldAttribute(0xF5A65FED)]
+        public float m_F5A65FED;
     }
 }

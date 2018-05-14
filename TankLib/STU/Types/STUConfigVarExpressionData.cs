@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x3D579F4F, "STUConfigVarExpressionData")]
+    [STUAttribute(0x1D9F73C9, "STUConfigVarExpressionData")]
     public class STUConfigVarExpressionData : STUInstance {
-        [STUFieldAttribute(0x882D0868, "m_fragments", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xECA86FF5, "m_fragments", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUConfigVarExpressionFragment[] m_fragments;
 
-        [STUFieldAttribute(0xEFF7FAE7, "m_opcodes")]
+        [STUFieldAttribute(0x927094AA, "m_opcodes")]
         public byte[] m_opcodes;
 
-        [STUFieldAttribute(0x03AEACC1, "m_dynamicVars", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xA2B993AB, "m_dynamicVars", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVarDynamic[] m_dynamicVars;
 
-        [STUFieldAttribute(0xD99EF254)]
-        public float[] m_D99EF254;
+        [STUFieldAttribute(0x1B183605)]
+        public float[] m_1B183605;
     }
 }

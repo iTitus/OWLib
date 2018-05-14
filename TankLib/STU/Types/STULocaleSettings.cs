@@ -2,36 +2,36 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x5CF22AAB, "STULocaleSettings")]
-    public class STULocaleSettings : STU_D89CF9B3 {
-        [STUFieldAttribute(0x604EEA7E, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_8AC6C71B m_604EEA7E;
+    [STUAttribute(0xDC384625, "STULocaleSettings")]
+    public class STULocaleSettings : STU_44B35DD4 {
+        [STUFieldAttribute(0xB71B2B03, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_1BBFA3E8 m_B71B2B03;
 
-        [STUFieldAttribute(0xD20AEFD7, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_66BB2EF3 m_D20AEFD7;
+        [STUFieldAttribute(0x3185AFCE, "m_numberSettings", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUNumberSettings m_numberSettings;
 
-        [STUFieldAttribute(0x3CFA3EE6, "m_locale")]
+        [STUFieldAttribute(0x0B139466, "m_locale")]
         public teString m_locale;
 
-        [STUFieldAttribute(0x586CC049)]
-        public teString m_586CC049;
+        [STUFieldAttribute(0xF23CF06C)]
+        public teString m_F23CF06C;
 
-        [STUFieldAttribute(0xE9A6FA8E)]
-        public teString m_E9A6FA8E;
+        [STUFieldAttribute(0xEEA582CF)]
+        public teString m_EEA582CF;
 
-        [STUFieldAttribute(0x9AE3C787)]
-        public teString m_9AE3C787;
+        [STUFieldAttribute(0x15CABDBF)]
+        public teString m_15CABDBF;
 
-        [STUFieldAttribute(0xF38456B2)]
-        public int m_F38456B2;
+        [STUFieldAttribute(0x3F7D5E0A)]
+        public int m_3F7D5E0A;
 
-        [STUFieldAttribute(0x214BFFD8)]
-        public float m_214BFFD8;
+        [STUFieldAttribute(0x2E96BAA4)]
+        public float m_2E96BAA4;
 
-        [STUFieldAttribute(0xFAA34CAF)]
-        public float m_FAA34CAF;
+        [STUFieldAttribute(0x9AAFD9B9)]
+        public float m_9AAFD9B9;
 
-        [STUFieldAttribute(0xD10EE147)]
-        public float m_D10EE147;
+        [STUFieldAttribute(0x272ED5BE)]
+        public float m_272ED5BE;
     }
 }

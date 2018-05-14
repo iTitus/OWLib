@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF264A657, "STUConfigVarGamePadVibration")]
-    public class STUConfigVarGamePadVibration : STU_E4324757 {
-        [STUFieldAttribute(0x479BD164, "m_vibration")]
+    [STUAttribute(0x79771A3A, "STUConfigVarGamePadVibration")]
+    public class STUConfigVarGamePadVibration : STU_82972D9D {
+        [STUFieldAttribute(0xE160E571, "m_vibration")]
         public teStructuredDataAssetRef<STUGamePadVibration> m_vibration;
     }
 }

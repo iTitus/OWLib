@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xACCDE63F, "STUCelebration")]
+    [STUAttribute(0x4810BF65, "STUCelebration")]
     public class STUCelebration : STUInstance {
-        [STUFieldAttribute(0x71D9486D, "m_celebrationUnlocks", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x796A7C71, "m_celebrationUnlocks", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUUnlocks m_celebrationUnlocks;
 
-        [STUFieldAttribute(0xED999C8B, "m_celebrationType")]
+        [STUFieldAttribute(0x649099ED, "m_celebrationType")]
         public teStructuredDataAssetRef<STUIdentifier> m_celebrationType;
 
-        [STUFieldAttribute(0xF81F4386, "m_startTime")]
+        [STUFieldAttribute(0x70453DA1, "m_startTime")]
         public teStructuredDataDateAndTime m_startTime;
 
-        [STUFieldAttribute(0xFBEBAD6F, "m_endTime")]
+        [STUFieldAttribute(0x0E31088B, "m_endTime")]
         public teStructuredDataDateAndTime m_endTime;
 
-        [STUFieldAttribute(0xEDE36CB7)]
-        public ulong m_EDE36CB7;
+        [STUFieldAttribute(0xC4F54D40, "m_resourceKeyId")]
+        public ulong m_resourceKeyId;
     }
 }

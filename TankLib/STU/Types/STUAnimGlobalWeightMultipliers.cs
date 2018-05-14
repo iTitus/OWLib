@@ -2,24 +2,24 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xB0D9AEDF, "STUAnimGlobalWeightMultipliers")]
+    [STUAttribute(0xB48685EB, "STUAnimGlobalWeightMultipliers")]
     public class STUAnimGlobalWeightMultipliers : STUInstance {
-        [STUFieldAttribute(0x5AECC1AE)]
-        public float m_5AECC1AE;
+        [STUFieldAttribute(0x58BF178B)]
+        public float m_58BF178B;
 
-        [STUFieldAttribute(0x507D1BB7)]
-        public float m_507D1BB7;
+        [STUFieldAttribute(0x1F3884F5)]
+        public float m_1F3884F5;
 
-        [STUFieldAttribute(0x494908EC)]
-        public float m_494908EC;
+        [STUFieldAttribute(0x3847BA28)]
+        public float m_3847BA28;
 
-        [STUFieldAttribute(0xB04AC264)]
-        public float m_B04AC264;
+        [STUFieldAttribute(0x5B4ED28F)]
+        public float m_5B4ED28F;
 
-        [STUFieldAttribute(0xD3C8DCFC)]
-        public float m_D3C8DCFC;
+        [STUFieldAttribute(0x65570570)]
+        public float m_65570570;
 
-        [STUFieldAttribute(0x46ED8730)]
-        public float m_46ED8730;
+        [STUFieldAttribute(0x415F6FBB)]
+        public float m_415F6FBB;
     }
 }

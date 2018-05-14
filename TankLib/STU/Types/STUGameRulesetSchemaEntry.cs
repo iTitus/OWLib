@@ -3,33 +3,33 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x074EDCB9, "STUGameRulesetSchemaEntry")]
+    [STUAttribute(0x3C035242, "STUGameRulesetSchemaEntry")]
     public class STUGameRulesetSchemaEntry : STUInstance {
-        [STUFieldAttribute(0xAA76FAD1, "m_displayText")]
+        [STUFieldAttribute(0xC1769D54, "m_displayText")]
         public teStructuredDataAssetRef<ulong> m_displayText;
 
-        [STUFieldAttribute(0x7DF418A5)]
-        public teStructuredDataAssetRef<ulong> m_7DF418A5;
+        [STUFieldAttribute(0x8E8FBBF8)]
+        public teStructuredDataAssetRef<ulong> m_8E8FBBF8;
 
-        [STUFieldAttribute(0x3E783677)]
-        public teStructuredDataAssetRef<STUIdentifier> m_3E783677;
+        [STUFieldAttribute(0x786F3480)]
+        public teStructuredDataAssetRef<STUIdentifier> m_786F3480;
 
-        [STUFieldAttribute(0x7E3ED979)]
-        public teStructuredDataAssetRef<ulong>[] m_7E3ED979;
+        [STUFieldAttribute(0xADE1233F)]
+        public teStructuredDataAssetRef<STUTargetTag>[] m_ADE1233F;
 
-        [STUFieldAttribute(0x34993B2E)]
-        public teStructuredDataAssetRef<ulong>[] m_34993B2E;
+        [STUFieldAttribute(0x4EA5F639)]
+        public teStructuredDataAssetRef<STUTargetTag>[] m_4EA5F639;
 
-        [STUFieldAttribute(0x07DD813E, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_848957AF m_value;
+        [STUFieldAttribute(0x5180E750, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_0A559706 m_value;
 
-        [STUFieldAttribute(0x65184E78, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_96788737 m_65184E78;
+        [STUFieldAttribute(0xF521AEA7, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_FB404714 m_F521AEA7;
 
-        [STUFieldAttribute(0x2C54AEAF, "m_category")]
-        public Enum_F2F62E3D m_category;
+        [STUFieldAttribute(0x0916AFB9, "m_category")]
+        public Enum_B8A1A24D m_category;
 
-        [STUFieldAttribute(0x37D4F9CD)]
-        public int m_37D4F9CD;
+        [STUFieldAttribute(0xD528E4D8)]
+        public int m_D528E4D8;
     }
 }

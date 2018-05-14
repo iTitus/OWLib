@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xC43ABAA7, "STUAnimCurveCompiled")]
+    [STUAttribute(0x4EC8D398, "STUAnimCurveCompiled")]
     public class STUAnimCurveCompiled : STUInstance {
-        [STUFieldAttribute(0x909EE308, "m_valueKeys")]
+        [STUFieldAttribute(0xF4C17442, "m_valueKeys")]
         public float[] m_valueKeys;
 
-        [STUFieldAttribute(0xA321EBE9, "m_timeKeys")]
+        [STUFieldAttribute(0x2C3E8004, "m_timeKeys")]
         public float[] m_timeKeys;
     }
 }

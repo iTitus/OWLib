@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xCB5A89D2, "STUAnimCategory")]
+    [STUAttribute(0xC60F5243, "STUAnimCategory")]
     public class STUAnimCategory : STUInstance {
-        [STUFieldAttribute(0x0E5A577A)]
-        public uint[] m_0E5A577A;
+        [STUFieldAttribute(0x4A96655A)]
+        public uint[] m_4A96655A;
     }
 }

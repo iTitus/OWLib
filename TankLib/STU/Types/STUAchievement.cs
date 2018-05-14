@@ -3,45 +3,45 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0CC07049, "STUAchievement")]
+    [STUAttribute(0x7CE5C1B2, "STUAchievement")]
     public class STUAchievement : STUInstance {
-        [STUFieldAttribute(0xB48F1D22, "m_name")]
+        [STUFieldAttribute(0xC08C4427, "m_name")]
         public teStructuredDataAssetRef<ulong> m_name;
 
-        [STUFieldAttribute(0xCA7E6EDC, "m_description")]
+        [STUFieldAttribute(0x0E27C815, "m_description")]
         public teStructuredDataAssetRef<ulong> m_description;
 
-        [STUFieldAttribute(0x290B2ADF)]
-        public teStructuredDataAssetRef<ulong> m_290B2ADF;
+        [STUFieldAttribute(0xF8D1C6C2)]
+        public teStructuredDataAssetRef<ulong> m_F8D1C6C2;
 
-        [STUFieldAttribute(0x245A3F6D)]
-        public teStructuredDataAssetRef<STUTexture> m_245A3F6D;
+        [STUFieldAttribute(0x63921A4E)]
+        public teStructuredDataAssetRef<STUTexture> m_63921A4E;
 
-        [STUFieldAttribute(0xF5087894, "m_unlock")]
+        [STUFieldAttribute(0x2077E211, "m_unlock")]
         public teStructuredDataAssetRef<STUUnlock> m_unlock;
 
-        [STUFieldAttribute(0x544A6A4F)]
-        public teStructuredDataAssetRef<STUTexture> m_544A6A4F;
+        [STUFieldAttribute(0xFB3B13FA)]
+        public teStructuredDataAssetRef<STUTexture> m_FB3B13FA;
 
-        [STUFieldAttribute(0x4E291DCC)]
-        public teString m_4E291DCC;
+        [STUFieldAttribute(0x26A7BB03)]
+        public teString m_26A7BB03;
 
-        [STUFieldAttribute(0x4FF98D41, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_C1A2DB26 m_4FF98D41;
+        [STUFieldAttribute(0xB9452DF9, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_83066946 m_B9452DF9;
 
-        [STUFieldAttribute(0x2C54AEAF, "m_category")]
-        public Enum_116F9601 m_category;
+        [STUFieldAttribute(0x0916AFB9, "m_category")]
+        public Enum_825EDBDB m_category;
 
-        [STUFieldAttribute(0x07DD813E, "m_value")]
+        [STUFieldAttribute(0x5180E750, "m_value")]
         public int m_value;
 
-        [STUFieldAttribute(0x628D48CC)]
-        public int m_628D48CC;
+        [STUFieldAttribute(0x7E7CB22B)]
+        public int m_7E7CB22B;
 
-        [STUFieldAttribute(0x59D52DA5)]
-        public Enum_8E40F295 m_59D52DA5;
+        [STUFieldAttribute(0x5BB9A817, "m_trophy")]
+        public Enum_1985D012 m_trophy;
 
-        [STUFieldAttribute(0x5351832E)]
-        public int m_5351832E;
+        [STUFieldAttribute(0x4C73ADB5)]
+        public int m_4C73ADB5;
     }
 }

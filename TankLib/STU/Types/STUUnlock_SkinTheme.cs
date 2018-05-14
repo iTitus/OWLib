@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xE05E4446, "STUUnlock_SkinTheme")]
+    [STUAttribute(0x8B9DEB02, "STUUnlock_SkinTheme")]
     public class STUUnlock_SkinTheme : STUUnlock {
-        [STUFieldAttribute(0x4C167404, "m_skinTheme")]
+        [STUFieldAttribute(0x81F083E2, "m_skinTheme")]
         public teStructuredDataAssetRef<STUSkinTheme> m_skinTheme;
     }
 }

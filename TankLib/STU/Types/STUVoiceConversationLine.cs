@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x6BB3C6F8, "STUVoiceConversationLine")]
+    [STUAttribute(0x4AC764DE, "STUVoiceConversationLine")]
     public class STUVoiceConversationLine : STUInstance {
-        [STUFieldAttribute(0x75161A21)]
-        public ulong m_75161A21;
+        [STUFieldAttribute(0x9A15536A)]
+        public ulong m_9A15536A;
 
-        [STUFieldAttribute(0xB4D405A1)]
-        public uint m_B4D405A1;
+        [STUFieldAttribute(0x26C83E56)]
+        public uint m_26C83E56;
     }
 }

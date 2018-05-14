@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x805BE5CA, "STUCaptureAreaResidencyMultiplier")]
+    [STUAttribute(0xF918411F, "STUCaptureAreaResidencyMultiplier")]
     public class STUCaptureAreaResidencyMultiplier : STUInstance {
-        [STUFieldAttribute(0xACC21C04)]
-        public float m_ACC21C04;
+        [STUFieldAttribute(0x544343E5)]
+        public float m_544343E5;
 
-        [STUFieldAttribute(0xBA03E0AD)]
-        public float m_BA03E0AD;
+        [STUFieldAttribute(0xDDA06C3F)]
+        public float m_DDA06C3F;
     }
 }

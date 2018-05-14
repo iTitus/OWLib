@@ -3,15 +3,15 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x8C8C0627, "STUAnimParamUpdater_SnapTurnScriptedAnimAlias")]
+    [STUAttribute(0x7DABA1B6, "STUAnimParamUpdater_SnapTurnScriptedAnimAlias")]
     public class STUAnimParamUpdater_SnapTurnScriptedAnimAlias : STUInstance {
-        [STUFieldAttribute(0xB4FF0E2F, "m_animAlias")]
+        [STUFieldAttribute(0xBBAB1943, "m_animAlias")]
         public teStructuredDataAssetRef<STUAnimAlias> m_animAlias;
 
-        [STUFieldAttribute(0x3AE19A5A)]
-        public teVec2 m_3AE19A5A;
+        [STUFieldAttribute(0x7D46B46B)]
+        public teVec2 m_7D46B46B;
 
-        [STUFieldAttribute(0xECF77C3E)]
-        public float m_ECF77C3E;
+        [STUFieldAttribute(0xEC35A969)]
+        public float m_EC35A969;
     }
 }

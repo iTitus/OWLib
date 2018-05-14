@@ -3,24 +3,24 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x2A879F6B, "STUHeroSettingBase")]
+    [STUAttribute(0xC0B8480B, "STUHeroSettingBase")]
     public class STUHeroSettingBase : STUInstance {
-        [STUFieldAttribute(0x4D2DB658, "m_identifier")]
+        [STUFieldAttribute(0xB2CA6977, "m_identifier")]
         public teStructuredDataAssetRef<STUIdentifier> m_identifier;
 
-        [STUFieldAttribute(0xB48F1D22, "m_name")]
+        [STUFieldAttribute(0xC08C4427, "m_name")]
         public teStructuredDataAssetRef<ulong> m_name;
 
-        [STUFieldAttribute(0x2C54AEAF, "m_category")]
+        [STUFieldAttribute(0x0916AFB9, "m_category")]
         public teStructuredDataAssetRef<STUIdentifier> m_category;
 
-        [STUFieldAttribute(0x3DBF6FD2)]
-        public Enum_B06ED6CF m_3DBF6FD2;
+        [STUFieldAttribute(0x946AA91D)]
+        public Enum_2DB02D30 m_946AA91D;
 
-        [STUFieldAttribute(0x84E9992A)]
-        public byte m_84E9992A;
+        [STUFieldAttribute(0xC6DB3ED7)]
+        public byte m_C6DB3ED7;
 
-        [STUFieldAttribute(0x0C3FF9F9)]
-        public byte m_0C3FF9F9;
+        [STUFieldAttribute(0xB3D4DE09)]
+        public byte m_B3D4DE09;
     }
 }

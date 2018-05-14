@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xA10FCCD3, "STUGenericSettings_FallDamage")]
+    [STUAttribute(0x7D842DB5, "STUGenericSettings_FallDamage")]
     public class STUGenericSettings_FallDamage : STUGenericSettings_Base {
-        [STUFieldAttribute(0x7B5AE194)]
-        public teStructuredDataAssetRef<ulong>[] m_7B5AE194;
+        [STUFieldAttribute(0x9DFAABD2)]
+        public teStructuredDataAssetRef<STUIdentifier>[] m_9DFAABD2;
 
-        [STUFieldAttribute(0x13024362, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUAnimCurve m_13024362;
+        [STUFieldAttribute(0x5BB52DEC, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUAnimCurve m_5BB52DEC;
 
-        [STUFieldAttribute(0x7690E074)]
-        public float m_7690E074;
+        [STUFieldAttribute(0xDFA07E24)]
+        public float m_DFA07E24;
 
-        [STUFieldAttribute(0x6CFD21C9)]
-        public float m_6CFD21C9;
+        [STUFieldAttribute(0xBF6D8F58)]
+        public float m_BF6D8F58;
 
-        [STUFieldAttribute(0xF871EA4D)]
-        public float m_F871EA4D;
+        [STUFieldAttribute(0x644CA9D4)]
+        public float m_644CA9D4;
     }
 }

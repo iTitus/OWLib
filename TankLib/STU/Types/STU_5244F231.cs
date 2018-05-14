@@ -5,8 +5,8 @@ using TankLib.Math;
 namespace TankLib.STU.Types {
     [STUAttribute(0x5244F231)]
     public class STU_5244F231 : STUUXViewModel {
-        [STUFieldAttribute(0x94FADF7F)]
-        public teString m_94FADF7F;
+        [STUFieldAttribute(0x94FADF7F, "m_stringValue")]
+        public teString m_stringValue;
 
         [STUFieldAttribute(0x913D7864)]
         public teStructuredDataAssetRef<STUUXLink> m_913D7864;

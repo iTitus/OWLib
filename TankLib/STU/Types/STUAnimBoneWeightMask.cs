@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x8BDCD4C6, "STUAnimBoneWeightMask")]
+    [STUAttribute(0x243441B9, "STUAnimBoneWeightMask")]
     public class STUAnimBoneWeightMask : STUInstance {
-        [STUFieldAttribute(0xEADB4E1E, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimBoneWeightMask_Item[] m_EADB4E1E;
+        [STUFieldAttribute(0x591AA2E8, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimBoneWeightMask_Item[] m_591AA2E8;
 
-        [STUFieldAttribute(0x27AF7472)]
-        public float m_27AF7472;
+        [STUFieldAttribute(0x73DBE032)]
+        public float m_73DBE032;
     }
 }

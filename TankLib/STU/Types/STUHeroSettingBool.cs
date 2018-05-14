@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xEADA21EC, "STUHeroSettingBool")]
+    [STUAttribute(0x558D80F8, "STUHeroSettingBool")]
     public class STUHeroSettingBool : STUHeroSettingBase {
-        [STUFieldAttribute(0x45A7A69C, "m_default")]
+        [STUFieldAttribute(0xB9114C96, "m_default")]
         public byte m_default;
     }
 }

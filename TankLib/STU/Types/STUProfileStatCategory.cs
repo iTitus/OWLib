@@ -3,12 +3,12 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x3FBEDE0E, "STUProfileStatCategory")]
+    [STUAttribute(0xA35DA076, "STUProfileStatCategory")]
     public class STUProfileStatCategory : STUInstance {
-        [STUFieldAttribute(0x2C54AEAF, "m_category")]
-        public Enum_6CBB673B m_category;
+        [STUFieldAttribute(0x0916AFB9, "m_category")]
+        public Enum_79C109B1 m_category;
 
-        [STUFieldAttribute(0x18983896)]
-        public int m_18983896;
+        [STUFieldAttribute(0xD1D7657F)]
+        public int m_D1D7657F;
     }
 }

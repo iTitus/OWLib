@@ -2,27 +2,27 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x67866D38, "STUAnimBlendTree")]
+    [STUAttribute(0x0116F41A, "STUAnimBlendTree")]
     public class STUAnimBlendTree : STUInstance {
-        [STUFieldAttribute(0x85CC326B, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_DF9B7DE2 m_85CC326B;
+        [STUFieldAttribute(0x5C0EDC61, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_B370E625 m_5C0EDC61;
 
-        [STUFieldAttribute(0x0B15B894, "m_animNodes", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x47FA772B, "m_animNodes", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUAnimNode_Base[] m_animNodes;
 
-        [STUFieldAttribute(0xF9CA7995)]
-        public uint[] m_F9CA7995;
+        [STUFieldAttribute(0x4F861CB3)]
+        public uint[] m_4F861CB3;
 
-        [STUFieldAttribute(0xBF7A74B0, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_8C127DE2[] m_BF7A74B0;
+        [STUFieldAttribute(0x76AE8FD2, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_16151658[] m_76AE8FD2;
 
-        [STUFieldAttribute(0xD6497916, "m_rootNode", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_CB30C7C3 m_rootNode;
+        [STUFieldAttribute(0xA8380F29, "m_rootNode", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_62116F39 m_rootNode;
 
-        [STUFieldAttribute(0xA4712A0A, "m_treeCRC")]
+        [STUFieldAttribute(0x47E76A26, "m_treeCRC")]
         public uint m_treeCRC;
 
-        [STUFieldAttribute(0x191CEC72)]
-        public uint m_191CEC72;
+        [STUFieldAttribute(0x5AE4AF5E)]
+        public uint m_5AE4AF5E;
     }
 }

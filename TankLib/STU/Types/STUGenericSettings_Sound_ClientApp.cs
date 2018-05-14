@@ -2,153 +2,123 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x017ED998, "STUGenericSettings_Sound_ClientApp")]
+    [STUAttribute(0xD295A53B, "STUGenericSettings_Sound_ClientApp")]
     public class STUGenericSettings_Sound_ClientApp : STUGenericSettings_Base {
-        [STUFieldAttribute(0x4CEF6760, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_4CEF6760;
+        [STUFieldAttribute(0x121A8030, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUSoundImportanceFactor m_121A8030;
 
-        [STUFieldAttribute(0xA1E72858, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_A1E72858;
+        [STUFieldAttribute(0xD228DB71, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUSoundImportanceFactor m_D228DB71;
 
-        [STUFieldAttribute(0xA2D88FC6, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_A2D88FC6;
+        [STUFieldAttribute(0xA29AE710, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUSoundImportanceFactor m_A29AE710;
 
-        [STUFieldAttribute(0x1B515732, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_1B515732;
+        [STUFieldAttribute(0x760DBD14, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUSoundImportanceFactor m_760DBD14;
 
-        [STUFieldAttribute(0xC8AED134, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_C8AED134;
+        [STUFieldAttribute(0xA89A9412, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUSoundImportanceFactor m_A89A9412;
 
-        [STUFieldAttribute(0x892DF716, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_892DF716;
+        [STUFieldAttribute(0x43AE085A, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUSoundImportanceFactor m_43AE085A;
 
-        [STUFieldAttribute(0x0E81F27F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_0E81F27F;
+        [STUFieldAttribute(0x2070A837, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUSoundImportanceFactor m_2070A837;
 
-        [STUFieldAttribute(0xEB462D7C, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_EB462D7C;
+        [STUFieldAttribute(0x3AFE70F9)]
+        public uint m_3AFE70F9;
 
-        [STUFieldAttribute(0xD9D02CA5, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_D9D02CA5;
+        [STUFieldAttribute(0x37966577)]
+        public uint m_37966577;
 
-        [STUFieldAttribute(0x9B7C785F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_9B7C785F;
+        [STUFieldAttribute(0x19DC2C44)]
+        public uint m_19DC2C44;
 
-        [STUFieldAttribute(0x56245E69, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_56245E69;
+        [STUFieldAttribute(0x552EFB19)]
+        public uint m_552EFB19;
 
-        [STUFieldAttribute(0x75C0E47F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_75C0E47F;
+        [STUFieldAttribute(0xFBC1C98F)]
+        public uint m_FBC1C98F;
 
-        [STUFieldAttribute(0x48D33BE0, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_48D33BE0;
+        [STUFieldAttribute(0xF9090A0E)]
+        public uint m_F9090A0E;
 
-        [STUFieldAttribute(0x421D1156, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUSoundImportanceFactor m_421D1156;
+        [STUFieldAttribute(0xFBD53406)]
+        public uint m_FBD53406;
 
-        [STUFieldAttribute(0x91B7E896)]
-        public uint m_91B7E896;
+        [STUFieldAttribute(0x1BC7A036)]
+        public float m_1BC7A036;
 
-        [STUFieldAttribute(0xB0E79FE0)]
-        public uint m_B0E79FE0;
+        [STUFieldAttribute(0x8B7E089A)]
+        public float m_8B7E089A;
 
-        [STUFieldAttribute(0x52CDE306)]
-        public uint m_52CDE306;
+        [STUFieldAttribute(0xE9679588)]
+        public float m_E9679588;
 
-        [STUFieldAttribute(0x9346BF30)]
-        public uint m_9346BF30;
+        [STUFieldAttribute(0x2BFAE03B)]
+        public float m_2BFAE03B;
 
-        [STUFieldAttribute(0x57DE194F)]
-        public uint m_57DE194F;
+        [STUFieldAttribute(0x960399CB)]
+        public float m_960399CB;
 
-        [STUFieldAttribute(0x14AE1445)]
-        public uint m_14AE1445;
+        [STUFieldAttribute(0xC06D9D9A)]
+        public float m_C06D9D9A;
 
-        [STUFieldAttribute(0xF59A5715)]
-        public uint m_F59A5715;
+        [STUFieldAttribute(0x4153B6C8)]
+        public float m_4153B6C8;
 
-        [STUFieldAttribute(0xADB92B47)]
-        public float m_ADB92B47;
+        [STUFieldAttribute(0x1BCFD3CD)]
+        public uint m_1BCFD3CD;
 
-        [STUFieldAttribute(0x43D26F57)]
-        public float m_43D26F57;
+        [STUFieldAttribute(0xED290CD0)]
+        public uint m_ED290CD0;
 
-        [STUFieldAttribute(0x237EB99F)]
-        public float m_237EB99F;
+        [STUFieldAttribute(0x7E9648BB)]
+        public uint m_7E9648BB;
 
-        [STUFieldAttribute(0x176EF917)]
-        public float m_176EF917;
+        [STUFieldAttribute(0xBF1A680E)]
+        public float m_BF1A680E;
 
-        [STUFieldAttribute(0x12D558E0)]
-        public float m_12D558E0;
+        [STUFieldAttribute(0xEB539DD1)]
+        public float m_EB539DD1;
 
-        [STUFieldAttribute(0x6C90AD4B)]
-        public float m_6C90AD4B;
+        [STUFieldAttribute(0x7EDE1648)]
+        public float m_7EDE1648;
 
-        [STUFieldAttribute(0xE0570C02)]
-        public float m_E0570C02;
+        [STUFieldAttribute(0xB20F0647)]
+        public float m_B20F0647;
 
-        [STUFieldAttribute(0xCC4C8F58)]
-        public uint m_CC4C8F58;
+        [STUFieldAttribute(0x9FEAA98B)]
+        public float m_9FEAA98B;
 
-        [STUFieldAttribute(0x5A9A3581)]
-        public uint m_5A9A3581;
+        [STUFieldAttribute(0x808CA4B8)]
+        public float m_808CA4B8;
 
-        [STUFieldAttribute(0x87A14B59)]
-        public uint m_87A14B59;
+        [STUFieldAttribute(0xCD3B228D)]
+        public float m_CD3B228D;
 
-        [STUFieldAttribute(0x7A281A63)]
-        public uint m_7A281A63;
+        [STUFieldAttribute(0xF3BCF6D1)]
+        public float m_F3BCF6D1;
 
-        [STUFieldAttribute(0x2C90A151)]
-        public uint m_2C90A151;
+        [STUFieldAttribute(0x704F0652)]
+        public float m_704F0652;
 
-        [STUFieldAttribute(0x5DD209BE)]
-        public uint m_5DD209BE;
+        [STUFieldAttribute(0xFECDF260)]
+        public float m_FECDF260;
 
-        [STUFieldAttribute(0xC8CA957E)]
-        public float m_C8CA957E;
+        [STUFieldAttribute(0x3655940E)]
+        public float m_3655940E;
 
-        [STUFieldAttribute(0x3FDF8BB2)]
-        public float m_3FDF8BB2;
+        [STUFieldAttribute(0xF146220E)]
+        public float m_F146220E;
 
-        [STUFieldAttribute(0xF82CE2B0)]
-        public float m_F82CE2B0;
+        [STUFieldAttribute(0x62B8ED9B)]
+        public float m_62B8ED9B;
 
-        [STUFieldAttribute(0x37209F38)]
-        public float m_37209F38;
+        [STUFieldAttribute(0x67695221)]
+        public float m_67695221;
 
-        [STUFieldAttribute(0x2AFC083F)]
-        public float m_2AFC083F;
-
-        [STUFieldAttribute(0x8CED31A3)]
-        public float m_8CED31A3;
-
-        [STUFieldAttribute(0x9DA22867)]
-        public float m_9DA22867;
-
-        [STUFieldAttribute(0x124B14BF)]
-        public float m_124B14BF;
-
-        [STUFieldAttribute(0xB934C7F0)]
-        public float m_B934C7F0;
-
-        [STUFieldAttribute(0xB9367F65)]
-        public float m_B9367F65;
-
-        [STUFieldAttribute(0xA1F0271D)]
-        public float m_A1F0271D;
-
-        [STUFieldAttribute(0xDE4BA953)]
-        public float m_DE4BA953;
-
-        [STUFieldAttribute(0x658C2E87)]
-        public float m_658C2E87;
-
-        [STUFieldAttribute(0x0811B5C5)]
-        public float m_0811B5C5;
-
-        [STUFieldAttribute(0x032EA7C8)]
-        public float m_032EA7C8;
+        [STUFieldAttribute(0x6986A483)]
+        public float m_6986A483;
     }
 }

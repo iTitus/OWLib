@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0268E7D5, "STUStatescriptWeaponVolleyMuzzle")]
+    [STUAttribute(0x5899278E, "STUStatescriptWeaponVolleyMuzzle")]
     public class STUStatescriptWeaponVolleyMuzzle : STUInstance {
-        [STUFieldAttribute(0x5C2242DE, "m_entityHandle", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x08FF5B22, "m_entityHandle", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_entityHandle;
 
-        [STUFieldAttribute(0x2D3CDFA9, "m_hardPoint", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xDA37BCF8, "m_hardPoint", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_hardPoint;
 
-        [STUFieldAttribute(0x8457D578)]
-        public int m_8457D578;
+        [STUFieldAttribute(0xD9E410CF)]
+        public int m_D9E410CF;
 
-        [STUFieldAttribute(0x64E7585D)]
-        public int m_64E7585D;
+        [STUFieldAttribute(0x237A089D)]
+        public int m_237A089D;
     }
 }

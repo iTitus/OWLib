@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xAEBBF451, "STUVoiceStimulusCatalog")]
+    [STUAttribute(0x8E508BC5, "STUVoiceStimulusCatalog")]
     public class STUVoiceStimulusCatalog : STUInstance {
-        [STUFieldAttribute(0x3D83C363, "m_assets", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_2F427ADA[] m_assets;
+        [STUFieldAttribute(0x33422F70, "m_assets", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUVoiceStimulusHeader[] m_assets;
     }
 }

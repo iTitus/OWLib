@@ -2,27 +2,27 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x30E8CEFC, "STUGenericSettings_Chat")]
+    [STUAttribute(0x60A6A770, "STUGenericSettings_Chat")]
     public class STUGenericSettings_Chat : STUGenericSettings_Base {
-        [STUFieldAttribute(0xB54004FA, "m_chatChannels", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x74E16D3C, "m_chatChannels", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUChatChannelDefinition[] m_chatChannels;
 
-        [STUFieldAttribute(0x75D955D6, "m_chatCommands", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x1DCB9CA6, "m_chatCommands", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUChatCommand[] m_chatCommands;
 
-        [STUFieldAttribute(0x8C4E0BA1)]
-        public float m_8C4E0BA1;
+        [STUFieldAttribute(0x9B5749AB)]
+        public float m_9B5749AB;
 
-        [STUFieldAttribute(0x33A4B186)]
-        public float m_33A4B186;
+        [STUFieldAttribute(0x8DBA4140)]
+        public float m_8DBA4140;
 
-        [STUFieldAttribute(0x615EACEF)]
-        public uint m_615EACEF;
+        [STUFieldAttribute(0x030035CA)]
+        public uint m_030035CA;
 
-        [STUFieldAttribute(0x08092F08)]
-        public int m_08092F08;
+        [STUFieldAttribute(0x7E9FB507)]
+        public int m_7E9FB507;
 
-        [STUFieldAttribute(0xE700D46F)]
-        public uint m_E700D46F;
+        [STUFieldAttribute(0x6FA9B46C)]
+        public uint m_6FA9B46C;
     }
 }

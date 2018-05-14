@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xE39B4C43, "STUConfigVarHardPoint")]
-    public class STUConfigVarHardPoint : STU_E4324757 {
-        [STUFieldAttribute(0x2D3CDFA9, "m_hardPoint")]
+    [STUAttribute(0x8FE4A55C, "STUConfigVarHardPoint")]
+    public class STUConfigVarHardPoint : STU_82972D9D {
+        [STUFieldAttribute(0xDA37BCF8, "m_hardPoint")]
         public teStructuredDataAssetRef<STUHardPoint> m_hardPoint;
     }
 }

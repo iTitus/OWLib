@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x06591AEB, "STUAnimConfigAimWeightSet")]
+    [STUAttribute(0xCD2E2011, "STUAnimConfigAimWeightSet")]
     public class STUAnimConfigAimWeightSet : STUInstance {
-        [STUFieldAttribute(0x60DB8F99)]
-        public float m_60DB8F99;
+        [STUFieldAttribute(0xA296D97D)]
+        public float m_A296D97D;
 
-        [STUFieldAttribute(0xDAE04657)]
-        public float m_DAE04657;
+        [STUFieldAttribute(0xFF53F1FC)]
+        public float m_FF53F1FC;
 
-        [STUFieldAttribute(0x96960C7F)]
-        public float m_96960C7F;
+        [STUFieldAttribute(0x055CCC9F)]
+        public float m_055CCC9F;
 
-        [STUFieldAttribute(0x9F7F2742)]
-        public float m_9F7F2742;
+        [STUFieldAttribute(0xBDCBF43F)]
+        public float m_BDCBF43F;
 
-        [STUFieldAttribute(0x0C4880DA)]
-        public float m_0C4880DA;
+        [STUFieldAttribute(0x47C4C95C)]
+        public float m_47C4C95C;
     }
 }

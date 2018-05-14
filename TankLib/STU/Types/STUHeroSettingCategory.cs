@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xB87D57AA, "STUHeroSettingCategory")]
+    [STUAttribute(0x3FB1C308, "STUHeroSettingCategory")]
     public class STUHeroSettingCategory : STUInstance {
-        [STUFieldAttribute(0x4D2DB658, "m_identifier")]
+        [STUFieldAttribute(0xB2CA6977, "m_identifier")]
         public teStructuredDataAssetRef<STUIdentifier> m_identifier;
 
-        [STUFieldAttribute(0xB48F1D22, "m_name")]
+        [STUFieldAttribute(0xC08C4427, "m_name")]
         public teStructuredDataAssetRef<ulong> m_name;
     }
 }

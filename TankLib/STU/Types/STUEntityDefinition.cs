@@ -3,24 +3,21 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x73BB2F3A, "STUEntityDefinition")]
+    [STUAttribute(0xEC23FFFD, "STUEntityDefinition")]
     public class STUEntityDefinition : STUInstance {
-        [STUFieldAttribute(0x8B9A461F)]
-        public teStructuredDataAssetRef<STUEntityDefinition> m_8B9A461F;
+        [STUFieldAttribute(0xBD1D55E1)]
+        public teStructuredDataAssetRef<STUEntityDefinition> m_BD1D55E1;
 
-        [STUFieldAttribute(0x04A8896C)]
-        public teStructuredDataAssetRef<STUEntityDefinition> m_04A8896C;
+        [STUFieldAttribute(0xF370E2C7)]
+        public teStructuredDataAssetRef<STUEntityDefinition> m_F370E2C7;
 
-        [STUFieldAttribute(0xF29E4995, "m_childEntityData", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x3B6EE2B7, "m_childEntityData", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUChildEntityDefinition[] m_childEntityData;
 
-        [STUFieldAttribute(0x8AF8F4F5)]
-        public teStructuredDataHashMap<STUEntityComponent> m_8AF8F4F5;
+        [STUFieldAttribute(0xA8F462EA, "m_componentMap")]
+        public teStructuredDataHashMap<STUEntityComponent> m_componentMap;
 
-        [STUFieldAttribute(0x87916047)]
-        public Enum_790E517D m_87916047;
-
-        [STUFieldAttribute(0xBE8E52CD)]
-        public uint m_BE8E52CD;
+        [STUFieldAttribute(0x9466F0DC)]
+        public Enum_ACBB4E26 m_9466F0DC;
     }
 }

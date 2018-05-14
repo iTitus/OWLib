@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xD96D3396, "STUSoundParameter")]
+    [STUAttribute(0xD5190C68, "STUSoundParameter")]
     public class STUSoundParameter : STUInstance {
-        [STUFieldAttribute(0xC27830B3)]
-        public teString m_C27830B3;
+        [STUFieldAttribute(0x005823B4, "m_parameterName")]
+        public teString m_parameterName;
 
-        [STUFieldAttribute(0xB04205C5)]
-        public uint m_B04205C5;
+        [STUFieldAttribute(0xCC1CAFE3)]
+        public uint m_CC1CAFE3;
     }
 }

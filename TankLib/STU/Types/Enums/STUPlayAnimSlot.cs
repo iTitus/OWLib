@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types.Enums {
-    [STUEnumAttribute(0x9F4E2CAC, "STUPlayAnimSlot")]
+    [STUEnumAttribute(0x8C905AB8, "STUPlayAnimSlot")]
     public enum STUPlayAnimSlot : uint {
     }
 }

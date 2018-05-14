@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x19BF28AB, "STUAnimNode_BlendPartition_ExtraPartitionBoneItem")]
+    [STUAttribute(0xAE8BE042, "STUAnimNode_BlendPartition_ExtraPartitionBoneItem")]
     public class STUAnimNode_BlendPartition_ExtraPartitionBoneItem : STUInstance {
-        [STUFieldAttribute(0x3A4E6E8A, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_25B808BD m_3A4E6E8A;
+        [STUFieldAttribute(0xA54678A2, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_197AA12D m_A54678A2;
 
-        [STUFieldAttribute(0x9CDDC24D, "m_weight", ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_weight;
+        [STUFieldAttribute(0x4D5E07BF, "m_weight", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_weight;
 
-        [STUFieldAttribute(0xF97609C8, "m_bone")]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_bone;
+        [STUFieldAttribute(0xABE98556, "m_bone")]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_bone;
 
-        [STUFieldAttribute(0x9C09FA51)]
-        public byte m_9C09FA51;
+        [STUFieldAttribute(0xF1328F1C)]
+        public byte m_F1328F1C;
     }
 }

@@ -3,27 +3,24 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x2E1A0A0B, "STUGameRulesetGameMode")]
+    [STUAttribute(0x1255ECBD, "STUGameRulesetGameMode")]
     public class STUGameRulesetGameMode : STUInstance {
-        [STUFieldAttribute(0xEB4F2408, "m_gamemode")]
+        [STUFieldAttribute(0xCEA1FBEC, "m_gamemode")]
         public teStructuredDataAssetRef<STUGameMode> m_gamemode;
 
-        [STUFieldAttribute(0x3CE93B76, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUGameModeVarValuePair[] m_3CE93B76;
+        [STUFieldAttribute(0x7BF8B2E4, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUGameModeVarValuePair[] m_7BF8B2E4;
 
-        [STUFieldAttribute(0xAD4BF17F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUGameModeVarValuePair[] m_AD4BF17F;
+        [STUFieldAttribute(0x091E4A60, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUGameModeVarValuePair[] m_091E4A60;
 
-        [STUFieldAttribute(0xD440A0F7, "m_teams", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xDA359D3C, "m_teams", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUGameRulesetTeam[] m_teams;
 
-        [STUFieldAttribute(0xDB2577DB)]
-        public STUXPGainType[] m_DB2577DB;
+        [STUFieldAttribute(0x38685520)]
+        public STUXPGainType[] m_38685520;
 
-        [STUFieldAttribute(0xCA7E6EDC, "m_description")]
+        [STUFieldAttribute(0x0E27C815, "m_description")]
         public teStructuredDataAssetRef<ulong> m_description;
-
-        [STUFieldAttribute(0x86C1CFAB)]
-        public teStructuredDataAssetRef<ulong> m_86C1CFAB;
     }
 }

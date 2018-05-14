@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xA6F1FE9E, "STUClothConfig")]
+    [STUAttribute(0xF52D462A, "STUClothConfig")]
     public class STUClothConfig : STUInstance {
-        [STUFieldAttribute(0x889AE87B)]
-        public int m_889AE87B;
+        [STUFieldAttribute(0x7DD29343)]
+        public int m_7DD29343;
 
-        [STUFieldAttribute(0xC5A195CC)]
-        public byte m_C5A195CC;
+        [STUFieldAttribute(0x4B159291)]
+        public byte m_4B159291;
 
-        [STUFieldAttribute(0x9B9B09C7)]
-        public byte m_9B9B09C7;
+        [STUFieldAttribute(0x8B40320A)]
+        public byte m_8B40320A;
     }
 }

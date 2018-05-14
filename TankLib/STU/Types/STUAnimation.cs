@@ -3,51 +3,51 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x92389E46, "STUAnimation")]
+    [STUAttribute(0x1DC16AB4, "STUAnimation")]
     public class STUAnimation : STUInstance {
-        [STUFieldAttribute(0x19EFD1DB, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_419E5D60 m_19EFD1DB;
+        [STUFieldAttribute(0xED8F6A69, "m_animationSettings", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_DAFBF511 m_animationSettings;
 
-        [STUFieldAttribute(0x0D890433)]
-        public teStructuredDataAssetRef<STU_8D423808> m_0D890433;
+        [STUFieldAttribute(0x55E4C0B6)]
+        public teStructuredDataAssetRef<STU_A57C2818> m_55E4C0B6;
 
-        [STUFieldAttribute(0xE4A7B00A)]
-        public teString m_E4A7B00A;
+        [STUFieldAttribute(0x6D30C8EE)]
+        public teString m_6D30C8EE;
 
-        [STUFieldAttribute(0xA7FE4B94)]
-        public teString m_A7FE4B94;
+        [STUFieldAttribute(0x4BB85F35, "m_sourceSet")]
+        public teString m_sourceSet;
 
-        [STUFieldAttribute(0x818D011C, "m_skeleton")]
+        [STUFieldAttribute(0xD2821F52, "m_skeleton")]
         public teStructuredDataAssetRef<STUSkeleton> m_skeleton;
 
-        [STUFieldAttribute(0x694849B1)]
-        public teStructuredDataAssetRef<STUAnimation> m_694849B1;
+        [STUFieldAttribute(0xE43D9319)]
+        public teStructuredDataAssetRef<STUAnimation> m_E43D9319;
 
-        [STUFieldAttribute(0x4B309629)]
-        public teStructuredDataAssetRef<STUEffect> m_4B309629;
+        [STUFieldAttribute(0x26C7BD16, "m_animationEffect")]
+        public teStructuredDataAssetRef<STUEffect> m_animationEffect;
 
-        [STUFieldAttribute(0x2FD502DE)]
-        public teStructuredDataAssetRef<STUAnimation> m_2FD502DE;
+        [STUFieldAttribute(0x477D599D)]
+        public teStructuredDataAssetRef<STUAnimation> m_477D599D;
 
-        [STUFieldAttribute(0xB64D5A14)]
-        public teStructuredDataAssetRef<STUModel> m_B64D5A14;
+        [STUFieldAttribute(0xE3AF1B33, "m_previewModel")]
+        public teStructuredDataAssetRef<STUModel> m_previewModel;
 
-        [STUFieldAttribute(0x9991363C, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_67E91024[] m_9991363C;
+        [STUFieldAttribute(0xD8CD8287, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_3399FB2E[] m_D8CD8287;
 
-        [STUFieldAttribute(0xA35BFD43, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimationTrackOverride[] m_A35BFD43;
+        [STUFieldAttribute(0x51E9B738, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimationTrackOverride[] m_51E9B738;
 
-        [STUFieldAttribute(0x563C7626)]
-        public float m_563C7626;
+        [STUFieldAttribute(0xEF60E4E2)]
+        public float m_EF60E4E2;
 
-        [STUFieldAttribute(0x38833852)]
-        public Enum_8369E80A m_38833852;
+        [STUFieldAttribute(0x1CFD3DAB, "m_compressionType")]
+        public Enum_21597423 m_compressionType;
 
-        [STUFieldAttribute(0x38158126)]
-        public float m_38158126;
+        [STUFieldAttribute(0x9D25EC16)]
+        public float m_9D25EC16;
 
-        [STUFieldAttribute(0x614FE70E)]
-        public byte m_614FE70E;
+        [STUFieldAttribute(0xB6591C04)]
+        public byte m_B6591C04;
     }
 }

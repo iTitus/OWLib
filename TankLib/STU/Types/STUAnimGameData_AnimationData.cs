@@ -2,33 +2,33 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x65DD9C84, "STUAnimGameData_AnimationData")]
+    [STUAttribute(0xCB1C2520, "STUAnimGameData_AnimationData")]
     public class STUAnimGameData_AnimationData : STUInstance {
-        [STUFieldAttribute(0x584DEF6E)]
-        public ulong m_584DEF6E;
+        [STUFieldAttribute(0xAD5DB765, "m_animationGUID")]
+        public ulong m_animationGUID;
 
-        [STUFieldAttribute(0x9FCB2C8A)]
-        public ulong m_9FCB2C8A;
+        [STUFieldAttribute(0x635DA036)]
+        public ulong m_635DA036;
 
-        [STUFieldAttribute(0xD8514AD9)]
-        public float m_D8514AD9;
+        [STUFieldAttribute(0x1690EF48, "m_animDuration")]
+        public float m_animDuration;
 
-        [STUFieldAttribute(0x38158126)]
-        public float m_38158126;
+        [STUFieldAttribute(0x9D25EC16)]
+        public float m_9D25EC16;
 
-        [STUFieldAttribute(0xF81F4386, "m_startTime")]
+        [STUFieldAttribute(0x70453DA1, "m_startTime")]
         public float m_startTime;
 
-        [STUFieldAttribute(0x8E406744)]
-        public float m_8E406744;
+        [STUFieldAttribute(0xD72B0003)]
+        public float m_D72B0003;
 
-        [STUFieldAttribute(0xAE4326C3)]
-        public float m_AE4326C3;
+        [STUFieldAttribute(0xBA982552)]
+        public float m_BA982552;
 
-        [STUFieldAttribute(0x7EEFB57A, "m_flags")]
+        [STUFieldAttribute(0x47F2FEDE, "m_flags")]
         public ushort m_flags;
 
-        [STUFieldAttribute(0xAE2D8911)]
-        public ushort m_AE2D8911;
+        [STUFieldAttribute(0xCC84D865)]
+        public ushort m_CC84D865;
     }
 }

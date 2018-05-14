@@ -22,8 +22,8 @@ namespace TankLib.STU.Types {
         [STUFieldAttribute(0x1B0F1270)]
         public uint m_1B0F1270;
 
-        [STUFieldAttribute(0xDB80F546)]
-        public uint m_DB80F546;
+        [STUFieldAttribute(0xDB80F546, "m_propertyKey")]
+        public uint m_propertyKey;
 
         [STUFieldAttribute(0x7212DBA2)]
         public int m_7212DBA2;

@@ -19,8 +19,8 @@ namespace TankLib.STU.Types {
         [STUFieldAttribute(0x0E487E66)]
         public ulong m_0E487E66;
 
-        [STUFieldAttribute(0x7749E198, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_A0BDC3D3 m_7749E198;
+        [STUFieldAttribute(0x7749E198, "m_editCategory", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_A0BDC3D3 m_editCategory;
 
         [STUFieldAttribute(0x87A0700D)]
         public int m_87A0700D;

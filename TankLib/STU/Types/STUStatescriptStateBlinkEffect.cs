@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x99B885B8, "STUStatescriptStateBlinkEffect")]
+    [STUAttribute(0x429991A7, "STUStatescriptStateBlinkEffect")]
     public class STUStatescriptStateBlinkEffect : STUStatescriptState {
-        [STUFieldAttribute(0xC2440186, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_A1AAB8C4 m_C2440186;
+        [STUFieldAttribute(0x5094068C, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_8DCB62EA m_5094068C;
 
-        [STUFieldAttribute(0x78EE3D16, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUStatescriptEffect m_78EE3D16;
+        [STUFieldAttribute(0x2ACEEFAC, "m_startEffect", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptEffect m_startEffect;
 
-        [STUFieldAttribute(0xFCA24F07, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_B8F4347B m_FCA24F07;
+        [STUFieldAttribute(0x131699D3, "m_endEffect", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_677FD652 m_endEffect;
 
-        [STUFieldAttribute(0x3024B8FC, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_B8F4347B m_3024B8FC;
+        [STUFieldAttribute(0x55E91BB6, "m_ribbonEffect", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_677FD652 m_ribbonEffect;
 
-        [STUFieldAttribute(0x9E4DE701, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_9E4DE701;
+        [STUFieldAttribute(0x25DD61E6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_25DD61E6;
     }
 }

@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x7DDC51BC, "STUAnimBlendTree_OnFinished")]
+    [STUAttribute(0xB16F6259, "STUAnimBlendTree_OnFinished")]
     public class STUAnimBlendTree_OnFinished : STUInstance {
-        [STUFieldAttribute(0x0F88291F, "m_weightDriver", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x1B4A676B, "m_weightDriver", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUAnimBlendTree_OnFinished_WeightDriver m_weightDriver;
 
-        [STUFieldAttribute(0x6CB79D25, "m_slotAnims", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x3A0D9527, "m_slotAnims", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUAnimBlendTree_SlotAnimation[] m_slotAnims;
 
-        [STUFieldAttribute(0x5E17A3D1)]
-        public byte m_5E17A3D1;
+        [STUFieldAttribute(0x3F683827)]
+        public byte m_3F683827;
 
-        [STUFieldAttribute(0xE10F639C)]
-        public byte m_E10F639C;
+        [STUFieldAttribute(0xF06C03F4)]
+        public byte m_F06C03F4;
     }
 }

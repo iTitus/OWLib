@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x76B1DB1F, "STUHeroSettingFloat")]
+    [STUAttribute(0x64C2DA65, "STUHeroSettingFloat")]
     public class STUHeroSettingFloat : STUHeroSettingBase {
-        [STUFieldAttribute(0x45A7A69C, "m_default")]
+        [STUFieldAttribute(0xB9114C96, "m_default")]
         public float m_default;
 
-        [STUFieldAttribute(0x7594F80E, "m_min")]
+        [STUFieldAttribute(0x6AD49FD7, "m_min")]
         public float m_min;
 
-        [STUFieldAttribute(0x7CEA65C7, "m_max")]
+        [STUFieldAttribute(0x56D9A08E, "m_max")]
         public float m_max;
 
-        [STUFieldAttribute(0x9321E2B9)]
-        public float m_9321E2B9;
+        [STUFieldAttribute(0x13212D4E)]
+        public float m_13212D4E;
 
-        [STUFieldAttribute(0xE60EECC4)]
-        public byte m_E60EECC4;
+        [STUFieldAttribute(0xD9F7F187)]
+        public byte m_D9F7F187;
     }
 }

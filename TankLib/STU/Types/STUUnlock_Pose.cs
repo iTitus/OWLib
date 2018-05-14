@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xC6A72877, "STUUnlock_Pose")]
+    [STUAttribute(0x018667E2, "STUUnlock_Pose")]
     public class STUUnlock_Pose : STUUnlock {
-        [STUFieldAttribute(0x2E5FBA99, "m_pose")]
+        [STUFieldAttribute(0xAE95765E, "m_pose")]
         public teStructuredDataAssetRef<ulong> m_pose;
     }
 }

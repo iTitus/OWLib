@@ -3,15 +3,15 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x5ACD7C67, "STUAnimTriangulationMap")]
+    [STUAttribute(0x1A428632, "STUAnimTriangulationMap")]
     public class STUAnimTriangulationMap : STUInstance {
-        [STUFieldAttribute(0x0D50490E, "m_triangles", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x36DCED5D, "m_triangles", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUAnimTriangulationMap_Triangle[] m_triangles;
 
-        [STUFieldAttribute(0xB853170A)]
-        public teVec2 m_B853170A;
+        [STUFieldAttribute(0x042A27B8)]
+        public teVec2 m_042A27B8;
 
-        [STUFieldAttribute(0x18A188D2)]
-        public teVec2 m_18A188D2;
+        [STUFieldAttribute(0x382718E1)]
+        public teVec2 m_382718E1;
     }
 }

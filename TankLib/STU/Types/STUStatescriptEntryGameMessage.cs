@@ -2,27 +2,27 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x8A7E9DA8, "STUStatescriptEntryGameMessage")]
+    [STUAttribute(0xBE49A4C2, "STUStatescriptEntryGameMessage")]
     public class STUStatescriptEntryGameMessage : STUStatescriptEntry {
-        [STUFieldAttribute(0xBC2A8DA3, "m_params", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_EF930FD7[] m_params;
+        [STUFieldAttribute(0xC55D5C0D, "m_params", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_C679B01F[] m_params;
 
-        [STUFieldAttribute(0x92A85396, "m_gameMessage", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_gameMessage;
+        [STUFieldAttribute(0x5178F207, "m_gameMessage", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarGameMessage m_gameMessage;
 
-        [STUFieldAttribute(0xB60ABDA4, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarDynamic m_B60ABDA4;
+        [STUFieldAttribute(0xAFF3B654, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarDynamic m_AFF3B654;
 
-        [STUFieldAttribute(0xFF703F20, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarDynamic m_FF703F20;
+        [STUFieldAttribute(0xBC77119F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarDynamic m_BC77119F;
 
-        [STUFieldAttribute(0x44D0D060, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarDynamic m_44D0D060;
+        [STUFieldAttribute(0xA6152623, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarDynamic m_A6152623;
 
-        [STUFieldAttribute(0xF8274C10, "m_filter", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x35570DE3, "m_filter", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVarFilter m_filter;
 
-        [STUFieldAttribute(0xFDBDCB70)]
-        public byte m_FDBDCB70;
+        [STUFieldAttribute(0xEB7F6AB1)]
+        public byte m_EB7F6AB1;
     }
 }

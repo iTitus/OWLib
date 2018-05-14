@@ -2,18 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x44897C73, "STUBreakableConfig")]
+    [STUAttribute(0xB323441D, "STUBreakableConfig")]
     public class STUBreakableConfig : STUInstance {
-        [STUFieldAttribute(0xE1B0C07F, "m_clientOnly")]
+        [STUFieldAttribute(0x4FF25313, "m_clientOnly")]
         public byte m_clientOnly;
 
-        [STUFieldAttribute(0xEDA30E4A)]
-        public byte m_EDA30E4A;
+        [STUFieldAttribute(0x49D56325, "m_spawnSleeping")]
+        public byte m_spawnSleeping;
 
-        [STUFieldAttribute(0xD7C2FC23)]
-        public byte m_D7C2FC23;
-
-        [STUFieldAttribute(0x06CC8602)]
-        public byte m_06CC8602;
+        [STUFieldAttribute(0xFF198FD2)]
+        public byte m_FF198FD2;
     }
 }

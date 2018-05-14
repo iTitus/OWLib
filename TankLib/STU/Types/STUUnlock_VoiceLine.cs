@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x8A9D1F89, "STUUnlock_VoiceLine")]
+    [STUAttribute(0x090B30AB, "STUUnlock_VoiceLine")]
     public class STUUnlock_VoiceLine : STUUnlock {
-        [STUFieldAttribute(0x1B25AB90, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_5C713BD4 m_1B25AB90;
+        [STUFieldAttribute(0x5DD25DBA, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUUnlock_SprayPaintEffect m_5DD25DBA;
 
-        [STUFieldAttribute(0xF57B051E)]
-        public teStructuredDataAssetRef<ulong> m_F57B051E;
+        [STUFieldAttribute(0x8463AA7B)]
+        public teStructuredDataAssetRef<ulong> m_8463AA7B;
     }
 }

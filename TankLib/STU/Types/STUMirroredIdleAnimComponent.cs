@@ -2,30 +2,24 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x3AA5CB04, "STUMirroredIdleAnimComponent")]
+    [STUAttribute(0xC28984B1, "STUMirroredIdleAnimComponent")]
     public class STUMirroredIdleAnimComponent : STUMirroredEntityComponent {
-        [STUFieldAttribute(0xC9D669B6, "m_idleAnimation")]
+        [STUFieldAttribute(0xBC15971B, "m_idleAnimation")]
         public teStructuredDataAssetRef<STUAnimation> m_idleAnimation;
 
-        [STUFieldAttribute(0xD91EF907)]
-        public teStructuredDataAssetRef<ulong> m_D91EF907;
+        [STUFieldAttribute(0xDDC79F13, "m_collisionModel")]
+        public teStructuredDataAssetRef<ulong> m_collisionModel;
 
-        [STUFieldAttribute(0x7D921E31, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_2BA91EC5 m_7D921E31;
+        [STUFieldAttribute(0x5E26A2A5, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUAnimGameData_Skeleton m_5E26A2A5;
 
-        [STUFieldAttribute(0x25D54A00, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_E93236BC m_25D54A00;
+        [STUFieldAttribute(0xF0D6E466, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUAnimGameData_Animation m_F0D6E466;
 
-        [STUFieldAttribute(0x422B4A8E)]
-        public int m_422B4A8E;
+        [STUFieldAttribute(0xD82EC091)]
+        public float m_D82EC091;
 
-        [STUFieldAttribute(0xEDF6D105)]
-        public float m_EDF6D105;
-
-        [STUFieldAttribute(0x8D7C6FCE)]
-        public uint m_8D7C6FCE;
-
-        [STUFieldAttribute(0x5E009A60)]
-        public byte m_5E009A60;
+        [STUFieldAttribute(0x8C6A9ADF)]
+        public byte m_8C6A9ADF;
     }
 }

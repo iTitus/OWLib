@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x27937BC6, "STUConfigVarUInt64")]
+    [STUAttribute(0x5FCFCA69, "STUConfigVarUInt64")]
     public class STUConfigVarUInt64 : STUConfigVarUInt64Base {
-        [STUFieldAttribute(0x07DD813E, "m_value")]
+        [STUFieldAttribute(0x5180E750, "m_value")]
         public ulong m_value;
     }
 }

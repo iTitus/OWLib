@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xD96BC652, "STUSoundBank")]
-    public class STUSoundBank : STU_39091531 {
-        [STUFieldAttribute(0xF99A0938)]
-        public teString m_F99A0938;
+    [STUAttribute(0xAF47978C, "STUSoundBank")]
+    public class STUSoundBank : STU_F8A5E077 {
+        [STUFieldAttribute(0x1D0A3932)]
+        public teString m_1D0A3932;
 
-        [STUFieldAttribute(0xFA1FDF0D)]
-        public teString m_FA1FDF0D;
+        [STUFieldAttribute(0x81386F9F)]
+        public teString m_81386F9F;
 
-        [STUFieldAttribute(0xF7805734)]
-        public uint m_F7805734;
+        [STUFieldAttribute(0x40AC0372)]
+        public uint m_40AC0372;
     }
 }

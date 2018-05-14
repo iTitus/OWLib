@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF731C873, "STUAnimBlendTimeParams")]
+    [STUAttribute(0x19F77CFE, "STUAnimBlendTimeParams")]
     public class STUAnimBlendTimeParams : STUInstance {
-        [STUFieldAttribute(0x7D47BD64, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_7D47BD64;
+        [STUFieldAttribute(0x428B9FC4, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_428B9FC4;
 
-        [STUFieldAttribute(0x57A4E5BB, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_57A4E5BB;
+        [STUFieldAttribute(0x0829A9A6, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_0829A9A6;
 
-        [STUFieldAttribute(0x06C1367E, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_15EF3A7E m_06C1367E;
+        [STUFieldAttribute(0x0BF0BF60, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_CFB183E4 m_0BF0BF60;
 
-        [STUFieldAttribute(0xD388C2A4, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_15EF3A7E m_D388C2A4;
+        [STUFieldAttribute(0x6B75C3C1, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_CFB183E4 m_6B75C3C1;
     }
 }

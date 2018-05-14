@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x83587DEE, "STUAIBodyPartDamageGroup")]
+    [STUAttribute(0xE5C2396A, "STUAIBodyPartDamageGroup")]
     public class STUAIBodyPartDamageGroup : STUInstance {
-        [STUFieldAttribute(0xAAEA98C4, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAIBodyPartDamageGroupDamageTagScalar[] m_AAEA98C4;
+        [STUFieldAttribute(0x099639B3, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAIBodyPartDamageGroupDamageTagScalar[] m_099639B3;
 
-        [STUFieldAttribute(0x2DDFCB42)]
-        public teStructuredDataAssetRef<STUIdentifier> m_2DDFCB42;
+        [STUFieldAttribute(0x2B2DCACF)]
+        public teStructuredDataAssetRef<STUIdentifier> m_2B2DCACF;
 
-        [STUFieldAttribute(0xD1C7F985, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_D1C7F985;
+        [STUFieldAttribute(0x697E5373, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_697E5373;
 
-        [STUFieldAttribute(0x137B3D93, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_137B3D93;
+        [STUFieldAttribute(0x770D6CDB, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_770D6CDB;
 
-        [STUFieldAttribute(0x4A498149, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_4A498149;
+        [STUFieldAttribute(0xABC9E4C6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_ABC9E4C6;
     }
 }

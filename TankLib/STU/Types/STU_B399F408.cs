@@ -5,6 +5,6 @@ namespace TankLib.STU.Types {
     [STUAttribute(0xB399F408)]
     public class STU_B399F408 : STUUXLink {
         [STUFieldAttribute(0x975BF60A)]
-        public teStructuredDataAssetRef<STU_84840C20> m_975BF60A;
+        public teStructuredDataAssetRef<STU_3632EEF9> m_975BF60A;
     }
 }

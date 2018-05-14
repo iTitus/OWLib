@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x2DB5899F, "STUPvPGameComponent")]
+    [STUAttribute(0x81EBDCD0, "STUPvPGameComponent")]
     public class STUPvPGameComponent : STUMirroredEntityComponent {
-        [STUFieldAttribute(0x9CB455AD, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUStatescriptGraphWithOverrides[] m_9CB455AD;
+        [STUFieldAttribute(0x7FCD7E24, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUStatescriptGraphWithOverrides[] m_7FCD7E24;
 
-        [STUFieldAttribute(0x2D9815BA, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUStatescriptSchema m_2D9815BA;
+        [STUFieldAttribute(0x4FE8EAB6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptSchema m_4FE8EAB6;
 
-        [STUFieldAttribute(0x0A01F19E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_8B68F073 m_0A01F19E;
+        [STUFieldAttribute(0x274F7671, "m_gameModeLegacy", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUGameModeLegacy m_gameModeLegacy;
 
-        [STUFieldAttribute(0xC9EE018D)]
-        public byte m_C9EE018D;
+        [STUFieldAttribute(0xA301C80F)]
+        public byte m_A301C80F;
     }
 }

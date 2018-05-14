@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x3C6A88BF, "STUAnimNode_Blend2d")]
+    [STUAttribute(0x418E20C7, "STUAnimNode_Blend2d")]
     public class STUAnimNode_Blend2d : STUAnimNode_Base {
-        [STUFieldAttribute(0xF0CF068D, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimBlendDriverParam m_F0CF068D;
+        [STUFieldAttribute(0x43A16C2B, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimBlendDriverParam m_43A16C2B;
 
-        [STUFieldAttribute(0x8D244EC2, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimBlendDriverParam m_8D244EC2;
+        [STUFieldAttribute(0x34A65CBD, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimBlendDriverParam m_34A65CBD;
 
-        [STUFieldAttribute(0xEEA81ECC, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimTriangulationMap m_EEA81ECC;
+        [STUFieldAttribute(0xF0ADEEA5, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimTriangulationMap m_F0ADEEA5;
 
-        [STUFieldAttribute(0x134EE5BB, "m_children", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xAECD07C2, "m_children", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUAnimNode_Blend2dChild[] m_children;
     }
 }

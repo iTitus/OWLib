@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xE944C17A, "STUConfigVoiceDefinition")]
-    public class STUConfigVoiceDefinition : STU_E4324757 {
-        [STUFieldAttribute(0xC6C61CB0)]
-        public teStructuredDataAssetRef<STUVoiceSet> m_C6C61CB0;
+    [STUAttribute(0xF36D34BB, "STUConfigVoiceDefinition")]
+    public class STUConfigVoiceDefinition : STU_82972D9D {
+        [STUFieldAttribute(0x73ADA147, "m_voiceDef")]
+        public teStructuredDataAssetRef<STUVoiceSet> m_voiceDef;
     }
 }

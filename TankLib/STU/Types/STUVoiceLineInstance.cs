@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x00C21225, "STUVoiceLineInstance")]
+    [STUAttribute(0x8884C15A, "STUVoiceLineInstance")]
     public class STUVoiceLineInstance : STUInstance {
-        [STUFieldAttribute(0xD0C28030)]
-        public teStructuredDataAssetRef<STUHardPoint> m_D0C28030;
+        [STUFieldAttribute(0xA13D55A6, "m_effectHardpoint")]
+        public teStructuredDataAssetRef<STUHardPoint> m_effectHardpoint;
 
-        [STUFieldAttribute(0x43C90056)]
-        public teStructuredDataAssetRef<STU_7A68A730> m_43C90056;
+        [STUFieldAttribute(0xC903EEAE)]
+        public teStructuredDataAssetRef<STU_722E96D9> m_C903EEAE;
 
-        [STUFieldAttribute(0xAF226247, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_F746901F m_AF226247;
+        [STUFieldAttribute(0x7B562F09, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_07A46D78 m_7B562F09;
 
-        [STUFieldAttribute(0xBC474019, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_40DA6CDF m_BC474019;
+        [STUFieldAttribute(0x77B08A61, "m_voiceLineRuntime", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUVoiceLine m_voiceLineRuntime;
 
-        [STUFieldAttribute(0x38BFB46C)]
-        public ulong m_38BFB46C;
+        [STUFieldAttribute(0x06207B8F, "m_resourceKey")]
+        public ulong m_resourceKey;
     }
 }

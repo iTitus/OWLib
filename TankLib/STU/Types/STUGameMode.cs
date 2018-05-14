@@ -3,72 +3,60 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x494C33C4, "STUGameMode")]
+    [STUAttribute(0xED08B49B, "STUGameMode")]
     public class STUGameMode : STUInstance {
-        [STUFieldAttribute(0xA43573F4)]
-        public teStructuredDataAssetRef<ulong>[] m_A43573F4;
+        [STUFieldAttribute(0xEC4264A7)]
+        public teStructuredDataAssetRef<STUIdentifier>[] m_EC4264A7;
 
-        [STUFieldAttribute(0xCF63B633)]
-        public teStructuredDataAssetRef<STU_6BE90C5C> m_CF63B633;
+        [STUFieldAttribute(0x1D4FA5E9)]
+        public teStructuredDataAssetRef<STU_D83702BD> m_1D4FA5E9;
 
-        [STUFieldAttribute(0x3CE93B76, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUGameModeVarValuePair[] m_3CE93B76;
+        [STUFieldAttribute(0x7BF8B2E4, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUGameModeVarValuePair[] m_7BF8B2E4;
 
-        [STUFieldAttribute(0xF88BA3B9)]
-        public teStructuredDataAssetRef<STU_6BE90C5C> m_F88BA3B9;
+        [STUFieldAttribute(0xF1C6F06E)]
+        public teStructuredDataAssetRef<STU_D83702BD> m_F1C6F06E;
 
-        [STUFieldAttribute(0xAD4BF17F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUGameModeVarValuePair[] m_AD4BF17F;
+        [STUFieldAttribute(0x091E4A60, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUGameModeVarValuePair[] m_091E4A60;
 
-        [STUFieldAttribute(0x5DB91CE2, "m_displayName")]
+        [STUFieldAttribute(0xA4DE4495, "m_displayName")]
         public teStructuredDataAssetRef<ulong> m_displayName;
 
-        [STUFieldAttribute(0x6EB38130)]
-        public teStructuredDataAssetRef<ulong> m_6EB38130;
+        [STUFieldAttribute(0x89CABB3B)]
+        public teStructuredDataAssetRef<ulong> m_89CABB3B;
 
-        [STUFieldAttribute(0xE04197AF, "m_gameRulesetSchemas")]
-        public teStructuredDataAssetRef<ulong>[] m_gameRulesetSchemas;
+        [STUFieldAttribute(0xB86F2E64, "m_gameRulesetSchemas")]
+        public teStructuredDataAssetRef<STUGameRulesetSchema>[] m_gameRulesetSchemas;
 
-        [STUFieldAttribute(0xD440A0F7, "m_teams", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xDA359D3C, "m_teams", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUGameModeTeam[] m_teams;
 
-        [STUFieldAttribute(0xDA642982, "m_loadoutOverrides", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xAF57E772, "m_loadoutOverrides", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUGameModeLoadoutOverride[] m_loadoutOverrides;
 
-        [STUFieldAttribute(0xA8957901)]
-        public teStructuredDataAssetRef<STUCelebration> m_A8957901;
+        [STUFieldAttribute(0xA4FF9638, "m_requiredCelebration")]
+        public teStructuredDataAssetRef<STUCelebration> m_requiredCelebration;
 
-        [STUFieldAttribute(0x7F5B54B2)]
-        public teStructuredDataAssetRef<ulong> m_7F5B54B2;
+        [STUFieldAttribute(0x26F8CC3C)]
+        public float m_26F8CC3C;
 
-        [STUFieldAttribute(0xCBAE46D4)]
-        public float m_CBAE46D4;
+        [STUFieldAttribute(0xD528E4D8)]
+        public int m_D528E4D8;
 
-        [STUFieldAttribute(0x37D4F9CD)]
-        public int m_37D4F9CD;
+        [STUFieldAttribute(0x62265787, "m_gameModeType")]
+        public Enum_32AA738D m_gameModeType;
 
-        [STUFieldAttribute(0x8A5415B9)]
-        public Enum_1964FED7 m_8A5415B9;
+        [STUFieldAttribute(0xD11E6071)]
+        public byte m_D11E6071;
 
-        [STUFieldAttribute(0x70064613)]
-        public byte m_70064613;
+        [STUFieldAttribute(0x2D2EF83C)]
+        public byte m_2D2EF83C;
 
-        [STUFieldAttribute(0xF3E24B6F)]
-        public byte m_F3E24B6F;
+        [STUFieldAttribute(0xEE290FD0)]
+        public byte m_EE290FD0;
 
-        [STUFieldAttribute(0x040601B2)]
-        public byte m_040601B2;
-
-        [STUFieldAttribute(0x0FC17230)]
-        public byte m_0FC17230;
-
-        [STUFieldAttribute(0x372E20EB)]
-        public byte m_372E20EB;
-
-        [STUFieldAttribute(0xF40CE5D4)]
-        public byte m_F40CE5D4;
-
-        [STUFieldAttribute(0x96C5A6F6)]
-        public byte m_96C5A6F6;
+        [STUFieldAttribute(0xB6C39BDB)]
+        public byte m_B6C39BDB;
     }
 }

@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x32443B67, "STUAnimNode_AnimationTrackOverride")]
+    [STUAttribute(0x3FCFAE36, "STUAnimNode_AnimationTrackOverride")]
     public class STUAnimNode_AnimationTrackOverride : STUInstance {
-        [STUFieldAttribute(0xF46C7A7F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_3426C7F2 m_F46C7A7F;
+        [STUFieldAttribute(0x0D5E2F60, "m_animCurve", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_A074A01F m_animCurve;
 
-        [STUFieldAttribute(0x07DD813E, "m_value", ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_value;
+        [STUFieldAttribute(0x5180E750, "m_value", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_value;
 
-        [STUFieldAttribute(0xBA891264, "m_dataFlow")]
+        [STUFieldAttribute(0x547D9847, "m_dataFlow")]
         public teStructuredDataAssetRef<STUDataFlow> m_dataFlow;
     }
 }

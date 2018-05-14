@@ -2,27 +2,27 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x19C333CE, "STULocalPersistedBinding")]
+    [STUAttribute(0xD8017400, "STULocalPersistedBinding")]
     public class STULocalPersistedBinding : STUInstance {
-        [STUFieldAttribute(0x9D07CD91)]
-        public ulong m_9D07CD91;
+        [STUFieldAttribute(0xF5928F34)]
+        public ulong m_F5928F34;
 
-        [STUFieldAttribute(0xFC33191B, "m_logicalButton")]
+        [STUFieldAttribute(0x3C9341F5, "m_logicalButton")]
         public ulong m_logicalButton;
 
-        [STUFieldAttribute(0x37AB13D3, "m_hero")]
+        [STUFieldAttribute(0xCF6154A7, "m_hero")]
         public ulong m_hero;
 
-        [STUFieldAttribute(0xCDC82210)]
-        public uint m_CDC82210;
+        [STUFieldAttribute(0x37898BCE, "m_modeCRC")]
+        public uint m_modeCRC;
 
-        [STUFieldAttribute(0xF1D42AA4)]
-        public byte m_F1D42AA4;
+        [STUFieldAttribute(0xFD8F51DB)]
+        public byte m_FD8F51DB;
 
-        [STUFieldAttribute(0x5B5B8335)]
-        public byte m_5B5B8335;
+        [STUFieldAttribute(0x699CDB36)]
+        public byte m_699CDB36;
 
-        [STUFieldAttribute(0x26A1D7ED)]
-        public byte m_26A1D7ED;
+        [STUFieldAttribute(0xDA0A8854)]
+        public byte m_DA0A8854;
     }
 }

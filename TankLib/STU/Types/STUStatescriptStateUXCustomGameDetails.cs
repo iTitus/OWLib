@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x4573639A, "STUStatescriptStateUXCustomGameDetails")]
+    [STUAttribute(0xCB02363A, "STUStatescriptStateUXCustomGameDetails")]
     public class STUStatescriptStateUXCustomGameDetails : STUStatescriptStateUXPresenter {
-        [STUFieldAttribute(0xD1B20DBC, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_D1B20DBC;
+        [STUFieldAttribute(0x393AA209, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_393AA209;
 
-        [STUFieldAttribute(0x6E08307A, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUStatescriptOutputPlug m_6E08307A;
+        [STUFieldAttribute(0x5144AFB3, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptOutputPlug m_5144AFB3;
     }
 }

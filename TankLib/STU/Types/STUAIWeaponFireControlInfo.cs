@@ -3,21 +3,21 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0519019F, "STUAIWeaponFireControlInfo")]
+    [STUAttribute(0xFEC0F75B, "STUAIWeaponFireControlInfo")]
     public class STUAIWeaponFireControlInfo : STUInstance {
-        [STUFieldAttribute(0xF2810377)]
-        public teStructuredDataAssetRef<STUIdentifier> m_F2810377;
+        [STUFieldAttribute(0xF0F5DA3A, "m_weaponID")]
+        public teStructuredDataAssetRef<STUIdentifier> m_weaponID;
 
-        [STUFieldAttribute(0xC3657821)]
-        public teStructuredDataAssetRef<STUHardPoint> m_C3657821;
+        [STUFieldAttribute(0x1AFE6805, "m_aimHardpoint")]
+        public teStructuredDataAssetRef<STUHardPoint> m_aimHardpoint;
 
-        [STUFieldAttribute(0x4F5E7D4C)]
-        public STULogicalButton m_4F5E7D4C;
+        [STUFieldAttribute(0x841A8DFF)]
+        public STULogicalButton m_841A8DFF;
 
-        [STUFieldAttribute(0xED6D601D)]
-        public uint m_ED6D601D;
+        [STUFieldAttribute(0x2181CFFA)]
+        public uint m_2181CFFA;
 
-        [STUFieldAttribute(0xA60150E2)]
-        public uint m_A60150E2;
+        [STUFieldAttribute(0xC97F2482)]
+        public uint m_C97F2482;
     }
 }

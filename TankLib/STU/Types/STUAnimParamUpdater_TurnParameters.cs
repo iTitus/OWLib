@@ -2,30 +2,30 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x9288D2C6, "STUAnimParamUpdater_TurnParameters")]
+    [STUAttribute(0xCC796AD7, "STUAnimParamUpdater_TurnParameters")]
     public class STUAnimParamUpdater_TurnParameters : STUInstance {
-        [STUFieldAttribute(0x8F5C8462)]
-        public teStructuredDataAssetRef<STUAnimCategory> m_8F5C8462;
+        [STUFieldAttribute(0xB31F63AC)]
+        public teStructuredDataAssetRef<STUAnimCategory> m_B31F63AC;
 
-        [STUFieldAttribute(0x946D26E1)]
-        public float m_946D26E1;
+        [STUFieldAttribute(0x5DC34814)]
+        public float m_5DC34814;
 
-        [STUFieldAttribute(0x1E8E92CC)]
-        public float m_1E8E92CC;
+        [STUFieldAttribute(0xBACB4A5C)]
+        public float m_BACB4A5C;
 
-        [STUFieldAttribute(0x54A12FD0)]
-        public float m_54A12FD0;
+        [STUFieldAttribute(0xAB2497A9)]
+        public float m_AB2497A9;
 
-        [STUFieldAttribute(0x1E2C4675)]
-        public float m_1E2C4675;
+        [STUFieldAttribute(0x9729A8F0)]
+        public float m_9729A8F0;
 
-        [STUFieldAttribute(0x20FDCFD4)]
-        public float m_20FDCFD4;
+        [STUFieldAttribute(0x889D6170)]
+        public float m_889D6170;
 
-        [STUFieldAttribute(0xFDE68C76)]
-        public float m_FDE68C76;
+        [STUFieldAttribute(0xB4905E29)]
+        public float m_B4905E29;
 
-        [STUFieldAttribute(0x46715402)]
-        public float m_46715402;
+        [STUFieldAttribute(0xFEB5C35D)]
+        public float m_FEB5C35D;
     }
 }

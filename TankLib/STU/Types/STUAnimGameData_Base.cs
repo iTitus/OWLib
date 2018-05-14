@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x391AC5F1, "STUAnimGameData_Base")]
+    [STUAttribute(0xC06A57DC, "STUAnimGameData_Base")]
     public class STUAnimGameData_Base : STUInstance {
     }
 }

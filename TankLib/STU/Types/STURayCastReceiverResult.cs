@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0051316E, "STURayCastReceiverResult")]
+    [STUAttribute(0xD0FA9BF4, "STURayCastReceiverResult")]
     public class STURayCastReceiverResult : STUInstance {
-        [STUFieldAttribute(0x7EEFB57A, "m_flags")]
+        [STUFieldAttribute(0x47F2FEDE, "m_flags")]
         public uint m_flags;
     }
 }

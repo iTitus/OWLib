@@ -2,66 +2,60 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x191835F9, "STUModelComponent")]
+    [STUAttribute(0xBC1233E0, "STUModelComponent")]
     public class STUModelComponent : STUEntityComponent {
-        [STUFieldAttribute(0x523339C1, "m_animBlendTreeSet")]
+        [STUFieldAttribute(0xDF051A78, "m_animBlendTreeSet")]
         public teStructuredDataAssetRef<STUAnimBlendTreeSet> m_animBlendTreeSet;
 
-        [STUFieldAttribute(0x36F54327)]
-        public teStructuredDataAssetRef<STUAnimBlendTree> m_36F54327;
+        [STUFieldAttribute(0x26B8D852)]
+        public teStructuredDataAssetRef<STUAnimBlendTree> m_26B8D852;
 
-        [STUFieldAttribute(0x9C3F817E)]
-        public teStructuredDataAssetRef<STUSkeleton> m_9C3F817E;
+        [STUFieldAttribute(0x5D95049E)]
+        public teStructuredDataAssetRef<STUSkeleton> m_5D95049E;
 
-        [STUFieldAttribute(0x2D124BE2, "m_model")]
+        [STUFieldAttribute(0x9B62CDBD, "m_model")]
         public teStructuredDataAssetRef<STUModel> m_model;
 
-        [STUFieldAttribute(0x9297ADB4, "m_look")]
+        [STUFieldAttribute(0xB595EE23, "m_look")]
         public teStructuredDataAssetRef<STUModelLook> m_look;
 
-        [STUFieldAttribute(0xA6041C8B, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CAAB2581 m_A6041C8B;
+        [STUFieldAttribute(0xAF31563F, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_B740FD14 m_AF31563F;
 
-        [STUFieldAttribute(0x33DA887B)]
-        public teStructuredDataAssetRef<ulong>[] m_33DA887B;
+        [STUFieldAttribute(0x70888397)]
+        public teStructuredDataAssetRef<STU_875E571C>[] m_70888397;
 
-        [STUFieldAttribute(0x14256239, "m_ragdollConfig", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xFD00D6B5, "m_ragdollConfig", ReaderType = typeof(InlineInstanceFieldReader))]
         public STURagdollConfig m_ragdollConfig;
 
-        [STUFieldAttribute(0xA7A9DA23, "m_clothConfig", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x7C78705A, "m_clothConfig", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUClothConfig m_clothConfig;
 
-        [STUFieldAttribute(0xBE0D6D29)]
-        public uint m_BE0D6D29;
+        [STUFieldAttribute(0x98AE9CAD)]
+        public float m_98AE9CAD;
 
-        [STUFieldAttribute(0x94546E3D)]
-        public float m_94546E3D;
-
-        [STUFieldAttribute(0x93178192, "m_rigidBodyConfig", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x5AF1F1D0, "m_rigidBodyConfig", ReaderType = typeof(InlineInstanceFieldReader))]
         public STURigidBodyConfig m_rigidBodyConfig;
 
-        [STUFieldAttribute(0xDEB1159A, "m_breakableConfig", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xAB52EF36, "m_breakableConfig", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUBreakableConfig m_breakableConfig;
 
-        [STUFieldAttribute(0x65777ADA)]
-        public byte m_65777ADA;
+        [STUFieldAttribute(0x63A58F4A)]
+        public byte m_63A58F4A;
 
-        [STUFieldAttribute(0xFFAD7FF2)]
-        public byte m_FFAD7FF2;
+        [STUFieldAttribute(0xECBE5BFC)]
+        public byte m_ECBE5BFC;
 
-        [STUFieldAttribute(0x60BFA90D)]
-        public byte m_60BFA90D;
+        [STUFieldAttribute(0x101C2F24)]
+        public byte m_101C2F24;
 
-        [STUFieldAttribute(0x6DC5AE9B)]
-        public byte m_6DC5AE9B;
+        [STUFieldAttribute(0x673ADEBC)]
+        public byte m_673ADEBC;
 
-        [STUFieldAttribute(0x2056559D)]
-        public byte m_2056559D;
+        [STUFieldAttribute(0xCCAC7FAE)]
+        public byte m_CCAC7FAE;
 
-        [STUFieldAttribute(0xADC54E57)]
-        public byte m_ADC54E57;
-
-        [STUFieldAttribute(0x4A82B056)]
-        public byte m_4A82B056;
+        [STUFieldAttribute(0x9656FA7D, "m_spawnHidden")]
+        public byte m_spawnHidden;
     }
 }

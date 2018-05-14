@@ -2,27 +2,27 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF3942997, "STUAnimBlendTreeSet_BonePoseOverrideItem")]
+    [STUAttribute(0xE8325C2D, "STUAnimBlendTreeSet_BonePoseOverrideItem")]
     public class STUAnimBlendTreeSet_BonePoseOverrideItem : STUInstance {
-        [STUFieldAttribute(0xD482D723)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_D482D723;
+        [STUFieldAttribute(0x3928D0BC)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_3928D0BC;
 
-        [STUFieldAttribute(0xEFF840E4)]
-        public teStructuredDataAssetRef<STUHardPoint> m_EFF840E4;
+        [STUFieldAttribute(0x55A323E6)]
+        public teStructuredDataAssetRef<STUHardPoint> m_55A323E6;
 
-        [STUFieldAttribute(0x50524C35)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_50524C35;
+        [STUFieldAttribute(0x72D96E65)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_72D96E65;
 
-        [STUFieldAttribute(0x1C801B34)]
-        public teStructuredDataAssetRef<STUHardPoint> m_1C801B34;
+        [STUFieldAttribute(0x49592351, "m_targetHardpoint")]
+        public teStructuredDataAssetRef<STUHardPoint> m_targetHardpoint;
 
-        [STUFieldAttribute(0x7620379A)]
-        public teStructuredDataAssetRef<STUDataFlow> m_7620379A;
+        [STUFieldAttribute(0xEA00585C)]
+        public teStructuredDataAssetRef<STUDataFlow> m_EA00585C;
 
-        [STUFieldAttribute(0x81C83F5C)]
-        public teStructuredDataAssetRef<STUDataFlow> m_81C83F5C;
+        [STUFieldAttribute(0x3FF5EF95)]
+        public teStructuredDataAssetRef<STUDataFlow> m_3FF5EF95;
 
-        [STUFieldAttribute(0x5481CE6D)]
-        public byte m_5481CE6D;
+        [STUFieldAttribute(0x69997593)]
+        public byte m_69997593;
     }
 }

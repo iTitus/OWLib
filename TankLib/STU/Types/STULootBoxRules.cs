@@ -3,21 +3,24 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xAF3DFC87, "STULootBoxRules")]
+    [STUAttribute(0xB0C4B4EF, "STULootBoxRules")]
     public class STULootBoxRules : STUInstance {
-        [STUFieldAttribute(0xB7C0634C, "m_rarityRules", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xFA6C2B70, "m_rarityRules", ReaderType = typeof(InlineInstanceFieldReader))]
         public STULootBoxRarityRules[] m_rarityRules;
 
-        [STUFieldAttribute(0x96D86FB8, "m_currencyRarityRules", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xE056478C, "m_currencyRarityRules", ReaderType = typeof(InlineInstanceFieldReader))]
         public STULootBoxRarityRules[] m_currencyRarityRules;
 
-        [STUFieldAttribute(0x7AB4E3F8)]
-        public Enum_BABC4175 m_7AB4E3F8;
+        [STUFieldAttribute(0xDCEBE5E4, "m_rarityCosts", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STULootBoxRarityCosts[] m_rarityCosts;
 
-        [STUFieldAttribute(0x24391F9B)]
-        public int m_24391F9B;
+        [STUFieldAttribute(0x581570BA, "m_lootboxType")]
+        public Enum_26C6CD90 m_lootboxType;
 
-        [STUFieldAttribute(0x53B8C818)]
-        public int m_53B8C818;
+        [STUFieldAttribute(0xF391EC68)]
+        public int m_F391EC68;
+
+        [STUFieldAttribute(0xCF9CD331)]
+        public int m_CF9CD331;
     }
 }

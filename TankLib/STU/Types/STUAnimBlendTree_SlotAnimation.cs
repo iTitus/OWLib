@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xBE20B7F5, "STUAnimBlendTree_SlotAnimation")]
+    [STUAttribute(0x919EA22F, "STUAnimBlendTree_SlotAnimation")]
     public class STUAnimBlendTree_SlotAnimation : STUInstance {
-        [STUFieldAttribute(0x65033558, "m_animSlotID")]
+        [STUFieldAttribute(0xB60696F3, "m_animSlotID")]
         public teStructuredDataAssetRef<STUAnimIdentifier> m_animSlotID;
 
-        [STUFieldAttribute(0x3F5B86A4, "m_animation")]
+        [STUFieldAttribute(0xD3832764, "m_animation")]
         public teStructuredDataAssetRef<ulong> m_animation;
 
-        [STUFieldAttribute(0xBAA74493, "m_condition", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_8C127DE2 m_condition;
+        [STUFieldAttribute(0xE3072BFB, "m_condition", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_16151658 m_condition;
 
-        [STUFieldAttribute(0x5BA0B476)]
-        public int m_5BA0B476;
+        [STUFieldAttribute(0x8661B27E)]
+        public int m_8661B27E;
     }
 }

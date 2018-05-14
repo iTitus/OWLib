@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xE15F9581, "STUTestInheritStruct")]
+    [STUAttribute(0xF496E43D, "STUTestInheritStruct")]
     public class STUTestInheritStruct : STUTestStruct {
-        [STUFieldAttribute(0x46B8BD22)]
-        public teString m_46B8BD22;
+        [STUFieldAttribute(0xEF0E57BA)]
+        public teString m_EF0E57BA;
     }
 }

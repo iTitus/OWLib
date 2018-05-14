@@ -3,30 +3,30 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xC8B1D2D7, "STUAnimNode_AnimationPose2d")]
+    [STUAttribute(0xC765CADC, "STUAnimNode_AnimationPose2d")]
     public class STUAnimNode_AnimationPose2d : STUAnimNode_Base {
-        [STUFieldAttribute(0xEB391735, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimBlendDriverParam m_EB391735;
+        [STUFieldAttribute(0x6901A0EF, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimBlendDriverParam m_6901A0EF;
 
-        [STUFieldAttribute(0xE5E309D5, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimBlendDriverParam m_E5E309D5;
+        [STUFieldAttribute(0x1E069079, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimBlendDriverParam m_1E069079;
 
-        [STUFieldAttribute(0x3F5B86A4, "m_animation", ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_215BE8F3 m_animation;
+        [STUFieldAttribute(0xD3832764, "m_animation", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7EA9A81B m_animation;
 
-        [STUFieldAttribute(0xA3081C7F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_15EF3A7E m_A3081C7F;
+        [STUFieldAttribute(0x7EC71C69, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_CFB183E4 m_7EC71C69;
 
-        [STUFieldAttribute(0x73038249, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_15EF3A7E m_73038249;
+        [STUFieldAttribute(0x46713270, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_CFB183E4 m_46713270;
 
-        [STUFieldAttribute(0xC14EEC71, "m_animTrackOverrides", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xBC4F5D52, "m_animTrackOverrides", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUAnimNode_AnimationTrackOverride[] m_animTrackOverrides;
 
-        [STUFieldAttribute(0x29AFF063, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_5861C542 m_29AFF063;
+        [STUFieldAttribute(0x35E8486C, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_27C3556F m_35E8486C;
 
-        [STUFieldAttribute(0xB774CFA6)]
-        public Enum_9250F4C2 m_B774CFA6;
+        [STUFieldAttribute(0xA302996B)]
+        public Enum_FEA59B94 m_A302996B;
     }
 }

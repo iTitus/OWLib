@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF18160D1, "STUStatescriptWeaponProjectileVisual")]
+    [STUAttribute(0x61319566, "STUStatescriptWeaponProjectileVisual")]
     public class STUStatescriptWeaponProjectileVisual : STUInstance {
-        [STUFieldAttribute(0xC9D22FAA, "m_fixedDataFlow", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x4F344505, "m_fixedDataFlow", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUStatescriptWeaponProjectileDataFlow[] m_fixedDataFlow;
 
-        [STUFieldAttribute(0xF3E60FB5, "m_animRecoilImpulseFactor", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xB9E6F5B2, "m_animRecoilImpulseFactor", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_animRecoilImpulseFactor;
 
-        [STUFieldAttribute(0xADDACE26, "m_showHUDWarningIndicator", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x7A8030DD, "m_showHUDWarningIndicator", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_showHUDWarningIndicator;
     }
 }

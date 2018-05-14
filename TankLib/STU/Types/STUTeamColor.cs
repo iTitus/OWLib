@@ -3,24 +3,21 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x8880FCB0, "STUTeamColor")]
+    [STUAttribute(0x7A0122E1, "STUTeamColor")]
     public class STUTeamColor : STUInstance {
-        [STUFieldAttribute(0x5A7D86C7, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_6B3A03D7 m_5A7D86C7;
+        [STUFieldAttribute(0xBC3A3CE6, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_2E7352B8 m_BC3A3CE6;
 
-        [STUFieldAttribute(0x80B01FC2, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_2854069F m_80B01FC2;
+        [STUFieldAttribute(0x5A648EAC, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_5325FB56 m_5A648EAC;
 
-        [STUFieldAttribute(0xD74D5F6F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_176E7ACB m_D74D5F6F;
+        [STUFieldAttribute(0xB82B566C, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_8612288B m_B82B566C;
 
-        [STUFieldAttribute(0xAE42D53E, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_7CD6F719 m_AE42D53E;
-
-        [STUFieldAttribute(0x939ABB2C, "m_materialData")]
+        [STUFieldAttribute(0xE91154F1, "m_materialData")]
         public teStructuredDataAssetRef<ulong> m_materialData;
 
-        [STUFieldAttribute(0x94C9FBD7)]
-        public teColorRGBA m_94C9FBD7;
+        [STUFieldAttribute(0xB840935E)]
+        public teColorRGBA m_B840935E;
     }
 }

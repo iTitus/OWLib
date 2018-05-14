@@ -2,15 +2,33 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x9F1D18DD, "STUAICellData")]
+    [STUAttribute(0x463FF74B, "STUAICellData")]
     public class STUAICellData : STUInstance {
-        [STUFieldAttribute(0xB62FC651)]
-        public ulong m_B62FC651;
+        [STUFieldAttribute(0xF9F075FD, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAICellDataExternalLinks m_F9F075FD;
 
-        [STUFieldAttribute(0x8A30AD88)]
-        public ulong m_8A30AD88;
+        [STUFieldAttribute(0x2C3FF460, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAICellDataExternalLinks m_2C3FF460;
 
-        [STUFieldAttribute(0xFFBC98C1)]
-        public uint m_FFBC98C1;
+        [STUFieldAttribute(0x7989415C, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAICellDataExternalLinks m_7989415C;
+
+        [STUFieldAttribute(0xC5815EDE, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAICellDataExternalLinks m_C5815EDE;
+
+        [STUFieldAttribute(0x3E2A4630, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAICellDataExternalLinks m_3E2A4630;
+
+        [STUFieldAttribute(0x45F86A7F, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAICellDataExternalLinks m_45F86A7F;
+
+        [STUFieldAttribute(0xEA3E79C4)]
+        public ulong m_EA3E79C4;
+
+        [STUFieldAttribute(0x3FB4E3A9)]
+        public ulong m_3FB4E3A9;
+
+        [STUFieldAttribute(0x21E444B5)]
+        public uint m_21E444B5;
     }
 }

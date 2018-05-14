@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xAB698943, "STUCaptureAreaSegment")]
+    [STUAttribute(0x97DF799E, "STUCaptureAreaSegment")]
     public class STUCaptureAreaSegment : STUInstance {
-        [STUFieldAttribute(0x4A9567C6)]
-        public float m_4A9567C6;
+        [STUFieldAttribute(0xA045CAE1)]
+        public float m_A045CAE1;
     }
 }

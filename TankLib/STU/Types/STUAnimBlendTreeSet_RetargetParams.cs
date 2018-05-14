@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x99EA3F94, "STUAnimBlendTreeSet_RetargetParams")]
+    [STUAttribute(0x55F6732C, "STUAnimBlendTreeSet_RetargetParams")]
     public class STUAnimBlendTreeSet_RetargetParams : STUInstance {
-        [STUFieldAttribute(0x51A5FEBC)]
-        public float m_51A5FEBC;
+        [STUFieldAttribute(0xA8FA5A91)]
+        public float m_A8FA5A91;
 
-        [STUFieldAttribute(0x124FEBCF)]
-        public float m_124FEBCF;
+        [STUFieldAttribute(0xFDCB04CE)]
+        public float m_FDCB04CE;
     }
 }

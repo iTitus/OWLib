@@ -5,6 +5,6 @@ namespace TankLib.STU.Types {
     [STUAttribute(0x59688A87)]
     public class STU_59688A87 : STUUXGeometry {
         [STUFieldAttribute(0x4AB5ED94, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_C9A8A95F m_4AB5ED94;
+        public STU_CCA87D0D m_4AB5ED94;
     }
 }

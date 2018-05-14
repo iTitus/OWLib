@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xD2EA359E, "STUStatescriptAbilityVarToSet")]
+    [STUAttribute(0x0EA1DB9F, "STUStatescriptAbilityVarToSet")]
     public class STUStatescriptAbilityVarToSet : STUInstance {
-        [STUFieldAttribute(0x592D15F7, "m_out_Var", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xEC9F34A6, "m_out_Var", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVarDynamic m_out_Var;
 
-        [STUFieldAttribute(0x07DD813E, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x5180E750, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_value;
     }
 }

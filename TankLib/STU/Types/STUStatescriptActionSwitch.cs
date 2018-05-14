@@ -3,21 +3,21 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x4AFA17B1, "STUStatescriptActionSwitch")]
+    [STUAttribute(0x321BE080, "STUStatescriptActionSwitch")]
     public class STUStatescriptActionSwitch : STUStatescriptAction {
-        [STUFieldAttribute(0xFDD34C25, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_F23DE9D7[] m_FDD34C25;
+        [STUFieldAttribute(0x7D662124, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_57E931D8[] m_7D662124;
 
-        [STUFieldAttribute(0x9AAAE373, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_9AAAE373;
+        [STUFieldAttribute(0xB1C64D7F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_B1C64D7F;
 
-        [STUFieldAttribute(0x262AE982, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_262AE982;
+        [STUFieldAttribute(0x26674F3F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_26674F3F;
 
-        [STUFieldAttribute(0xCD38D5DB, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_F23DE9D7 m_CD38D5DB;
+        [STUFieldAttribute(0x8AE7D668, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_57E931D8 m_8AE7D668;
 
-        [STUFieldAttribute(0xF0F0720B)]
-        public Enum_F94C0730 m_F0F0720B;
+        [STUFieldAttribute(0x7A0217A9)]
+        public Enum_351F4913 m_7A0217A9;
     }
 }

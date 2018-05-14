@@ -3,18 +3,18 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xAFF66949, "AITargetingInfo")]
+    [STUAttribute(0x81B35640, "AITargetingInfo")]
     public class AITargetingInfo : STUInstance {
-        [STUFieldAttribute(0xA4D34225)]
-        public teVec3 m_A4D34225;
+        [STUFieldAttribute(0xF9DAAEA2)]
+        public teVec3 m_F9DAAEA2;
 
-        [STUFieldAttribute(0xA60150E2)]
-        public uint m_A60150E2;
+        [STUFieldAttribute(0xC97F2482)]
+        public uint m_C97F2482;
 
-        [STUFieldAttribute(0x6FF08209)]
-        public teEntityID m_6FF08209;
+        [STUFieldAttribute(0x0B968FAB)]
+        public teEntityID m_0B968FAB;
 
-        [STUFieldAttribute(0x3D79C609)]
-        public float m_3D79C609;
+        [STUFieldAttribute(0xC167D9C8)]
+        public float m_C167D9C8;
     }
 }

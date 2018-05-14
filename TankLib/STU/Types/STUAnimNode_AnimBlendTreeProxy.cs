@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xEAF06763, "STUAnimNode_AnimBlendTreeProxy")]
+    [STUAttribute(0x52758465, "STUAnimNode_AnimBlendTreeProxy")]
     public class STUAnimNode_AnimBlendTreeProxy : STUAnimNode_Base {
-        [STUFieldAttribute(0xB4FF0E2F, "m_animAlias", ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_C6AA0CA6 m_animAlias;
+        [STUFieldAttribute(0xBBAB1943, "m_animAlias", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_1681963C m_animAlias;
 
-        [STUFieldAttribute(0x4CDEA586, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_25B808BD m_4CDEA586;
+        [STUFieldAttribute(0xE94A65B1, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_197AA12D m_E94A65B1;
 
-        [STUFieldAttribute(0xD6930776, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_D6930776;
+        [STUFieldAttribute(0x83D10422, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_83D10422;
 
-        [STUFieldAttribute(0x3B5927F2)]
-        public float m_3B5927F2;
+        [STUFieldAttribute(0x5616AA8B)]
+        public float m_5616AA8B;
     }
 }

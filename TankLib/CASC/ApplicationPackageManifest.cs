@@ -191,6 +191,23 @@ namespace TankLib.CASC {
                     }
                 }
 
+                ContentManifestFile.HashData[] data = CMF.Map.Values.ToArray();
+                Parallel.For(0, data.Length, new ParallelOptions {
+                    MaxDegreeOfParallelism = CASCConfig.MaxThreads
+                }, i => {
+                    if (FirstOccurence.ContainsKey(data[i].GUID)) return;
+                    if (SaneChecking && !casc.EncodingHandler.HasEntry(data[i].HashKey)) return;
+                    FirstOccurence.TryAdd(data[i].GUID, new Types.PackageRecord {
+                        GUID = data[i].GUID,
+                        LoadHash = data[i].HashKey,
+                        Size = data[i].Size,
+                        Offset = 0,
+                        Flags = 0
+                    });
+                });
+
+                return;
+
                 Packages = new Types.Package[Header.PackageCount];
                 Records = new Types.PackageRecord[Header.PackageCount][];
                 PackageSiblings = new ulong[Header.PackageCount][];

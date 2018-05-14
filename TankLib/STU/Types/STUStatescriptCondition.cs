@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x142A27A8, "STUStatescriptCondition")]
+    [STUAttribute(0x6F10080F, "STUStatescriptCondition")]
     public class STUStatescriptCondition : STUStatescriptBase {
-        [STUFieldAttribute(0x54653E9B, "m_inPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x59C48F73, "m_inPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptInputPlug m_inPlug;
 
-        [STUFieldAttribute(0x5FB4504B, "m_truePlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x98C4B8A6, "m_truePlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_truePlug;
 
-        [STUFieldAttribute(0xA4975E0A, "m_falsePlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xB0FEA54E, "m_falsePlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_falsePlug;
     }
 }

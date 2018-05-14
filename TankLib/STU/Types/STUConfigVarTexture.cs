@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xFB366254, "STUConfigVarTexture")]
-    public class STUConfigVarTexture : STU_E4324757 {
-        [STUFieldAttribute(0x3CD6DC1E, "m_texture")]
+    [STUAttribute(0x31011E9B, "STUConfigVarTexture")]
+    public class STUConfigVarTexture : STU_82972D9D {
+        [STUFieldAttribute(0xD829413B, "m_texture")]
         public teStructuredDataAssetRef<ulong> m_texture;
     }
 }

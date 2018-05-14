@@ -2,33 +2,33 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xDDD18945, "STUAnimBlendTreeSet_BlendTreeItem")]
+    [STUAttribute(0x01AA58C9, "STUAnimBlendTreeSet_BlendTreeItem")]
     public class STUAnimBlendTreeSet_BlendTreeItem : STUInstance {
-        [STUFieldAttribute(0x560940DC, "m_onFinished", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x514EF3F5, "m_onFinished", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUAnimBlendTree_OnFinished m_onFinished;
 
-        [STUFieldAttribute(0xC0214513)]
-        public teStructuredDataAssetRef<STUAnimBlendTree> m_C0214513;
+        [STUFieldAttribute(0x45C6E995, "m_blendTreeRef")]
+        public teStructuredDataAssetRef<STUAnimBlendTree> m_blendTreeRef;
 
-        [STUFieldAttribute(0x95877FC5)]
-        public teStructuredDataAssetRef<ulong> m_95877FC5;
+        [STUFieldAttribute(0xB5BB283D)]
+        public teStructuredDataAssetRef<ulong> m_B5BB283D;
 
-        [STUFieldAttribute(0xF6E6D4B1, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_3B150012 m_F6E6D4B1;
+        [STUFieldAttribute(0x30285D10, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_7AE04211 m_30285D10;
 
-        [STUFieldAttribute(0x9AD6CC25, "m_gameData", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xF4984F24, "m_gameData", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUAnimGameData_Base m_gameData;
 
-        [STUFieldAttribute(0xCCB4CD4A)]
-        public ulong m_CCB4CD4A;
+        [STUFieldAttribute(0xFF311DB4)]
+        public ulong m_FF311DB4;
 
-        [STUFieldAttribute(0x274F833F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_89F8DBB3 m_274F833F;
+        [STUFieldAttribute(0xFF523348, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_28ABB0A9 m_FF523348;
 
-        [STUFieldAttribute(0x384DE14F, "m_retargetParams", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xDCF4028D, "m_retargetParams", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUAnimBlendTreeSet_RetargetParams m_retargetParams;
 
-        [STUFieldAttribute(0xE54B9419, "m_uniqueID")]
+        [STUFieldAttribute(0x52157A7A, "m_uniqueID")]
         public uint m_uniqueID;
     }
 }

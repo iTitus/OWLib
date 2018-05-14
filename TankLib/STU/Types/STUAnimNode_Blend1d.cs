@@ -3,15 +3,15 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xB8E40970, "STUAnimNode_Blend1d")]
+    [STUAttribute(0x6AA37304, "STUAnimNode_Blend1d")]
     public class STUAnimNode_Blend1d : STUAnimNode_Base {
-        [STUFieldAttribute(0x3A5231AD, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimBlendDriverParam m_3A5231AD;
+        [STUFieldAttribute(0xC7EF3136, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimBlendDriverParam m_C7EF3136;
 
-        [STUFieldAttribute(0x134EE5BB, "m_children", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_067EF854[] m_children;
+        [STUFieldAttribute(0xAECD07C2, "m_children", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_EA959D8F[] m_children;
 
-        [STUFieldAttribute(0xA81B57ED)]
-        public teVec2 m_A81B57ED;
+        [STUFieldAttribute(0x5745F696)]
+        public teVec2 m_5745F696;
     }
 }

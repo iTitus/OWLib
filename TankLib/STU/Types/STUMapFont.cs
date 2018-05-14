@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xE1111C8D, "STUMapFont")]
+    [STUAttribute(0x96C09D1B, "STUMapFont")]
     public class STUMapFont : STUInstance {
-        [STUFieldAttribute(0xA1AD5DD2, "m_header", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x24E1FA3F, "m_header", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUMapFontHeader m_header;
 
-        [STUFieldAttribute(0x25274294, "m_data", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x335CC942, "m_data", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUMapFontData m_data;
     }
 }

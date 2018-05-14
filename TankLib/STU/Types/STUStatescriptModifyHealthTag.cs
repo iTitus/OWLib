@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x4A7AC5BF, "STUStatescriptModifyHealthTag")]
+    [STUAttribute(0x4D3EC3CF, "STUStatescriptModifyHealthTag")]
     public class STUStatescriptModifyHealthTag : STUInstance {
-        [STUFieldAttribute(0xEE3055BD, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_EE3055BD;
+        [STUFieldAttribute(0x60BD40D6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_60BD40D6;
     }
 }

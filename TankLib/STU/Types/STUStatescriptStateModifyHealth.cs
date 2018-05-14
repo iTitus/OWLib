@@ -3,45 +3,45 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x826613B7, "STUStatescriptStateModifyHealth")]
+    [STUAttribute(0x619D9E95, "STUStatescriptStateModifyHealth")]
     public class STUStatescriptStateModifyHealth : STUStatescriptState {
-        [STUFieldAttribute(0x95F1FB0B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_95F1FB0B;
+        [STUFieldAttribute(0xD525B22B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_D525B22B;
 
-        [STUFieldAttribute(0x0FD4CCC6, "m_modifyHealth", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x89174668, "m_modifyHealth", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptModifyHealth m_modifyHealth;
 
-        [STUFieldAttribute(0xFA3ECC43, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_FA3ECC43;
+        [STUFieldAttribute(0xEBDA16F6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_EBDA16F6;
 
-        [STUFieldAttribute(0xC744A524, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_C744A524;
+        [STUFieldAttribute(0x9CC9F017, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_9CC9F017;
 
-        [STUFieldAttribute(0x79758CE9, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_79758CE9;
+        [STUFieldAttribute(0x6CB57812, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_6CB57812;
 
-        [STUFieldAttribute(0xFF9E82FA, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_FF9E82FA;
+        [STUFieldAttribute(0xB70D8DDF, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_B70D8DDF;
 
-        [STUFieldAttribute(0x48BED081, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_48BED081;
+        [STUFieldAttribute(0xC264695E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_C264695E;
 
-        [STUFieldAttribute(0x7BE02F89, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_7BE02F89;
+        [STUFieldAttribute(0xA8AFF195, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_A8AFF195;
 
-        [STUFieldAttribute(0x5DA62D02, "m_onAbortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x41BA609A, "m_onAbortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onAbortPlug;
 
-        [STUFieldAttribute(0xA0B58111, "m_onFinishedPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xFE841C79, "m_onFinishedPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onFinishedPlug;
 
-        [STUFieldAttribute(0xDD792FF0)]
-        public Enum_D4BAD8E7 m_DD792FF0;
+        [STUFieldAttribute(0x8004B1BD)]
+        public Enum_8FD4F070 m_8004B1BD;
 
-        [STUFieldAttribute(0x7B2B3F5C)]
-        public byte m_7B2B3F5C;
+        [STUFieldAttribute(0x83377B7D)]
+        public byte m_83377B7D;
 
-        [STUFieldAttribute(0x8B707686)]
-        public byte m_8B707686;
+        [STUFieldAttribute(0x73ABFB05)]
+        public byte m_73ABFB05;
     }
 }

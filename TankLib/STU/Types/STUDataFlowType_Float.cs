@@ -2,24 +2,24 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xBB90194B, "STUDataFlowType_Float")]
+    [STUAttribute(0x74A4E1E9, "STUDataFlowType_Float")]
     public class STUDataFlowType_Float : STUDataFlowType {
-        [STUFieldAttribute(0x45A7A69C, "m_default")]
+        [STUFieldAttribute(0xB9114C96, "m_default")]
         public float m_default;
 
-        [STUFieldAttribute(0x7594F80E, "m_min")]
+        [STUFieldAttribute(0x6AD49FD7, "m_min")]
         public float m_min;
 
-        [STUFieldAttribute(0x7CEA65C7, "m_max")]
+        [STUFieldAttribute(0x56D9A08E, "m_max")]
         public float m_max;
 
-        [STUFieldAttribute(0xD6CBC393)]
-        public float m_D6CBC393;
+        [STUFieldAttribute(0x0AB37ABF)]
+        public float m_0AB37ABF;
 
-        [STUFieldAttribute(0xE5EE4532)]
-        public uint m_E5EE4532;
+        [STUFieldAttribute(0xADA61FDB)]
+        public uint m_ADA61FDB;
 
-        [STUFieldAttribute(0x10DBFDB1)]
-        public byte m_10DBFDB1;
+        [STUFieldAttribute(0xDCE7AC5B)]
+        public byte m_DCE7AC5B;
     }
 }

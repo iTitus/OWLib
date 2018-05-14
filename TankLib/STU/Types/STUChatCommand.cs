@@ -3,21 +3,21 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x5FB3E9BA, "STUChatCommand")]
+    [STUAttribute(0xFAB38435, "STUChatCommand")]
     public class STUChatCommand : STUInstance {
-        [STUFieldAttribute(0x4CED72F5)]
-        public teStructuredDataAssetRef<ulong> m_4CED72F5;
+        [STUFieldAttribute(0x73E6B245, "m_chatCommand")]
+        public teStructuredDataAssetRef<ulong> m_chatCommand;
 
-        [STUFieldAttribute(0xF96A9F40, "m_commandDescription")]
+        [STUFieldAttribute(0x75B4BB05, "m_commandDescription")]
         public teStructuredDataAssetRef<ulong> m_commandDescription;
 
-        [STUFieldAttribute(0xF5B138A2, "m_chatCommandAliases")]
+        [STUFieldAttribute(0xC03D6E94, "m_chatCommandAliases")]
         public teStructuredDataAssetRef<ulong>[] m_chatCommandAliases;
 
-        [STUFieldAttribute(0x7371BDE0, "m_chatCommandType")]
+        [STUFieldAttribute(0x27E6A1B4, "m_chatCommandType")]
         public STUChatCommandType m_chatCommandType;
 
-        [STUFieldAttribute(0xE4E5988D)]
-        public byte m_E4E5988D;
+        [STUFieldAttribute(0xA01D085D)]
+        public byte m_A01D085D;
     }
 }

@@ -3,24 +3,24 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x99257985, "STUECAISpawnerInstanceData")]
+    [STUAttribute(0xBDFD3BCA, "STUECAISpawnerInstanceData")]
     public class STUECAISpawnerInstanceData : STUComponentInstanceData {
-        [STUFieldAttribute(0xE74A5F9A)]
-        public teStructuredDataAssetRef<STUHero> m_E74A5F9A;
+        [STUFieldAttribute(0xC30C8E61)]
+        public teStructuredDataAssetRef<STUHero> m_C30C8E61;
 
-        [STUFieldAttribute(0xEF29ED01)]
-        public teStructuredDataAssetRef<STUIdentifier> m_EF29ED01;
+        [STUFieldAttribute(0x652FA432)]
+        public teStructuredDataAssetRef<STUIdentifier> m_652FA432;
 
-        [STUFieldAttribute(0xE5CEAD94, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUStatescriptGraphWithOverrides[] m_E5CEAD94;
+        [STUFieldAttribute(0x8A690731, "m_spawnGraphs", ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUStatescriptGraphWithOverrides[] m_spawnGraphs;
 
-        [STUFieldAttribute(0xCD66847E)]
-        public Enum_8F2CDF51 m_CD66847E;
+        [STUFieldAttribute(0x25E61391, "m_spawnTeam")]
+        public TeamIndex m_spawnTeam;
 
-        [STUFieldAttribute(0x8A10B520)]
-        public byte m_8A10B520;
+        [STUFieldAttribute(0x9DF6537C)]
+        public byte m_9DF6537C;
 
-        [STUFieldAttribute(0x44AB45F0)]
-        public byte m_44AB45F0;
+        [STUFieldAttribute(0xA0D9CC48)]
+        public byte m_A0D9CC48;
     }
 }

@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xD76664B9, "STUEscortRadius")]
+    [STUAttribute(0x863D333B, "STUEscortRadius")]
     public class STUEscortRadius : STUInstance {
-        [STUFieldAttribute(0x5B5F5868)]
-        public float m_5B5F5868;
+        [STUFieldAttribute(0x11105FB3)]
+        public float m_11105FB3;
 
-        [STUFieldAttribute(0x94C46E4C)]
-        public float m_94C46E4C;
+        [STUFieldAttribute(0x1F052700)]
+        public float m_1F052700;
     }
 }

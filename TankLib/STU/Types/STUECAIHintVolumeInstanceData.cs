@@ -4,27 +4,24 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x298FC27F, "STUECAIHintVolumeInstanceData")]
+    [STUAttribute(0x1B804482, "STUECAIHintVolumeInstanceData")]
     public class STUECAIHintVolumeInstanceData : STUComponentInstanceData {
-        [STUFieldAttribute(0x2746D7E4)]
-        public teUUID m_2746D7E4;
+        [STUFieldAttribute(0x493B0749)]
+        public teUUID m_493B0749;
 
-        [STUFieldAttribute(0x106543DC, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_A23BFD3B[] m_106543DC;
+        [STUFieldAttribute(0xA5AFB622, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_DDC906D2[] m_A5AFB622;
 
-        [STUFieldAttribute(0x3A6C757E)]
-        public Enum_8F2CDF51[] m_3A6C757E;
+        [STUFieldAttribute(0xCCCEC698)]
+        public TeamIndex[] m_CCCEC698;
 
-        [STUFieldAttribute(0xE005252F)]
-        public Enum_FB7F61B4[] m_E005252F;
+        [STUFieldAttribute(0xD0B61B5C)]
+        public int m_D0B61B5C;
 
-        [STUFieldAttribute(0x44CE67EA)]
-        public int m_44CE67EA;
+        [STUFieldAttribute(0x84568CDF, "m_primaryAxis")]
+        public Enum_45266C46 m_primaryAxis;
 
-        [STUFieldAttribute(0x428B4854)]
-        public Enum_135DBBD2 m_428B4854;
-
-        [STUFieldAttribute(0x7F8C228D)]
-        public byte m_7F8C228D;
+        [STUFieldAttribute(0x4F579FEA)]
+        public byte m_4F579FEA;
     }
 }

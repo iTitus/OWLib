@@ -3,15 +3,15 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xB0D18D50, "STUECGravityAreaInstanceData")]
+    [STUAttribute(0x1A091627, "STUECGravityAreaInstanceData")]
     public class STUECGravityAreaInstanceData : STUComponentInstanceData {
-        [STUFieldAttribute(0x50F3348D)]
-        public teVec3A m_50F3348D;
+        [STUFieldAttribute(0x60344F29)]
+        public teVec3A m_60344F29;
 
-        [STUFieldAttribute(0x2746D7E4)]
-        public teUUID m_2746D7E4;
+        [STUFieldAttribute(0x493B0749)]
+        public teUUID m_493B0749;
 
-        [STUFieldAttribute(0xDB660199)]
-        public float m_DB660199;
+        [STUFieldAttribute(0xB1F2D3EC)]
+        public float m_B1F2D3EC;
     }
 }

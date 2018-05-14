@@ -3,24 +3,24 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0B517D2E, "STUUnlock_Emote")]
+    [STUAttribute(0xE533D614, "STUUnlock_Emote")]
     public class STUUnlock_Emote : STUUnlock {
-        [STUFieldAttribute(0xA0D4ABDE, "m_emote")]
+        [STUFieldAttribute(0x274B3AA2, "m_emote")]
         public teStructuredDataAssetRef<STUAnimAlias> m_emote;
 
-        [STUFieldAttribute(0x2B8351DA)]
-        public teStructuredDataAssetRef<STUAnimBlendTreeSet> m_2B8351DA;
+        [STUFieldAttribute(0xD6CC7A56, "m_emoteBlendTreeSet")]
+        public teStructuredDataAssetRef<STUAnimBlendTreeSet> m_emoteBlendTreeSet;
 
-        [STUFieldAttribute(0x89C64674)]
-        public teStructuredDataAssetRef<ulong> m_89C64674;
+        [STUFieldAttribute(0x2B5145D0)]
+        public teStructuredDataAssetRef<ulong> m_2B5145D0;
 
-        [STUFieldAttribute(0x7E3ED979)]
-        public teStructuredDataAssetRef<ulong>[] m_7E3ED979;
+        [STUFieldAttribute(0xADE1233F)]
+        public teStructuredDataAssetRef<STUTargetTag>[] m_ADE1233F;
 
-        [STUFieldAttribute(0x28814AE5)]
-        public teVec3 m_28814AE5;
+        [STUFieldAttribute(0xFD98E85A)]
+        public teVec3 m_FD98E85A;
 
-        [STUFieldAttribute(0x69150A1D)]
-        public teVec3 m_69150A1D;
+        [STUFieldAttribute(0xD94EED92)]
+        public teVec3 m_D94EED92;
     }
 }

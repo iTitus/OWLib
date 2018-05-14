@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x289495BA, "STUMovie")]
+    [STUAttribute(0xDF492422, "STUMovie")]
     public class STUMovie : STUInstance {
-        [STUFieldAttribute(0x3D3E8125)]
-        public teStructuredDataAssetRef<STU_804DEAB9> m_3D3E8125;
+        [STUFieldAttribute(0x7B807670)]
+        public teStructuredDataAssetRef<STU_CF2809A0> m_7B807670;
 
-        [STUFieldAttribute(0x386B8E9C)]
-        public teStructuredDataAssetRef<STUSound> m_386B8E9C;
+        [STUFieldAttribute(0x27BCDE52, "m_externalSound")]
+        public teStructuredDataAssetRef<STUSound> m_externalSound;
 
-        [STUFieldAttribute(0x48A387B6)]
-        public float m_48A387B6;
+        [STUFieldAttribute(0xC8253A18)]
+        public float m_C8253A18;
 
-        [STUFieldAttribute(0x5DC5168B, "m_width")]
+        [STUFieldAttribute(0xC0EDFA4B, "m_width")]
         public uint m_width;
 
-        [STUFieldAttribute(0xA16426C6, "m_height")]
+        [STUFieldAttribute(0xBFDEB7F1, "m_height")]
         public uint m_height;
     }
 }

@@ -4,57 +4,57 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xB7148D95, "STUGenericSettings_Reticle")]
+    [STUAttribute(0xBC064AC0, "STUGenericSettings_Reticle")]
     public class STUGenericSettings_Reticle : STUGenericSettings_Base {
-        [STUFieldAttribute(0x2A25A783)]
-        public teStructuredDataAssetRef<ulong> m_2A25A783;
+        [STUFieldAttribute(0x7300262A, "m_textureCrosshair")]
+        public teStructuredDataAssetRef<ulong> m_textureCrosshair;
 
-        [STUFieldAttribute(0x8B7F6B0C)]
-        public teColorRGB m_8B7F6B0C;
+        [STUFieldAttribute(0x7B32776E)]
+        public teColorRGB m_7B32776E;
 
-        [STUFieldAttribute(0xA699CE1C)]
-        public teColorRGB m_A699CE1C;
+        [STUFieldAttribute(0x62030719)]
+        public teColorRGB m_62030719;
 
-        [STUFieldAttribute(0x33207F6F)]
-        public teColorRGB m_33207F6F;
+        [STUFieldAttribute(0x4D32B2A1)]
+        public teColorRGB m_4D32B2A1;
 
-        [STUFieldAttribute(0xE397D09F)]
-        public float m_E397D09F;
+        [STUFieldAttribute(0x36AAB4ED)]
+        public float m_36AAB4ED;
 
-        [STUFieldAttribute(0xEEC455A9)]
-        public float m_EEC455A9;
+        [STUFieldAttribute(0x29A4E1A7)]
+        public float m_29A4E1A7;
 
-        [STUFieldAttribute(0x2ADE63D3)]
-        public float m_2ADE63D3;
+        [STUFieldAttribute(0x6CB9097B)]
+        public float m_6CB9097B;
 
-        [STUFieldAttribute(0x86A84408)]
-        public float m_86A84408;
+        [STUFieldAttribute(0xA94AFEC8)]
+        public float m_A94AFEC8;
 
-        [STUFieldAttribute(0x9AB8E645)]
-        public float m_9AB8E645;
+        [STUFieldAttribute(0x268A41CF)]
+        public float m_268A41CF;
 
-        [STUFieldAttribute(0x564A7379)]
-        public float m_564A7379;
+        [STUFieldAttribute(0xE90586BE)]
+        public float m_E90586BE;
 
-        [STUFieldAttribute(0x58750551)]
-        public float m_58750551;
+        [STUFieldAttribute(0x9FACDABE)]
+        public float m_9FACDABE;
 
-        [STUFieldAttribute(0x5BD110A8, "m_reticleType")]
-        public Enum_C074B9DE m_reticleType;
+        [STUFieldAttribute(0xC20FDDC1, "m_reticleType")]
+        public Enum_3C8B6AF9 m_reticleType;
 
-        [STUFieldAttribute(0x2B4AB8AB)]
-        public float m_2B4AB8AB;
+        [STUFieldAttribute(0x828E23DE)]
+        public float m_828E23DE;
 
-        [STUFieldAttribute(0x919834B3)]
-        public float m_919834B3;
+        [STUFieldAttribute(0xE1148BA3)]
+        public float m_E1148BA3;
 
-        [STUFieldAttribute(0x10323077)]
-        public float m_10323077;
+        [STUFieldAttribute(0xEC8D000C)]
+        public float m_EC8D000C;
 
-        [STUFieldAttribute(0xEA8ADC97)]
-        public float m_EA8ADC97;
+        [STUFieldAttribute(0x2C5C818B)]
+        public float m_2C5C818B;
 
-        [STUFieldAttribute(0x0DC4BA0B)]
-        public float m_0DC4BA0B;
+        [STUFieldAttribute(0x37EA5AD9)]
+        public float m_37EA5AD9;
     }
 }

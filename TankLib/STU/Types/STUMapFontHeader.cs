@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xDC866FA7, "STUMapFontHeader")]
+    [STUAttribute(0xA126937C, "STUMapFontHeader")]
     public class STUMapFontHeader : STUInstance {
     }
 }

@@ -3,30 +3,30 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x0352046B, "STUAnimTriangulationMap_Triangle")]
+    [STUAttribute(0x151D0943, "STUAnimTriangulationMap_Triangle")]
     public class STUAnimTriangulationMap_Triangle : STUInstance {
-        [STUFieldAttribute(0xA0EEB9AF)]
-        public teVec2 m_A0EEB9AF;
+        [STUFieldAttribute(0xC293E3B3)]
+        public teVec2 m_C293E3B3;
 
-        [STUFieldAttribute(0x4DF116EB)]
-        public teVec2 m_4DF116EB;
+        [STUFieldAttribute(0x5B9AB209)]
+        public teVec2 m_5B9AB209;
 
-        [STUFieldAttribute(0x6B532D98)]
-        public teVec2 m_6B532D98;
+        [STUFieldAttribute(0x2C9D829F)]
+        public teVec2 m_2C9D829F;
 
-        [STUFieldAttribute(0xB853170A)]
-        public teVec2 m_B853170A;
+        [STUFieldAttribute(0x042A27B8)]
+        public teVec2 m_042A27B8;
 
-        [STUFieldAttribute(0x18A188D2)]
-        public teVec2 m_18A188D2;
+        [STUFieldAttribute(0x382718E1)]
+        public teVec2 m_382718E1;
 
-        [STUFieldAttribute(0x28A3F5DB)]
-        public int m_28A3F5DB;
+        [STUFieldAttribute(0xBEC8FEB8)]
+        public int m_BEC8FEB8;
 
-        [STUFieldAttribute(0x592884EA)]
-        public int m_592884EA;
+        [STUFieldAttribute(0x27C1AF02)]
+        public int m_27C1AF02;
 
-        [STUFieldAttribute(0xD7372AE3)]
-        public int m_D7372AE3;
+        [STUFieldAttribute(0x50C69F94)]
+        public int m_50C69F94;
     }
 }

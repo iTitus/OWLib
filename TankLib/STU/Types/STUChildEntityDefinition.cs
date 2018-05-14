@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x1D9159F2, "STUChildEntityDefinition")]
+    [STUAttribute(0xA1815CAB, "STUChildEntityDefinition")]
     public class STUChildEntityDefinition : STUInstance {
-        [STUFieldAttribute(0x436BEFE6, "m_child")]
+        [STUFieldAttribute(0x6E44EB4D, "m_child")]
         public teStructuredDataAssetRef<STUEntityDefinition> m_child;
 
-        [STUFieldAttribute(0x2D3CDFA9, "m_hardPoint")]
+        [STUFieldAttribute(0xDA37BCF8, "m_hardPoint")]
         public teStructuredDataAssetRef<STUHardPoint> m_hardPoint;
 
-        [STUFieldAttribute(0x49F782CE)]
-        public teStructuredDataAssetRef<STUIdentifier> m_49F782CE;
+        [STUFieldAttribute(0xCD3603AC)]
+        public teStructuredDataAssetRef<STUIdentifier> m_CD3603AC;
 
-        [STUFieldAttribute(0x2263EA37)]
-        public byte m_2263EA37;
+        [STUFieldAttribute(0xF53046CC)]
+        public byte m_F53046CC;
     }
 }

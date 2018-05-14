@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xBE9DDFDF, "STUModelHardpoint")]
-    public class STUModelHardpoint : STU_F0E34581 {
+    [STUAttribute(0x710A8DF7, "STUModelHardpoint")]
+    public class STUModelHardpoint : STUModelTransform {
     }
 }

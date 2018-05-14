@@ -2,15 +2,15 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xA4EA3ED5, "STULocalPersistedHeroSetting")]
+    [STUAttribute(0x0978CAA9, "STULocalPersistedHeroSetting")]
     public class STULocalPersistedHeroSetting : STUInstance {
-        [STUFieldAttribute(0x37AB13D3, "m_hero")]
+        [STUFieldAttribute(0xCF6154A7, "m_hero")]
         public ulong m_hero;
 
-        [STUFieldAttribute(0xB2C0B929, "m_settingId")]
+        [STUFieldAttribute(0x9DCA6030, "m_settingId")]
         public ulong m_settingId;
 
-        [STUFieldAttribute(0x07DD813E, "m_value")]
+        [STUFieldAttribute(0x5180E750, "m_value")]
         public ulong m_value;
     }
 }

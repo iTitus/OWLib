@@ -3,27 +3,27 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x39049749, "STULobbyMapCatalogInfo")]
+    [STUAttribute(0xA99258EF, "STULobbyMapCatalogInfo")]
     public class STULobbyMapCatalogInfo : STUInstance {
-        [STUFieldAttribute(0x2C05CD95, "m_catalog")]
+        [STUFieldAttribute(0x41637E0E, "m_catalog")]
         public teStructuredDataAssetRef<STUMapCatalog> m_catalog;
 
-        [STUFieldAttribute(0xE02BEE24, "m_celebration")]
+        [STUFieldAttribute(0xC1458915, "m_celebration")]
         public teStructuredDataAssetRef<STUCelebration> m_celebration;
 
-        [STUFieldAttribute(0x5A6D4FBD)]
-        public teStructuredDataAssetRef<STUDataFlow> m_5A6D4FBD;
+        [STUFieldAttribute(0x547D9847, "m_dataFlow")]
+        public teStructuredDataAssetRef<STUDataFlow> m_dataFlow;
 
-        [STUFieldAttribute(0xBE382990)]
-        public Enum_90451E4A m_BE382990;
+        [STUFieldAttribute(0xFD6DC85B, "m_settingsMin")]
+        public Enum_9617643F m_settingsMin;
 
-        [STUFieldAttribute(0xC98EBA70)]
-        public Enum_90451E4A m_C98EBA70;
+        [STUFieldAttribute(0xC160F702, "m_settingsMax")]
+        public Enum_9617643F m_settingsMax;
 
-        [STUFieldAttribute(0x7952DAFC)]
-        public float m_7952DAFC;
+        [STUFieldAttribute(0x0DAE7675)]
+        public float m_0DAE7675;
 
-        [STUFieldAttribute(0x2334A7D6)]
-        public byte m_2334A7D6;
+        [STUFieldAttribute(0xA45D9C08)]
+        public byte m_A45D9C08;
     }
 }

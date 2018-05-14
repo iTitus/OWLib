@@ -3,33 +3,33 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x978A87DE, "STUAnimGameData_PoseData")]
+    [STUAttribute(0xC255C1E1, "STUAnimGameData_PoseData")]
     public class STUAnimGameData_PoseData : STUInstance {
-        [STUFieldAttribute(0x44B8E377)]
-        public teVec3A m_44B8E377;
+        [STUFieldAttribute(0x2AF843A1)]
+        public teVec3A m_2AF843A1;
 
-        [STUFieldAttribute(0x03E0A520, "m_poseDataVecs")]
+        [STUFieldAttribute(0xE29F6BD8, "m_poseDataVecs")]
         public teVec3A[] m_poseDataVecs;
 
-        [STUFieldAttribute(0xD65E1B08, "m_geoSetFlags", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0x637A3764, "m_geoSetFlags", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUAnimGameData_GeoSetFlags[] m_geoSetFlags;
 
-        [STUFieldAttribute(0xDB11C2C0)]
-        public uint m_DB11C2C0;
+        [STUFieldAttribute(0x1BA2AF1B, "m_animationID")]
+        public uint m_animationID;
 
-        [STUFieldAttribute(0xE0D91786)]
-        public uint m_E0D91786;
+        [STUFieldAttribute(0x37155991)]
+        public uint m_37155991;
 
-        [STUFieldAttribute(0x7EEFB57A, "m_flags")]
+        [STUFieldAttribute(0x47F2FEDE, "m_flags")]
         public ushort m_flags;
 
-        [STUFieldAttribute(0xAE2D8911)]
-        public ushort m_AE2D8911;
+        [STUFieldAttribute(0xCC84D865)]
+        public ushort m_CC84D865;
 
-        [STUFieldAttribute(0x3016B9A1)]
-        public ushort m_3016B9A1;
+        [STUFieldAttribute(0x6D047768)]
+        public ushort m_6D047768;
 
-        [STUFieldAttribute(0xC1B611DF)]
-        public ushort m_C1B611DF;
+        [STUFieldAttribute(0x8FBA84E6)]
+        public ushort m_8FBA84E6;
     }
 }

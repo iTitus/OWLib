@@ -2,18 +2,18 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x633EDFC2, "STUStatescriptSubScriptInitData")]
+    [STUAttribute(0x550C2AA4, "STUStatescriptSubScriptInitData")]
     public class STUStatescriptSubScriptInitData : STUInstance {
-        [STUFieldAttribute(0x592D15F7, "m_out_Var", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xEC9F34A6, "m_out_Var", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVarDynamic m_out_Var;
 
-        [STUFieldAttribute(0x07DD813E, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x5180E750, "m_value", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_value;
 
-        [STUFieldAttribute(0x2AF1FCC8, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_2AF1FCC8;
+        [STUFieldAttribute(0x6B0F10D8, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_6B0F10D8;
 
-        [STUFieldAttribute(0x8E243DA1, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_8E243DA1;
+        [STUFieldAttribute(0x9BB741A4, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_9BB741A4;
     }
 }

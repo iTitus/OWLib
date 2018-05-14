@@ -3,111 +3,108 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xEED6D952, "STUStatescriptStateWeaponVolley")]
+    [STUAttribute(0x860EE5FC, "STUStatescriptStateWeaponVolley")]
     public class STUStatescriptStateWeaponVolley : STUStatescriptState {
-        [STUFieldAttribute(0x351BD93F, "m_projectileMotions", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xB5D34136, "m_projectileMotions", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptWeaponProjectileMotion[] m_projectileMotions;
 
-        [STUFieldAttribute(0xBAA390E1, "m_projectileEntity", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xF7329268, "m_projectileEntity", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptWeaponProjectileEntity m_projectileEntity;
 
-        [STUFieldAttribute(0x81F1D90B, "m_projectileVisual", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x12D35E1F, "m_projectileVisual", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptWeaponProjectileVisual m_projectileVisual;
 
-        [STUFieldAttribute(0xF9808409, "m_aimID", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xD64683D1, "m_aimID", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_aimID;
 
-        [STUFieldAttribute(0xBA490EB9, "m_projectileLifetime", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x5257BE73, "m_projectileLifetime", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_projectileLifetime;
 
-        [STUFieldAttribute(0xFEC435C6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_FEC435C6;
+        [STUFieldAttribute(0x308E35D5, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_308E35D5;
 
-        [STUFieldAttribute(0xE365DB20, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_3FE1A93B m_E365DB20;
+        [STUFieldAttribute(0x4F7EBB93, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptWeaponProjectileRicochet m_4F7EBB93;
 
-        [STUFieldAttribute(0x26E68021, "m_projectileSpeed", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xAC2F916A, "m_projectileSpeed", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_projectileSpeed;
 
-        [STUFieldAttribute(0x55E8761C, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_3A858EF7 m_55E8761C;
+        [STUFieldAttribute(0x6A53F8C7, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptWeaponProjectileSticky m_6A53F8C7;
 
-        [STUFieldAttribute(0x8236947A, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_20C861FB m_8236947A;
+        [STUFieldAttribute(0xD789B6CA, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptWeaponProjectileSettle m_D789B6CA;
 
-        [STUFieldAttribute(0xC1903771, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_C1903771;
+        [STUFieldAttribute(0x93F49971, "m_raycastType", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_raycastType;
 
-        [STUFieldAttribute(0xD2D11CE9, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_4AA6CA44 m_D2D11CE9;
+        [STUFieldAttribute(0x5B97FA06, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptWeaponProjectileExplosion m_5B97FA06;
 
-        [STUFieldAttribute(0x6396149F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_00D9C7E1 m_6396149F;
+        [STUFieldAttribute(0x3D131607, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptWeaponProjectileImpact m_3D131607;
 
-        [STUFieldAttribute(0x49CBA3BC, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_78BF9026 m_49CBA3BC;
+        [STUFieldAttribute(0x3307A07B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptWeaponProjectileSpawn m_3307A07B;
 
-        [STUFieldAttribute(0x747ECB51, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_DB5FDC79 m_747ECB51;
+        [STUFieldAttribute(0x3AC99059, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_07E34E24 m_3AC99059;
 
-        [STUFieldAttribute(0x5F40D9D3, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_5F40D9D3;
+        [STUFieldAttribute(0xA4E081C9, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_A4E081C9;
 
-        [STUFieldAttribute(0xF2AE0897, "m_numProjectilesPerShot", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x472BEC0C, "m_numProjectilesPerShot", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_numProjectilesPerShot;
 
-        [STUFieldAttribute(0x02F3F5D4, "m_numShotsPerSecond", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x120FD2F8, "m_numShotsPerSecond", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_numShotsPerSecond;
 
-        [STUFieldAttribute(0xA55BC904, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_A55BC904;
+        [STUFieldAttribute(0x64389377, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_64389377;
 
-        [STUFieldAttribute(0xA17BE89B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_A17BE89B;
+        [STUFieldAttribute(0xA835E878, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_A835E878;
 
-        [STUFieldAttribute(0x9EBFAF01, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_903363EB m_9EBFAF01;
+        [STUFieldAttribute(0x8BC9D90B, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_312E3316 m_8BC9D90B;
 
-        [STUFieldAttribute(0xC5143E2E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_648C3CDF m_C5143E2E;
+        [STUFieldAttribute(0x764A8EC7, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_F9AE352D m_764A8EC7;
 
-        [STUFieldAttribute(0xECDAB602, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_ECDAB602;
+        [STUFieldAttribute(0x203488D6, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_203488D6;
 
-        [STUFieldAttribute(0x5EC1EB38, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUStatescriptWeaponVolleyLaunch m_5EC1EB38;
+        [STUFieldAttribute(0x80AD81F5, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptWeaponVolleyLaunch m_80AD81F5;
 
-        [STUFieldAttribute(0x58631C73, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar m_58631C73;
+        [STUFieldAttribute(0x08D03DB7, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar m_08D03DB7;
 
-        [STUFieldAttribute(0x24E351A4, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarDynamic m_24E351A4;
+        [STUFieldAttribute(0x39D89271, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarDynamic m_39D89271;
 
-        [STUFieldAttribute(0x17770E7E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarDynamic m_17770E7E;
+        [STUFieldAttribute(0xA2A6D6A4, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarDynamic m_A2A6D6A4;
 
-        [STUFieldAttribute(0x3FFC9EB9, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarDynamic m_3FFC9EB9;
+        [STUFieldAttribute(0x663CE7E5, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarDynamic m_663CE7E5;
 
-        [STUFieldAttribute(0x505472EF, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVarDynamic m_505472EF;
+        [STUFieldAttribute(0x2CCAFFB8, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVarDynamic m_2CCAFFB8;
 
-        [STUFieldAttribute(0x70646E0D, "m_onMinShotsPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x48C4F9C7, "m_onMinShotsPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onMinShotsPlug;
 
-        [STUFieldAttribute(0x5DA62D02, "m_onAbortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x41BA609A, "m_onAbortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onAbortPlug;
 
-        [STUFieldAttribute(0xA0B58111, "m_onFinishedPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xFE841C79, "m_onFinishedPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onFinishedPlug;
 
-        [STUFieldAttribute(0x5E4A4E85)]
-        public Enum_5A207C64 m_5E4A4E85;
+        [STUFieldAttribute(0xB3276522)]
+        public Enum_6F445C05 m_B3276522;
 
-        [STUFieldAttribute(0x7671FCB1)]
-        public byte m_7671FCB1;
-
-        [STUFieldAttribute(0x45271E8C)]
-        public byte m_45271E8C;
+        [STUFieldAttribute(0xBC36E891)]
+        public byte m_BC36E891;
     }
 }

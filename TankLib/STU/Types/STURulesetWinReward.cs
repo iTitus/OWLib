@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x899CC976, "STURulesetWinReward")]
+    [STUAttribute(0x79AAB70D, "STURulesetWinReward")]
     public class STURulesetWinReward : STUInstance {
-        [STUFieldAttribute(0xF5087894, "m_unlock")]
+        [STUFieldAttribute(0x2077E211, "m_unlock")]
         public teStructuredDataAssetRef<STUUnlock> m_unlock;
 
-        [STUFieldAttribute(0x120378C3)]
-        public int m_120378C3;
+        [STUFieldAttribute(0x3C77EB18)]
+        public int m_3C77EB18;
     }
 }

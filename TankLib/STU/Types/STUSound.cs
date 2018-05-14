@@ -2,33 +2,36 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x04118DBD, "STUSound")]
+    [STUAttribute(0x3A9915C9, "STUSound")]
     public class STUSound : STUInstance {
-        [STUFieldAttribute(0x57351687, "m_versionedBankData", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x35570DE3, "m_filter")]
+        public teStructuredDataAssetRef<STUSoundFilter> m_filter;
+
+        [STUFieldAttribute(0x88401B38)]
+        public teStructuredDataAssetRef<STU_BF348440>[] m_88401B38;
+
+        [STUFieldAttribute(0x5455FAC6, "m_versionedBankData", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUSoundBankDataVersion m_versionedBankData;
 
-        [STUFieldAttribute(0x13523278)]
-        public float m_13523278;
+        [STUFieldAttribute(0x7A1F2EB3)]
+        public float m_7A1F2EB3;
 
-        [STUFieldAttribute(0xBEB35A19)]
-        public float m_BEB35A19;
+        [STUFieldAttribute(0x25371ECB)]
+        public float m_25371ECB;
 
-        [STUFieldAttribute(0xD138B819)]
-        public float m_D138B819;
+        [STUFieldAttribute(0xA917134E)]
+        public float m_A917134E;
 
-        [STUFieldAttribute(0x6657412F)]
-        public uint m_6657412F;
+        [STUFieldAttribute(0xA98B4A33)]
+        public uint m_A98B4A33;
 
-        [STUFieldAttribute(0xACA7FBC8)]
-        public float m_ACA7FBC8;
+        [STUFieldAttribute(0x3FA0D50E)]
+        public float m_3FA0D50E;
 
-        [STUFieldAttribute(0x77092FDD)]
-        public byte m_77092FDD;
+        [STUFieldAttribute(0xF3A9EE3E)]
+        public byte m_F3A9EE3E;
 
-        [STUFieldAttribute(0xB62657B8)]
-        public byte m_B62657B8;
-
-        [STUFieldAttribute(0x166243EC)]
-        public byte m_166243EC;
+        [STUFieldAttribute(0x60E628EB)]
+        public byte m_60E628EB;
     }
 }

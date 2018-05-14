@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x65436ABC, "STUAnimBlendTree_PlayAnimCancelCategory")]
+    [STUAttribute(0x3A52E271, "STUAnimBlendTree_PlayAnimCancelCategory")]
     public class STUAnimBlendTree_PlayAnimCancelCategory : STUInstance {
-        [STUFieldAttribute(0x2C54AEAF, "m_category")]
+        [STUFieldAttribute(0x0916AFB9, "m_category")]
         public teStructuredDataAssetRef<STUAnimCategory> m_category;
 
-        [STUFieldAttribute(0xB1F28FCA)]
-        public byte m_B1F28FCA;
+        [STUFieldAttribute(0xD00EA700)]
+        public byte m_D00EA700;
     }
 }

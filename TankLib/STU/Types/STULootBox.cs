@@ -3,48 +3,48 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x56B6D12E, "STULootBox")]
+    [STUAttribute(0x0A6886A1, "STULootBox")]
     public class STULootBox : STUInstance {
-        [STUFieldAttribute(0xCBE2DADD)]
-        public teStructuredDataAssetRef<STUEntityDefinition> m_CBE2DADD;
+        [STUFieldAttribute(0x90A4CE09, "m_chestEntity")]
+        public teStructuredDataAssetRef<STUEntityDefinition> m_chestEntity;
 
-        [STUFieldAttribute(0xB2F9D222)]
-        public teStructuredDataAssetRef<STUEntityDefinition> m_B2F9D222;
+        [STUFieldAttribute(0xFCDFD33B, "m_baseEntity")]
+        public teStructuredDataAssetRef<STUEntityDefinition> m_baseEntity;
 
-        [STUFieldAttribute(0x3970E137)]
-        public teStructuredDataAssetRef<STUEffect> m_3970E137;
+        [STUFieldAttribute(0x537B9B9E, "m_idleEffect")]
+        public teStructuredDataAssetRef<STUEffect> m_idleEffect;
 
-        [STUFieldAttribute(0xFFE7768F)]
-        public teStructuredDataAssetRef<STUEffect> m_FFE7768F;
+        [STUFieldAttribute(0xEA136681)]
+        public teStructuredDataAssetRef<STUEffect> m_EA136681;
 
-        [STUFieldAttribute(0xFEC3ED62)]
-        public teStructuredDataAssetRef<STUEffect> m_FEC3ED62;
+        [STUFieldAttribute(0x6C7F44B7)]
+        public teStructuredDataAssetRef<STUEffect> m_6C7F44B7;
 
-        [STUFieldAttribute(0x041CE51F, "m_modelLook")]
+        [STUFieldAttribute(0x6D4304BF, "m_modelLook")]
         public teStructuredDataAssetRef<STUModelLook> m_modelLook;
 
-        [STUFieldAttribute(0x9B180535)]
-        public teStructuredDataAssetRef<STUModelLook> m_9B180535;
+        [STUFieldAttribute(0x40B14C7E, "m_baseModelLook")]
+        public teStructuredDataAssetRef<STUModelLook> m_baseModelLook;
 
-        [STUFieldAttribute(0xB48F1D22, "m_name")]
+        [STUFieldAttribute(0xC08C4427, "m_name")]
         public teStructuredDataAssetRef<STUUXDisplayText> m_name;
 
-        [STUFieldAttribute(0xE02BEE24, "m_celebration")]
+        [STUFieldAttribute(0xC1458915, "m_celebration")]
         public teStructuredDataAssetRef<STUCelebration> m_celebration;
 
-        [STUFieldAttribute(0xD75586C0, "m_shopCards", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xC6C46D25, "m_shopCards", ReaderType = typeof(InlineInstanceFieldReader))]
         public STULootBoxShopCard[] m_shopCards;
 
-        [STUFieldAttribute(0x3DFAC8CA)]
-        public teStructuredDataAssetRef<ulong>[] m_3DFAC8CA;
+        [STUFieldAttribute(0xED9136D5)]
+        public teStructuredDataAssetRef<STUUXDisplayText>[] m_ED9136D5;
 
-        [STUFieldAttribute(0x7AB4E3F8)]
-        public Enum_BABC4175 m_7AB4E3F8;
+        [STUFieldAttribute(0x581570BA, "m_lootboxType")]
+        public Enum_26C6CD90 m_lootboxType;
 
-        [STUFieldAttribute(0x45C33D76)]
-        public byte m_45C33D76;
+        [STUFieldAttribute(0xB1359AA2)]
+        public byte m_B1359AA2;
 
-        [STUFieldAttribute(0xFA2D81E7)]
-        public byte m_FA2D81E7;
+        [STUFieldAttribute(0x17A08ED7, "m_hidePucks")]
+        public byte m_hidePucks;
     }
 }

@@ -2,36 +2,36 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x7C37840C, "STUStatescriptState")]
+    [STUAttribute(0xA7213568, "STUStatescriptState")]
     public class STUStatescriptState : STUStatescriptBase {
-        [STUFieldAttribute(0xE390CDB8, "m_stateGroup")]
+        [STUFieldAttribute(0x61E25705, "m_stateGroup")]
         public teStructuredDataAssetRef<STUStatescriptStateGroup> m_stateGroup;
 
-        [STUFieldAttribute(0xC4E39595, "m_transitionPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_EE275B33[] m_transitionPlug;
+        [STUFieldAttribute(0x31D9CBE7, "m_transitionPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_8F6C88D9[] m_transitionPlug;
 
-        [STUFieldAttribute(0x4F8F2F3F)]
-        public int[] m_4F8F2F3F;
+        [STUFieldAttribute(0x065D841C)]
+        public int[] m_065D841C;
 
-        [STUFieldAttribute(0x0B1AA8CA, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUStatescriptSubGraph m_0B1AA8CA;
+        [STUFieldAttribute(0xA2ECA5DE, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUStatescriptSubGraph m_A2ECA5DE;
 
-        [STUFieldAttribute(0xE965193B, "m_beginPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xBEC2BEAE, "m_beginPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptInputPlug m_beginPlug;
 
-        [STUFieldAttribute(0xF198FD3A, "m_abortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_1CCEA5F7 m_abortPlug;
+        [STUFieldAttribute(0xFD24B86E, "m_abortPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_E51F3E8D m_abortPlug;
 
-        [STUFieldAttribute(0x984573B1, "m_onBeginPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_DA98CA6D m_onBeginPlug;
+        [STUFieldAttribute(0x025C665A, "m_onBeginPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_F1F0A36D m_onBeginPlug;
 
-        [STUFieldAttribute(0x8BC64AEB, "m_onEndPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xD2CD7C9F, "m_onEndPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUStatescriptOutputPlug m_onEndPlug;
 
-        [STUFieldAttribute(0x64338F79, "m_subgraphPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_904BFCEC m_subgraphPlug;
+        [STUFieldAttribute(0x3F6FFA05, "m_subgraphPlug", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_24AB1F0B m_subgraphPlug;
 
-        [STUFieldAttribute(0x26B6454C)]
-        public int m_26B6454C;
+        [STUFieldAttribute(0x63D0B555)]
+        public int m_63D0B555;
     }
 }

@@ -2,7 +2,7 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x25C4F930, "STUGraphNode")]
+    [STUAttribute(0x8B77C103, "STUGraphNode")]
     public class STUGraphNode : STUGraphItem {
     }
 }

@@ -3,39 +3,36 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xB466CBBD, "STUVoiceSet")]
+    [STUAttribute(0xBAD42A8D, "STUVoiceSet")]
     public class STUVoiceSet : STUInstance {
-        [STUFieldAttribute(0xF51B70C4, "m_voiceLineInstances", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xCED17EB1, "m_voiceLineInstances", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUVoiceLineInstance[] m_voiceLineInstances;
 
-        [STUFieldAttribute(0x386B8E9C)]
-        public teStructuredDataAssetRef<STUSound> m_386B8E9C;
+        [STUFieldAttribute(0x132527EE, "m_voiceFirstName")]
+        public teStructuredDataAssetRef<ulong> m_voiceFirstName;
 
-        [STUFieldAttribute(0x269FC4E9)]
-        public teStructuredDataAssetRef<ulong> m_269FC4E9;
+        [STUFieldAttribute(0x0B10A2B9, "m_voiceLastName")]
+        public teStructuredDataAssetRef<ulong> m_voiceLastName;
 
-        [STUFieldAttribute(0xC0835C08)]
-        public teStructuredDataAssetRef<ulong> m_C0835C08;
+        [STUFieldAttribute(0xB7E6C566, "m_voiceIcon")]
+        public teStructuredDataAssetRef<ulong> m_voiceIcon;
 
-        [STUFieldAttribute(0xA9277D84)]
-        public teStructuredDataAssetRef<ulong> m_A9277D84;
-
-        [STUFieldAttribute(0xF7FA2CAC, "m_voiceLineGuids")]
+        [STUFieldAttribute(0x78A7D820, "m_voiceLineGuids")]
         public ulong[] m_voiceLineGuids;
 
-        [STUFieldAttribute(0xD1ABBE04)]
-        public ulong[] m_D1ABBE04;
+        [STUFieldAttribute(0x1AF8D9FA)]
+        public ulong[] m_1AF8D9FA;
 
-        [STUFieldAttribute(0xFCF3C39E)]
-        public ulong[] m_FCF3C39E;
+        [STUFieldAttribute(0xE41A330A, "m_voiceConversationGuids")]
+        public ulong[] m_voiceConversationGuids;
 
-        [STUFieldAttribute(0x5E15FBE2)]
-        public float m_5E15FBE2;
+        [STUFieldAttribute(0xC77AFD24)]
+        public float m_C77AFD24;
 
-        [STUFieldAttribute(0x7D88A63A)]
-        public Enum_0C014B4A m_7D88A63A;
+        [STUFieldAttribute(0x8DD458BC)]
+        public Enum_685D75DF m_8DD458BC;
 
-        [STUFieldAttribute(0x2866DEC2)]
-        public byte m_2866DEC2;
+        [STUFieldAttribute(0xBD559525)]
+        public byte m_BD559525;
     }
 }

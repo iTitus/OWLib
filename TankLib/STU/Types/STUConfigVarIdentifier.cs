@@ -2,9 +2,9 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xFF80C481, "STUConfigVarIdentifier")]
-    public class STUConfigVarIdentifier : STU_E4324757 {
-        [STUFieldAttribute(0x4D2DB658, "m_identifier")]
+    [STUAttribute(0x6324DD9F, "STUConfigVarIdentifier")]
+    public class STUConfigVarIdentifier : STU_82972D9D {
+        [STUFieldAttribute(0xB2CA6977, "m_identifier")]
         public teStructuredDataAssetRef<ulong> m_identifier;
     }
 }

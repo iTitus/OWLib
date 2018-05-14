@@ -2,21 +2,21 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF3A63FB4, "STUTip")]
+    [STUAttribute(0xDB05A933, "STUTip")]
     public class STUTip : STUInstance {
-        [STUFieldAttribute(0x8A5FECAC, "m_tip")]
+        [STUFieldAttribute(0x832C3A4B, "m_tip")]
         public teStructuredDataAssetRef<ulong> m_tip;
 
-        [STUFieldAttribute(0xA127B088)]
-        public teStructuredDataAssetRef<STUIdentifier> m_A127B088;
+        [STUFieldAttribute(0xADAC6458, "m_bucket")]
+        public teStructuredDataAssetRef<STUIdentifier> m_bucket;
 
-        [STUFieldAttribute(0x54379800, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUConfigVar[] m_54379800;
+        [STUFieldAttribute(0xB332AD52, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUConfigVar[] m_B332AD52;
 
-        [STUFieldAttribute(0xBAA74493, "m_condition", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0xE3072BFB, "m_condition", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_condition;
 
-        [STUFieldAttribute(0xBB16810A, "m_priority", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        [STUFieldAttribute(0x6DFC6A5F, "m_priority", ReaderType = typeof(EmbeddedInstanceFieldReader))]
         public STUConfigVar m_priority;
     }
 }

@@ -4,9 +4,6 @@
 namespace TankLib.STU.Types {
     [STUAttribute(0x85F98ECC)]
     public class STU_85F98ECC : STUUXViewModel {
-        [STUFieldAttribute(0xA5249DE6, "m_text")]
-        public teString m_text;
-
         [STUFieldAttribute(0x34A67CC4)]
         public float m_34A67CC4;
     }

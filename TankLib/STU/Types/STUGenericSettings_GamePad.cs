@@ -2,36 +2,36 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x3FA4FF52, "STUGenericSettings_GamePad")]
+    [STUAttribute(0xE99EA206, "STUGenericSettings_GamePad")]
     public class STUGenericSettings_GamePad : STUGenericSettings_Base {
-        [STUFieldAttribute(0x33522782, "m_regions", ReaderType = typeof(InlineInstanceFieldReader))]
+        [STUFieldAttribute(0xF82835BA, "m_regions", ReaderType = typeof(InlineInstanceFieldReader))]
         public STUGamePadMoveRegion[] m_regions;
 
-        [STUFieldAttribute(0xEB44B6BE, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUAnimCurve m_EB44B6BE;
+        [STUFieldAttribute(0x639A4997, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUAnimCurve m_639A4997;
 
-        [STUFieldAttribute(0x5B875268, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STUAnimCurve m_5B875268;
+        [STUFieldAttribute(0x0957AE74, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STUAnimCurve m_0957AE74;
 
-        [STUFieldAttribute(0x4F2CB32E)]
-        public float m_4F2CB32E;
+        [STUFieldAttribute(0x030578C1)]
+        public float m_030578C1;
 
-        [STUFieldAttribute(0x43FFCCCA)]
-        public float m_43FFCCCA;
+        [STUFieldAttribute(0x3DB0B049)]
+        public float m_3DB0B049;
 
-        [STUFieldAttribute(0xB5AA16FB)]
-        public float m_B5AA16FB;
+        [STUFieldAttribute(0x4099EC8D)]
+        public float m_4099EC8D;
 
-        [STUFieldAttribute(0x4E89FF0D)]
-        public float m_4E89FF0D;
+        [STUFieldAttribute(0xA3C45257)]
+        public float m_A3C45257;
 
-        [STUFieldAttribute(0xB8F4A86C)]
-        public float m_B8F4A86C;
+        [STUFieldAttribute(0xAE738DFB)]
+        public float m_AE738DFB;
 
-        [STUFieldAttribute(0x3489BF62)]
-        public float m_3489BF62;
+        [STUFieldAttribute(0xFDD5951F)]
+        public float m_FDD5951F;
 
-        [STUFieldAttribute(0xBB6F2ECC)]
-        public float m_BB6F2ECC;
+        [STUFieldAttribute(0xED970F81)]
+        public float m_ED970F81;
     }
 }

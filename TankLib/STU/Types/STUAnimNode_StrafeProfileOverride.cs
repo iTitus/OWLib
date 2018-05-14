@@ -2,12 +2,12 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xEC56111A, "STUAnimNode_StrafeProfileOverride")]
+    [STUAttribute(0x862AB849, "STUAnimNode_StrafeProfileOverride")]
     public class STUAnimNode_StrafeProfileOverride : STUInstance {
-        [STUFieldAttribute(0x8314F828, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_DB72CA9C m_8314F828;
+        [STUFieldAttribute(0xDB18E646, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_2B64BE64 m_DB18E646;
 
-        [STUFieldAttribute(0xBAA74493, "m_condition", ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_8C127DE2 m_condition;
+        [STUFieldAttribute(0xE3072BFB, "m_condition", ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_16151658 m_condition;
     }
 }

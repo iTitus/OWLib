@@ -4,15 +4,15 @@ using TankLib.STU.Types.Enums;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x62D3E890, "STUChatChannelDefinition")]
+    [STUAttribute(0x6D686700, "STUChatChannelDefinition")]
     public class STUChatChannelDefinition : STUInstance {
-        [STUFieldAttribute(0x52A8EBBB, "m_chatChannelName")]
+        [STUFieldAttribute(0xD383ACFE, "m_chatChannelName")]
         public teStructuredDataAssetRef<ulong> m_chatChannelName;
 
-        [STUFieldAttribute(0x2EBF6046, "m_chatChannelColor")]
+        [STUFieldAttribute(0xD5BD9215, "m_chatChannelColor")]
         public teColorRGB m_chatChannelColor;
 
-        [STUFieldAttribute(0x9CB9B86D, "m_chatChannelType")]
-        public Enum_5D8C1DCC m_chatChannelType;
+        [STUFieldAttribute(0x017E85D1, "m_chatChannelType")]
+        public Enum_190F2EFA m_chatChannelType;
     }
 }

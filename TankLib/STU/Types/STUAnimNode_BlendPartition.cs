@@ -2,51 +2,51 @@
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0xF34A7244, "STUAnimNode_BlendPartition")]
+    [STUAttribute(0x92D208B9, "STUAnimNode_BlendPartition")]
     public class STUAnimNode_BlendPartition : STUAnimNode_Base {
-        [STUFieldAttribute(0x57C51236, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimBlendDriverParam m_57C51236;
+        [STUFieldAttribute(0xE19BD8B3, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimBlendDriverParam m_E19BD8B3;
 
-        [STUFieldAttribute(0xEDDE8B55, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_3426C7F2 m_EDDE8B55;
+        [STUFieldAttribute(0x5E31D26E, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_A074A01F m_5E31D26E;
 
-        [STUFieldAttribute(0xA1946787, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimBlendTimeParams m_A1946787;
+        [STUFieldAttribute(0x8EFE496E, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimBlendTimeParams m_8EFE496E;
 
-        [STUFieldAttribute(0xD61E9A22, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_D61E9A22;
+        [STUFieldAttribute(0x45C56C3B, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_45C56C3B;
 
-        [STUFieldAttribute(0x98B05B42, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_CCC326B7 m_98B05B42;
+        [STUFieldAttribute(0xBD514F83, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_25992DF8 m_BD514F83;
 
-        [STUFieldAttribute(0x226537CB, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STU_ABD8FE73 m_226537CB;
+        [STUFieldAttribute(0x7FE8A3E0, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STU_7059BA29 m_7FE8A3E0;
 
-        [STUFieldAttribute(0x3C82DF27, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_629D3B64[] m_3C82DF27;
+        [STUFieldAttribute(0xBF3167E2, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_37AA1F65[] m_BF3167E2;
 
-        [STUFieldAttribute(0x1E729D6E)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_1E729D6E;
+        [STUFieldAttribute(0x656ABA9D)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_656ABA9D;
 
-        [STUFieldAttribute(0xDD12C224)]
-        public teStructuredDataAssetRef<STU_7A0B33DA> m_DD12C224;
+        [STUFieldAttribute(0x59FBC41F)]
+        public teStructuredDataAssetRef<STU_46F1EF57> m_59FBC41F;
 
-        [STUFieldAttribute(0x78E7248F, ReaderType = typeof(InlineInstanceFieldReader))]
-        public STUAnimNode_BlendPartition_ExtraPartitionBoneItem[] m_78E7248F;
+        [STUFieldAttribute(0xB0403DF6, ReaderType = typeof(InlineInstanceFieldReader))]
+        public STUAnimNode_BlendPartition_ExtraPartitionBoneItem[] m_B0403DF6;
 
-        [STUFieldAttribute(0x826E408F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_2F6BD485 m_826E408F;
+        [STUFieldAttribute(0x1DDF2902, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_1359915D m_1DDF2902;
 
-        [STUFieldAttribute(0x04FE49C9, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_8C127DE2 m_04FE49C9;
+        [STUFieldAttribute(0x06A40016, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_16151658 m_06A40016;
 
-        [STUFieldAttribute(0x0857723F, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_5861C542 m_0857723F;
+        [STUFieldAttribute(0x5A8EE43E, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_27C3556F m_5A8EE43E;
 
-        [STUFieldAttribute(0xCA1600A0, ReaderType = typeof(EmbeddedInstanceFieldReader))]
-        public STU_5861C542 m_CA1600A0;
+        [STUFieldAttribute(0xA6BD88F3, ReaderType = typeof(EmbeddedInstanceFieldReader))]
+        public STU_27C3556F m_A6BD88F3;
 
-        [STUFieldAttribute(0xBA663469)]
-        public byte m_BA663469;
+        [STUFieldAttribute(0xBFC43CE2)]
+        public byte m_BFC43CE2;
     }
 }

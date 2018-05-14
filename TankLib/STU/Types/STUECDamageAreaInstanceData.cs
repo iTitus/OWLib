@@ -3,18 +3,18 @@ using TankLib.Math;
 
 // ReSharper disable All
 namespace TankLib.STU.Types {
-    [STUAttribute(0x6E7ED1C2, "STUECDamageAreaInstanceData")]
+    [STUAttribute(0x59837899, "STUECDamageAreaInstanceData")]
     public class STUECDamageAreaInstanceData : STUComponentInstanceData {
-        [STUFieldAttribute(0x2746D7E4)]
-        public teUUID m_2746D7E4;
+        [STUFieldAttribute(0x493B0749)]
+        public teUUID m_493B0749;
 
-        [STUFieldAttribute(0xB81F7395)]
-        public float m_B81F7395;
+        [STUFieldAttribute(0xFFA70517)]
+        public float m_FFA70517;
 
-        [STUFieldAttribute(0x1BB427AE)]
-        public byte m_1BB427AE;
+        [STUFieldAttribute(0x4F4AE521)]
+        public byte m_4F4AE521;
 
-        [STUFieldAttribute(0x13F2925E)]
-        public byte m_13F2925E;
+        [STUFieldAttribute(0x191B71C3)]
+        public byte m_191B71C3;
     }
 }
