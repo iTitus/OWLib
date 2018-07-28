@@ -410,11 +410,11 @@ namespace DataTool.SaveLogic {
         
 
         // helpers (NOT FOR INTERNAL USE)
-        public static void SaveLooseTextures(ICLIFlags flags, string path, FindLogic.Combo.ComboInfo info) {
+        public static void SaveLooseTextures(ICLIFlags flags, string path, FindLogic.Combo.ComboInfo info, bool isSpraysAndIcons = false) {
             info.SaveRuntimeData = new FindLogic.Combo.ComboSaveRuntimeData();
             foreach (FindLogic.Combo.TextureInfoNew textureInfo in info.Textures.Values) {
                 if (!textureInfo.Loose) continue;
-                SaveTexture(flags, path, info, textureInfo.GUID);
+                SaveTexture(flags, path, info, textureInfo.GUID, isSpraysAndIcons);
             }
             Wait(info);
         }
@@ -579,24 +579,34 @@ namespace DataTool.SaveLogic {
             }
         }
 
-        public static void SaveTexture(ICLIFlags flags, string path, FindLogic.Combo.ComboInfo info, ulong texture) {
+        public static void SaveTexture(ICLIFlags flags, string path, FindLogic.Combo.ComboInfo info, ulong texture, bool isSpraysAndIcons = false) {
             bool convertTextures = true;
             bool lossless = false;
             string convertType = "dds";
 
-            if (flags is ExtractFlags extractFlags) {
+            var extractFlags = (ExtractFlags) flags;
+
+            if (extractFlags != null) {
                 convertTextures = extractFlags.ConvertTextures  && !extractFlags.Raw;
                 convertType = extractFlags.ConvertTexturesType.ToLowerInvariant();
                 lossless = extractFlags.ConvertTexturesLossless;
                 if (extractFlags.SkipTextures) return;
             }
-            path += Path.DirectorySeparatorChar;
-
+            
             FindLogic.Combo.TextureInfoNew textureInfo = info.Textures[texture];
-            string filePath = Path.Combine(path, $"{textureInfo.GetNameIndex()}");
+            string filePath = "";
+            string outputPath = "";
+            
+            if (extractFlags != null && extractFlags.SaveNamesAsFileNames && convertTextures && isSpraysAndIcons) {
+                filePath = path;
+                outputPath = path.Remove(path.LastIndexOf(Path.DirectorySeparatorChar) + 1);
+            } else {
+                outputPath = path + Path.DirectorySeparatorChar;
+                filePath = Path.Combine(outputPath, $"{textureInfo.GetNameIndex()}");
+            }
 
             if (!convertTextures) {
-                CreateDirectoryFromFile(path);
+                CreateDirectoryFromFile(outputPath);
                 using (Stream textureStream = OpenFile(textureInfo.GUID))
                     WriteFile(textureStream, $"{filePath}.{GUID.Type(textureInfo.GUID):X3}");
 
@@ -614,10 +624,10 @@ namespace DataTool.SaveLogic {
 
                 if (info.SaveRuntimeData.Threads) {
                     info.SaveRuntimeData.Tasks.Add(Task.Run(() =>{
-                        ConvertTexture(convertType, lossless, filePath, path, headerStream, dataStream);
+                        ConvertTexture(convertType, lossless, filePath, outputPath, headerStream, dataStream);
                     }));
                 } else {
-                    ConvertTexture(convertType, lossless, filePath, path, headerStream, dataStream);
+                    ConvertTexture(convertType, lossless, filePath, outputPath, headerStream, dataStream);
                 }
             }
         }

@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using DataTool.DataModels;
 using DataTool.Flag;
+using DataTool.ToolLogic.Extract;
 using STULib.Types;
 using static DataTool.Helper.IO;
 
@@ -37,7 +39,10 @@ namespace DataTool.SaveLogic.Unlock {
             
             // hmm, resaving the default spray over and over again (ref'd by SSCE) is kinda bad.
             
-            Combo.SaveLooseTextures(flags, output, info);
+            Combo.SaveLooseTextures(flags, output, info, true);
+
+            if (((ExtractFlags) flags).SaveNamesAsFileNames) return;
+            
             Combo.SaveAllMaterials(flags, output, info);
             Combo.Save(flags, output, info);
         }

@@ -45,6 +45,9 @@ namespace DataTool.ToolLogic.Extract {
         [CLIFlag(Default = (byte)0, Flag = "lod", Help = "Force extracted model LOD", Parser = new[] { "DataTool.Flag.Converter", "CLIFlagLOD" })]
         public byte LOD;
         
+        [CLIFlag(Default = false, Flag = "save-names-as-file-names", Help = "Saves sprays/icons as their file names instead of folders", Parser = new[] { "DataTool.Flag.Converter", "CLIFlagBoolean" })]
+        public bool SaveNamesAsFileNames;
+        
         // [CLIFlag(Default = false, Flag = "convert-bnk", Help = "Convert .bnk files to .wem", Parser = new[] { "DataTool.Flag.Converter", "CLIFlagBoolean" })]
         // public bool ConvertBnk;
 
