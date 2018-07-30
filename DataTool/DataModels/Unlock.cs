@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using DataTool.JSON;
 using Newtonsoft.Json;
+using TankLib.STU;
 using TankLib.STU.Types;
 using TankLib.STU.Types.Enums;
 using static DataTool.Helper.STUHelper;
@@ -61,7 +62,7 @@ namespace DataTool.DataModels {
 		}
 
 		private void Init(STUUnlock unlock, ulong guid) {
-			Name = GetString(unlock.m_name).TrimEnd(' '); // ffs blizz, why do the names end in a space sometimes
+			Name = GetString(unlock.m_name)?.TrimEnd(' '); // ffs blizz, why do the names end in a space sometimes
 			AvailableIn = GetString(unlock.m_53145FAF);
 			Rarity = unlock.m_rarity;
 			Description = GetDescriptionString(unlock.m_3446F580);
@@ -70,6 +71,10 @@ namespace DataTool.DataModels {
 			STU = unlock;
 
 			Type = GetTypeName(unlock);
+		}
+
+		public string GetName() {
+			return Name ?? GetFileName(GUID);
 		}
 
 	    /// <summary>
@@ -140,7 +145,11 @@ namespace DataTool.DataModels {
 		/// <summary>Get an array of <see cref="Unlock"/> from STUUnlocks</summary>
 		/// <inheritdoc cref="GetArray(System.Collections.Generic.IEnumerable{ulong})"/>>
 	    public static Unlock[] GetArray(STUUnlocks unlocks) {
-		    return GetArray(unlocks?.m_unlocks.Select(x => (ulong) x));
+		    return GetArray(unlocks?.m_unlocks);
 	    }
-    }
+
+		public static Unlock[] GetArray(teStructuredDataAssetRef<STUUnlock>[] unlocks) {
+			return GetArray(unlocks?.Select(x => (ulong) x));
+		}
+	}
 }

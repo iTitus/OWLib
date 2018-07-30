@@ -5,7 +5,7 @@ using System.IO;
 using DataTool.FindLogic;
 using DataTool.Flag;
 using DataTool.Helper;
-using OWLib;
+using TankLib;
 using TankLib.STU.Types;
 using static DataTool.Helper.IO;
 using static DataTool.Helper.Logger;
@@ -69,19 +69,9 @@ namespace DataTool.ToolLogic.Extract {
                 STUHero hero = GetInstanceNew<STUHero>(heroFile);
                 if (hero == null) continue;
 
-                string heroNameActual = (GetString(hero.m_0EDCE350) ?? $"Unknown{GUID.Index(heroFile)}").TrimEnd(' ');
+                string heroNameActual = (GetString(hero.m_0EDCE350) ?? $"Unknown{teResourceGUID.Index(heroFile)}").TrimEnd(' ');
 
-                Dictionary<string, ParsedArg> config = new Dictionary<string, ParsedArg>();
-                foreach (string key in new [] {heroNameActual.ToLowerInvariant(), "*"}) {
-                    if (!parsedTypes.ContainsKey(key)) continue;
-                    foreach (KeyValuePair<string,ParsedArg> parsedArg in parsedTypes[key]) {
-                        if (config.ContainsKey(parsedArg.Key)) {
-                            config[parsedArg.Key] = config[parsedArg.Key].Combine(parsedArg.Value);
-                        } else {
-                            config[parsedArg.Key] = parsedArg.Value.Combine(null); // clone for safety
-                        }
-                    }
-                }
+                Dictionary<string, ParsedArg> config = GetQuery(parsedTypes, heroNameActual.ToLowerInvariant(), "*");
                 
                 if (config.Count == 0) continue;
                 

@@ -124,8 +124,8 @@ namespace DataTool.FindLogic {
 
             public ComboNameable(ulong guid) : base(guid) {
                 if (GUID == 0) return;
-                uint type = OWLib.GUID.Type(GUID);
-                uint index = OWLib.GUID.Index(GUID);
+                uint type = teResourceGUID.Type(GUID);
+                uint index = teResourceGUID.Index(GUID);
                 if (!GUIDTable.ContainsKey(type)) return;
                 if (GUIDTable[type].ContainsKey(index)) {
                     Name = GUIDTable[type][index];
@@ -520,6 +520,7 @@ namespace DataTool.FindLogic {
 
                     break;
                 case 0x4:
+                case 0xF1:
                     if (info.Textures.ContainsKey(guid)) break;
                     TextureInfoNew textureInfo = new TextureInfoNew(guid);
                     info.Textures[guid] = textureInfo;

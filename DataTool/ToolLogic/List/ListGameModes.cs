@@ -11,13 +11,13 @@ using static STULib.Types.Generic.Common;
 
 namespace DataTool.ToolLogic.List {
     [Tool("list-gamemodes", Description = "List game modes", IsSensitive = true, TrackTypes = new ushort[] {0xC7}, CustomFlags = typeof(ListFlags))]
-    public class ListGamemodes : ITool {
+    public class ListGameModes : ITool {
         public void IntegrateView(object sender) {
             throw new NotImplementedException();
         }
 
         public void Parse(ICLIFlags toolFlags) {
-            Log("Gamemodes:");
+            /*Log("Gamemodes:");
             var i = 0;
             foreach (var key in TrackedFiles[0xC7]) {
                 var thing = GetInstance<STUBrawl>(key);
@@ -57,10 +57,10 @@ namespace DataTool.ToolLogic.List {
                 ParseBrawls(subIndent, thing.BrawlInfo);
 
                 Log("\n");
-            }
+            }*/
         }
 
-        private static void ParseGamemodeInfo(IndentHelper iD, STUGUID[] gamemodeInfo) {
+        /*private static void ParseGamemodeInfo(IndentHelper iD, STUGUID[] gamemodeInfo) {
             if (gamemodeInfo == null) return;
             Log($"{iD}Game Info:");
             foreach (var guid in gamemodeInfo) {
@@ -230,6 +230,6 @@ namespace DataTool.ToolLogic.List {
                     }
                 }
             }
-        }
+        }*/
     }
 }

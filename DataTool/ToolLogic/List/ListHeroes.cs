@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using DataTool.DataModels;
 using DataTool.Flag;
 using DataTool.Helper;
-using DataTool.JSON;
-using Newtonsoft.Json;
-using OWLib;
-using TankLib.Math;
+using TankLib;
 using TankLib.STU.Types;
 using static DataTool.Helper.IO;
 using static DataTool.Program;
@@ -36,7 +33,7 @@ namespace DataTool.ToolLogic.List {
                 if (hero.Value.Description != null)
                     Log($"{indentLevel + 1}Description: {hero.Value.Description}");
                 
-                Log($"{indentLevel + 1}Color: {hero.Value.GalleryColor}");
+                Log($"{indentLevel + 1}Color: {hero.Value.GalleryColor.ToHex()}");
 
                 if (hero.Value.Loadouts != null) {
 
@@ -58,7 +55,7 @@ namespace DataTool.ToolLogic.List {
                 STUHero hero = GetInstanceNew<STUHero>(key);
                 if (hero == null) continue;
 
-                string name = GetString(hero.m_0EDCE350) ?? $"Unknown{GUID.Index(key):X}";
+                string name = GetString(hero.m_0EDCE350) ?? $"Unknown{teResourceGUID.Index(key):X}";
 
                 @return[name] = new Hero(key, hero);
             }

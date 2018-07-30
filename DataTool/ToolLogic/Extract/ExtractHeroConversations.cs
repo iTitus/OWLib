@@ -7,7 +7,7 @@ using DataTool.FindLogic;
 using DataTool.Flag;
 using DataTool.Helper;
 using DataTool.SaveLogic.Unlock;
-using OWLib;
+using TankLib;
 using TankLib.STU.Types;
 using static DataTool.Helper.STUHelper;
 using static DataTool.Helper.IO;
@@ -89,19 +89,9 @@ namespace DataTool.ToolLogic.Extract {
                 if (!heroes.ContainsKey(heroGuid)) continue;
                 STUHero hero = heroes[heroGuid];
 
-                string heroNameActual = (GetString(hero.m_0EDCE350) ?? $"Unknown{GUID.Index(heroGuid)}").TrimEnd(' ');
+                string heroNameActual = (GetString(hero.m_0EDCE350) ?? $"Unknown{teResourceGUID.Index(heroGuid)}").TrimEnd(' ');
 
-                Dictionary<string, ParsedArg> config = new Dictionary<string, ParsedArg>();
-                foreach (string key in new [] {heroNameActual.ToLowerInvariant(), "*"}) {
-                    if (!parsedTypes.ContainsKey(key)) continue;
-                    foreach (KeyValuePair<string,ParsedArg> parsedArg in parsedTypes[key]) {
-                        if (config.ContainsKey(parsedArg.Key)) {
-                            config[parsedArg.Key] = config[parsedArg.Key].Combine(parsedArg.Value);
-                        } else {
-                            config[parsedArg.Key] = parsedArg.Value.Combine(null); // clone for safety
-                        }
-                    }
-                }
+                Dictionary<string, ParsedArg> config = GetQuery(parsedTypes, heroNameActual.ToLowerInvariant(), "*");
                 
                 if (config.Count == 0) continue;
                 Log($"Processing data for {heroNameActual}");

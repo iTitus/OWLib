@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using DataTool.DataModels;
 using DataTool.Flag;
-using DataTool.SaveLogic.Unlock;
-using OWLib;
-using STULib.Types;
+using TankLib.STU.Types;
 using static DataTool.Program;
 using static DataTool.Helper.STUHelper;
 
 namespace DataTool.ToolLogic.Extract {
-    [Tool("extract-general", Description = "Extract general sprays and icons", TrackTypes = new ushort[] {0x54}, CustomFlags = typeof(ExtractFlags))]
+    [Tool("extract-general", Description = "Extract general unlocks", TrackTypes = new ushort[] {0x54}, CustomFlags = typeof(ExtractFlags))]
     public class ExtractGeneral : ITool {
         public void IntegrateView(object sender) {
             throw new NotImplementedException();
@@ -28,33 +25,29 @@ namespace DataTool.ToolLogic.Extract {
                 throw new Exception("no output path");
             }
 
+            string path = Path.Combine(basePath, "General");
+
             foreach (var key in TrackedFiles[0x54]) {
-                STUGlobalInventoryMaster invMaster = GetInstance<STUGlobalInventoryMaster>(key);
-                if (invMaster == null) continue;
+                STUGenericSettings_PlayerProgression progression = GetInstanceNew<STUGenericSettings_PlayerProgression>(key);
+                if (progression == null) continue;
+                
+                PlayerProgression playerProgression = new PlayerProgression(progression);
 
-                var achivementUnlocks = invMaster.AchievementUnlocks?.Unlocks?.Select(it => GatherUnlock((ulong) it)).ToList();
-                SprayAndIcon.SaveItems(basePath, null, "General", "Achievements", flags, achivementUnlocks);
-
-                if (invMaster.EventGeneralUnlocks != null) {
-                    foreach (var eventUnlocks in invMaster.EventGeneralUnlocks) {
-                        if (eventUnlocks?.Unlocks?.Unlocks == null) continue;
-
-                        var eventKey = ItemEvents.GetInstance().EventsNormal[(uint)eventUnlocks.Event];
-                        var unlocks = eventUnlocks.Unlocks.Unlocks.Select(it => GatherUnlock((ulong) it)).ToList();
-                        SprayAndIcon.SaveItems(basePath, null, "General", eventKey, flags, unlocks);
+                if (playerProgression.LootBoxesUnlocks != null) {
+                    foreach (LootBoxUnlocks lootBoxUnlocks in playerProgression.LootBoxesUnlocks) {
+                        string boxName = ExtractHeroUnlocks.GetLootBoxName(lootBoxUnlocks.LootBoxType);
+                        ExtractHeroUnlocks.SaveUnlocks(flags, lootBoxUnlocks.Unlocks, path, boxName, null, null, null, null);
                     }
                 }
 
-                if (invMaster.LevelUnlocks != null) {
-                    var unlocks = new HashSet<Unlock>();
-                    foreach (var levelUnlocks in invMaster.LevelUnlocks) {
-                        if (levelUnlocks?.Unlocks == null) continue;
-                        foreach (var unlock in levelUnlocks.Unlocks)
-                            unlocks.Add(GatherUnlock(unlock));
+                if (playerProgression.AdditionalUnlocks != null) {
+                    foreach (AdditionalUnlocks additionalUnlocks in playerProgression.AdditionalUnlocks) {
+                        ExtractHeroUnlocks.SaveUnlocks(flags, additionalUnlocks.Unlocks, path, "Standard", null, null, null, null);
                     }
+                }
 
-                    SprayAndIcon.SaveItems(basePath, null, "General", "Standard", flags, unlocks.ToList());
-                    Portrait.SaveItems(basePath, null, "General", "Standard", flags, unlocks.ToList());
+                if (playerProgression.OtherUnlocks != null) {
+                    ExtractHeroUnlocks.SaveUnlocks(flags, playerProgression.OtherUnlocks, path, "Achievement", null, null, null, null);
                 }
             }
         }
